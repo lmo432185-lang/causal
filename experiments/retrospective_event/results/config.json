@@ -1,0 +1,31 @@
+{
+  "dt": 0.05,
+  "duration": 25,
+  "train": 200,
+  "validation_null": 100,
+  "test_event": 200,
+  "test_null": 200,
+  "test_short": 200,
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "lag_seconds": [
+    0,
+    0.5,
+    1,
+    2,
+    "full"
+  ],
+  "EM_iterations": 45,
+  "states": 2,
+  "threshold_null_false_alarm_target": 0.05,
+  "simulation_equation": "x[t+1]=x[t]+dt*(1.5-.15*x[t]-1.5*y[t])+sigma*sqrt(dt)*noise",
+  "training_model": "two-state switching AR: dx=beta*x+mu[state]+Gaussian residual; all parameters and transitions learned from X"
+}

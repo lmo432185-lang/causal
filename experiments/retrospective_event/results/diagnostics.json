@@ -1,0 +1,96 @@
+{
+  "0.12": {
+    "paired_alert_absolute_delay_minus_backdated_error": {
+      "n": 200,
+      "mean": 0.17200000000000004,
+      "median": 0.15000000000000002,
+      "ci95": [
+        0.1630315362838926,
+        0.18096846371610747
+      ]
+    },
+    "common_availability": {
+      "n": 200,
+      "mean": 1.0,
+      "median": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "0.35": {
+    "paired_alert_absolute_delay_minus_backdated_error": {
+      "n": 196,
+      "mean": 0.6033163265306123,
+      "median": 0.55,
+      "ci95": [
+        0.5555436537235885,
+        0.6510889993376361
+      ]
+    },
+    "common_availability": {
+      "n": 200,
+      "mean": 0.98,
+      "median": 1.0,
+      "ci95": [
+        0.9604292076921298,
+        0.9995707923078702
+      ]
+    }
+  },
+  "0.7": {
+    "paired_alert_absolute_delay_minus_backdated_error": {
+      "n": 74,
+      "mean": 1.4182432432432435,
+      "median": 1.3000000000000003,
+      "ci95": [
+        1.2535183505373306,
+        1.5829681359491563
+      ]
+    },
+    "common_availability": {
+      "n": 200,
+      "mean": 0.36666666666666664,
+      "median": 0.0,
+      "ci95": [
+        0.2996250790336026,
+        0.4337082542997307
+      ]
+    }
+  },
+  "physical_delay_0.5_seconds": {
+    "detected": {
+      "n": 200,
+      "mean": 0.995,
+      "median": 1.0,
+      "ci95": [
+        0.98514,
+        1.00486
+      ]
+    },
+    "true_action_error": {
+      "n": 199,
+      "mean": 0.735175879396985,
+      "median": 0.65,
+      "ci95": [
+        0.6973739823861064,
+        0.7729777764078637
+      ]
+    },
+    "effect_onset_error": {
+      "n": 199,
+      "mean": 0.23517587939698492,
+      "median": 0.15000000000000002,
+      "ci95": [
+        0.19737398238610632,
+        0.2729777764078635
+      ]
+    }
+  },
+  "cause_ambiguity": {
+    "max_X_difference": 0.0,
+    "max_posterior_difference": 0.0,
+    "interpretation": "paired brake and uphill mechanisms generate identical X under same net force and noise; X-only cause identity is unidentifiable"
+  }
+}

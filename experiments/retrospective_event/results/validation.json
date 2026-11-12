@@ -1,0 +1,7 @@
+{
+  "exact_HMM_enumeration": "passed",
+  "snapshot_smoothing": "passed",
+  "finite_lag_full_equivalence": "passed",
+  "causal_future_exclusion": "passed",
+  "fixed_lag_future_boundary": "passed"
+}
