@@ -1,0 +1,21 @@
+noise 0.12 seed 11 done 1.1
+noise 0.12 seed 22 done 2.1
+noise 0.12 seed 33 done 3.0
+noise 0.35 seed 11 done 6.3
+noise 0.35 seed 22 done 7.2
+noise 0.35 seed 33 done 8.0
+noise 0.7 seed 11 done 11.5
+noise 0.7 seed 22 done 12.3
+noise 0.7 seed 33 done 13.1
+{'sigma': 0.12, 'tau': 0.1, 'T2_delay': 0.6048969072164956, 'T3_delay': 0.2708333333333339, 'T3_valid': 0.96, 'T3_early': 0.04, 'paired_T2_minus_T3': 0.33790322580645166}
+{'sigma': 0.12, 'tau': 0.5, 'T2_delay': 0.9149484536082482, 'T3_delay': 0.596614583333334, 'T3_valid': 0.96, 'T3_early': 0.04, 'paired_T2_minus_T3': 0.3252688172043012}
+{'sigma': 0.12, 'tau': 1.0, 'T2_delay': 1.1889175257731965, 'T3_delay': 0.9515625000000006, 'T3_valid': 0.96, 'T3_early': 0.04, 'paired_T2_minus_T3': 0.24489247311827964}
+{'sigma': 0.12, 'tau': 2.0, 'T2_delay': 1.5920103092783513, 'T3_delay': 1.5320312500000004, 'T3_valid': 0.96, 'T3_early': 0.04, 'paired_T2_minus_T3': 0.0682795698924732}
+{'sigma': 0.35, 'tau': 0.1, 'T2_delay': 1.574120603015076, 'T3_delay': 0.9860406091370566, 'T3_valid': 0.985, 'T3_early': 0.015, 'paired_T2_minus_T3': 0.5928934010152286}
+{'sigma': 0.35, 'tau': 0.5, 'T2_delay': 1.951256281407036, 'T3_delay': 1.4010152284263966, 'T3_valid': 0.985, 'T3_early': 0.015, 'paired_T2_minus_T3': 0.5545685279187816}
+{'sigma': 0.35, 'tau': 1.0, 'T2_delay': 2.4055276381909554, 'T3_delay': 1.8335025380710668, 'T3_valid': 0.985, 'T3_early': 0.015, 'paired_T2_minus_T3': 0.5756345177664975}
+{'sigma': 0.35, 'tau': 2.0, 'T2_delay': 3.059547738693468, 'T3_delay': 2.683756345177666, 'T3_valid': 0.985, 'T3_early': 0.015, 'paired_T2_minus_T3': 0.37741116751269016}
+{'sigma': 0.7, 'tau': 0.1, 'T2_delay': 3.2015706806282735, 'T3_delay': 2.7856783919597996, 'T3_valid': 0.995, 'T3_early': 0.005, 'paired_T2_minus_T3': 0.4130890052356021}
+{'sigma': 0.7, 'tau': 0.5, 'T2_delay': 3.641099476439791, 'T3_delay': 3.4007537688442215, 'T3_valid': 0.995, 'T3_early': 0.005, 'paired_T2_minus_T3': 0.2222513089005235}
+{'sigma': 0.7, 'tau': 1.0, 'T2_delay': 4.19476439790576, 'T3_delay': 4.01356783919598, 'T3_valid': 0.995, 'T3_early': 0.005, 'paired_T2_minus_T3': 0.1481675392670157}
+{'sigma': 0.7, 'tau': 2.0, 'T2_delay': 5.1052356020942415, 'T3_delay': 5.3363484087102195, 'T3_valid': 0.995, 'T3_early': 0.005, 'paired_T2_minus_T3': -0.28839441535776617}

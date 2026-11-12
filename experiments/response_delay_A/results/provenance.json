@@ -1,0 +1,15 @@
+{
+  "frozen_model_source_commit": "057362883ca2e8d09dc913f72007389553aa37c9",
+  "frozen_model_source_path": "experiments/retrospective_event/results/",
+  "model_sha256": {
+    "model_0_11.npz": "22562c64ac6664ad8bbf1562bc168583a47964cbbb0b98a6f44c64d1b1f87895",
+    "model_0_22.npz": "277a84fa28323cb4c22a5b1ddc3d11f9777ec621156c98f67468f564f40b9377",
+    "model_0_33.npz": "04ccb4e4809e83c50d9343f2e645861e727c7eac096a19a723d6fe318cfcaaf5",
+    "model_1_11.npz": "a435aba80b209741a410d5abe6c573586ebf3b3e819160821131e447e97c47ee",
+    "model_1_22.npz": "d679017c407873931713b2b53f115210cae39126b1601c06715fc791aba57438",
+    "model_1_33.npz": "f933c0671f424c9049dcec0298cb898d29bd063cd522be868bc7e6c693ff4c97",
+    "model_2_11.npz": "03d515a0a4d5b160d76622bf4b531e9cd062411f0410ec0a0b0a8e57c9dbd41d",
+    "model_2_22.npz": "d3f128edc308fa8e6251a74b8e0c6f93283f3149a09532a6e4fdcbd3de374d2d",
+    "model_2_33.npz": "c4914e3c7dc961ea12326d29efb1a522b49f7481ec258e12d6ff349fa1c4a36c"
+  }
+}

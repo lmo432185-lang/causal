@@ -1,0 +1,39 @@
+{
+  "experiment": "A: causal online detection only",
+  "dt": 0.05,
+  "duration": 25,
+  "T1": 10.0,
+  "tau": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "strength": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "n_event_per_cell": 200,
+  "n_null_test_per_noise": 500,
+  "n_null_calibration_per_noise": 500,
+  "n_null_AR_training_per_noise": 200,
+  "model_seeds": [
+    11,
+    22,
+    33
+  ],
+  "model": "frozen two-state switching AR HMM trained in preceding retrospective experiment",
+  "target_trajectory_false_alarm": 0.05,
+  "persistence_samples": 2,
+  "response_equations": "dX=(1.5-.15 X-1.5 U)dt+sigma dW; dU=(Y-U)/tau dt",
+  "T2_definition": "first 2 consecutive significant downward X deviations from learned no-event trajectory mean; threshold calibrated on whole null trajectories",
+  "T3_definition": "first 2 consecutive significant negative-regime forward HMM posterior scores; threshold calibrated on same null trajectories",
+  "integration": "exact joint deterministic step for X,U with exact OU process-noise variance; no Euler approximation",
+  "censoring": "first alarms before T1 counted separately; no restart at true T1; non-early non-detected cells retained as failures; delay conditional on valid first alarm, capped delay assigns 15 seconds to every early/missing trial"
+}
