@@ -1,0 +1,46 @@
+{
+  "A1": {
+    "incremental_Y_R2_over_X": {
+      "mean": 0.5275329419541971,
+      "sd": 0.07768848133505928,
+      "ci95": [
+        0.5121195472573213,
+        0.5429463366510728
+      ]
+    },
+    "note": "post-hoc linear probes fitted on validation Y only; no feedback to model training"
+  },
+  "A2": {
+    "incremental_Y_R2_over_X": {
+      "mean": 0.2837422719678257,
+      "sd": 0.08007789243086635,
+      "ci95": [
+        0.2678548181095418,
+        0.2996297258261096
+      ]
+    },
+    "note": "post-hoc linear probes fitted on validation Y only; no feedback to model training"
+  },
+  "A3": {
+    "incremental_Y_R2_over_X": {
+      "mean": 0.03465755430374098,
+      "sd": 0.04563471254180427,
+      "ci95": [
+        0.02560362733544701,
+        0.04371148127203495
+      ]
+    },
+    "note": "post-hoc linear probes fitted on validation Y only; no feedback to model training"
+  },
+  "A4": {
+    "incremental_Y_R2_over_X": {
+      "mean": 0.2680088209855223,
+      "sd": 0.07965655721271504,
+      "ci95": [
+        0.25220496003451964,
+        0.283812681936525
+      ]
+    },
+    "note": "post-hoc linear probes fitted on validation Y only; no feedback to model training"
+  }
+}

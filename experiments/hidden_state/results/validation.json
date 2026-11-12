@@ -1,0 +1,5 @@
+{
+  "exact_gaussian_conditioning": "passed",
+  "zero_latent_observation_ACI": "passed",
+  "finite_nonnegative_ACI": "passed"
+}
