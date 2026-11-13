@@ -1,0 +1,80 @@
+[
+  {
+    "model": "M3",
+    "cohort": 0,
+    "trajectory": 59,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 5.0,
+    "source_effect_amplitude": 100.3224439142331,
+    "prediction": -29.78689168885232,
+    "MSE": 1365.1365126000871,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M3",
+    "cohort": 0,
+    "trajectory": 92,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 5.0,
+    "source_effect_amplitude": 78.87445795618027,
+    "prediction": -21.409340718245016,
+    "MSE": 848.1351900482597,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M3",
+    "cohort": 0,
+    "trajectory": 192,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 5.0,
+    "source_effect_amplitude": 51.875937887660356,
+    "prediction": -10.28256970492275,
+    "MSE": 343.09725163292416,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M2_oracle",
+    "cohort": 0,
+    "trajectory": 35,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 2.0,
+    "source_effect_amplitude": 42.10040310080704,
+    "prediction": -24.829285759593287,
+    "MSE": 969.3682786385184,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M2_oracle",
+    "cohort": 0,
+    "trajectory": 59,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 2.0,
+    "source_effect_amplitude": 41.23279749869096,
+    "prediction": -23.459409170337302,
+    "MSE": 937.6010147893354,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M2_oracle",
+    "cohort": 1,
+    "trajectory": 186,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 2.0,
+    "source_effect_amplitude": 35.71100917682296,
+    "prediction": -18.273975097804644,
+    "MSE": 683.2535767050306,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  }
+]

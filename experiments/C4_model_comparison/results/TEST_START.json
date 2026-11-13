@@ -1,0 +1,38 @@
+{
+  "protocol_sha256": "22f24a7f3495c12cda9de93dd70c1c5f25a116b177990819f6fa85335e251218",
+  "event_test_started_after_final_calibration": true,
+  "seed_map": {
+    "cusum_scale": [
+      81000,
+      81001,
+      81002
+    ],
+    "prediction_validation": [
+      82000,
+      82001,
+      82002
+    ],
+    "final_calibration": [
+      83000,
+      83001,
+      83002
+    ],
+    "null_test": [
+      84000,
+      84001,
+      84002
+    ],
+    "events": [
+      [
+        90000,
+        90001,
+        90002
+      ],
+      [
+        91000,
+        91001,
+        91002
+      ]
+    ]
+  }
+}

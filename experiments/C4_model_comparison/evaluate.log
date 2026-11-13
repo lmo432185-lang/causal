@@ -1,0 +1,9 @@
+null noise 0.12 done 12.3
+events noise 0.12 cohort 0 done 17.3
+events noise 0.12 cohort 1 done 22.3
+null noise 0.35 done 34.2
+events noise 0.35 cohort 0 done 39.1
+events noise 0.35 cohort 1 done 44.2
+null noise 0.7 done 55.9
+events noise 0.7 cohort 0 done 60.7
+events noise 0.7 cohort 1 done 65.6

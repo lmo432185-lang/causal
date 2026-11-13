@@ -1,0 +1,142 @@
+MARGINS [
+  {
+    "minimum_lead": 0.25,
+    "M3_coverage": 0.7638194444444445,
+    "CUSUM_coverage": 0.6838888888888889,
+    "paired_cluster_coverage_gain": {
+      "n": 1200,
+      "mean": 0.07993055555555555,
+      "sd": 0.11213443283576804,
+      "median": 0.08333333333333333,
+      "ci95": [
+        0.07354710824021629,
+        0.0863140028708948
+      ]
+    }
+  },
+  {
+    "minimum_lead": 0.5,
+    "M3_coverage": 0.33284722222222224,
+    "CUSUM_coverage": 0.29291666666666666,
+    "paired_cluster_coverage_gain": {
+      "n": 1200,
+      "mean": 0.03993055555555555,
+      "sd": 0.10077654559117703,
+      "median": 0.0,
+      "ci95": [
+        0.03419367569506398,
+        0.04566743541604713
+      ]
+    }
+  },
+  {
+    "minimum_lead": 1.0,
+    "M3_coverage": 0.11090277777777778,
+    "CUSUM_coverage": 0.11402777777777778,
+    "paired_cluster_coverage_gain": {
+      "n": 1200,
+      "mean": -0.003125,
+      "sd": 0.051126709619090875,
+      "median": 0.0,
+      "ci95": [
+        -0.006035476728750287,
+        -0.00021452327124971268
+      ]
+    }
+  },
+  {
+    "minimum_lead": 2.0,
+    "M3_coverage": 0.07784722222222222,
+    "CUSUM_coverage": 0.08125,
+    "paired_cluster_coverage_gain": {
+      "n": 1200,
+      "mean": -0.0034027777777777784,
+      "sd": 0.0342891160898446,
+      "median": 0.0,
+      "ci95": [
+        -0.0053547452556857444,
+        -0.0014508102998698124
+      ]
+    }
+  }
+]
+BAD [
+  {
+    "model": "M3",
+    "cohort": 0,
+    "trajectory": 59,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 5.0,
+    "source_effect_amplitude": 100.3224439142331,
+    "prediction": -29.78689168885232,
+    "MSE": 1365.1365126000871,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M3",
+    "cohort": 0,
+    "trajectory": 92,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 5.0,
+    "source_effect_amplitude": 78.87445795618027,
+    "prediction": -21.409340718245016,
+    "MSE": 848.1351900482597,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M3",
+    "cohort": 0,
+    "trajectory": 192,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 5.0,
+    "source_effect_amplitude": 51.875937887660356,
+    "prediction": -10.28256970492275,
+    "MSE": 343.09725163292416,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M2_oracle",
+    "cohort": 0,
+    "trajectory": 35,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 2.0,
+    "source_effect_amplitude": 42.10040310080704,
+    "prediction": -24.829285759593287,
+    "MSE": 969.3682786385184,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M2_oracle",
+    "cohort": 0,
+    "trajectory": 59,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 2.0,
+    "source_effect_amplitude": 41.23279749869096,
+    "prediction": -23.459409170337302,
+    "MSE": 937.6010147893354,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  },
+  {
+    "model": "M2_oracle",
+    "cohort": 1,
+    "trajectory": 186,
+    "origin": 12,
+    "onset_estimate": 11.75,
+    "tau_estimate": 2.0,
+    "source_effect_amplitude": 35.71100917682296,
+    "prediction": -18.273975097804644,
+    "MSE": 683.2535767050306,
+    "formula_matches_independent_model_rollout": true,
+    "selection": "posthoc top-error diagnosis only"
+  }
+]

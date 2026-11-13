@@ -1,0 +1,13 @@
+{
+  "frozen_M2_M3_parity_with_C1": "passed",
+  "oracle_exact_tau_direct_prefix_likelihood": "passed",
+  "all_detection_future_exclusion": "passed",
+  "forecast_future_exclusion": "passed",
+  "oracle_information_isolation": "passed",
+  "unchanged_generator": "passed",
+  "seed_disjointness": "passed",
+  "practical_endpoint_prefixed": "passed",
+  "both_prediction_origins_future_exclusion": "passed",
+  "paired_test_keys_and_shared_failure_times": "passed",
+  "protocol_frozen_before_test": "passed"
+}

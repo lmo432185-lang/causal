@@ -1,0 +1,2 @@
+{'frozen_M2_M3_parity_with_C1': 'passed', 'oracle_exact_tau_direct_prefix_likelihood': 'passed', 'all_detection_future_exclusion': 'passed', 'forecast_future_exclusion': 'passed', 'oracle_information_isolation': 'passed', 'unchanged_generator': 'passed', 'seed_disjointness': 'passed', 'practical_endpoint_prefixed': 'passed'}
+Forecast, pairing, frozen-protocol checks passed

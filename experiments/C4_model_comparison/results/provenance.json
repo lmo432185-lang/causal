@@ -1,0 +1,25 @@
+{
+  "source_C1_C3_commit": "48f9ed28ce6481ee52a92578314b7fa919a7b8d8",
+  "source_C0_commit": "3b0cddd759cac330262ed38b156b4229b1d3c465",
+  "model_sha256": {
+    "model_2_11.npz": "03d515a0a4d5b160d76622bf4b531e9cd062411f0410ec0a0b0a8e57c9dbd41d",
+    "model_0_11.npz": "22562c64ac6664ad8bbf1562bc168583a47964cbbb0b98a6f44c64d1b1f87895",
+    "model_1_11.npz": "a435aba80b209741a410d5abe6c573586ebf3b3e819160821131e447e97c47ee"
+  },
+  "protocol_sha256": "22f24a7f3495c12cda9de93dd70c1c5f25a116b177990819f6fa85335e251218",
+  "user_analysis_sha256": "0a91f2d269b31d2ff96b8ba9d2401bf481b95417f22aa08f3e6ac33da3c8621e",
+  "new_seed_minimum": 81000,
+  "previous_test_seed_maximum": 35002,
+  "primary_detector_and_thresholds_frozen_after_calibration": true,
+  "postprimary_checks": [
+    "all5 fixed CUSUM components, no test-selected winner",
+    "minimum lead margins .25,.5,1,2",
+    "point prediction error-tail diagnosis",
+    "fixed existing alarm gate readout; no retraining or threshold changes"
+  ],
+  "stages_not_run": [
+    "C5",
+    "C6",
+    "D"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "experiment": "C4 only; fair structural-value comparison",
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "tau": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "strength": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "n_each_cell_each_cohort": 200,
+  "n_independent_cohorts": 2,
+  "cusum_scale_null": 2000,
+  "final_calibration_null": 5000,
+  "null_test": 5000,
+  "prediction_validation_X": 600,
+  "seed_map": {
+    "cusum_scale": [
+      81000,
+      81001,
+      81002
+    ],
+    "prediction_validation": [
+      82000,
+      82001,
+      82002
+    ],
+    "final_calibration": [
+      83000,
+      83001,
+      83002
+    ],
+    "null_test": [
+      84000,
+      84001,
+      84002
+    ],
+    "events": [
+      [
+        90000,
+        90001,
+        90002
+      ],
+      [
+        91000,
+        91001,
+        91002
+      ]
+    ]
+  },
+  "update_dt": 0.25,
+  "confirmation": 2,
+  "target_trajectory_FPR": 0.05,
+  "failure_definition": "unchanged C1: healthy AR forecast horizon1; mean latest4 matured standardized squared errors; consecutive2 threshold; common frozen reference calibrated on final null pool",
+  "CUSUM": "five predeclared allowances; scales from unconfirmed trajectory maxima learned only from independent null pool; final combined rule uses2 confirmations; adaptive max of normalized scores; final combined threshold calibrated separately, no event-label tuning",
+  "CUSUM_allowances": [
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "prediction_comparator": "instantaneous local-drift AR, window chosen solely by future-X validation MSE; same-history ungated forecast at fixed times12,15 with horizon2",
+  "prediction_windows": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "forecast_origins": [
+    12,
+    15
+  ],
+  "forecast_horizon": 2,
+  "M2": "frozen shared tau from C0 X-only training",
+  "oracle": "only oracle receives true tau; calibrate each oracle tau separately; no true source onset/amplitude supplied",
+  "M3_tau_grid": [
+    0.05,
+    0.056100922715098166,
+    0.06294627058970836,
+    0.0706268772311377,
+    0.07924465962305566,
+    0.08891397050194613,
+    0.09976311574844397,
+    0.11193605692841699,
+    0.125594321575479,
+    0.14091914656322266,
+    0.15811388300841894,
+    0.17740669461678774,
+    0.19905358527674863,
+    0.22334179607548155,
+    0.2505936168136361,
+    0.2811706625951745,
+    0.3154786722400966,
+    0.353972892192069,
+    0.3971641173621407,
+    0.4456254690668728,
+    0.49999999999999994,
+    0.5610092271509817,
+    0.6294627058970836,
+    0.7062687723113772,
+    0.7924465962305569,
+    0.8891397050194613,
+    0.9976311574844399,
+    1.11936056928417,
+    1.2559432157547903,
+    1.4091914656322273,
+    1.5811388300841893,
+    1.7740669461678773,
+    1.9905358527674866,
+    2.233417960754816,
+    2.505936168136362,
+    2.8117066259517447,
+    3.154786722400966,
+    3.5397289219206898,
+    3.9716411736214083,
+    4.456254690668729,
+    5.0
+  ],
+  "analysis": "paired per-trajectory and paired cluster over shared innovations across conditions",
+  "decision": {
+    "family": "broad36 cells OR predeclared slow tau1/2 strength1 subgroup",
+    "outcomes": "M3 minus CUSUM all-event warning-before-failure coverage OR CUSUM minus M3 capped detection delay",
+    "practical_minimum_coverage_gain": 0.05,
+    "practical_minimum_delay_gain": 0.25,
+    "decision_CI_level": 0.9875,
+    "replication": "gain positive in each independent cohort for qualifying outcome",
+    "FPR_fairness": "both rates4%-6% and paired95% FPR difference CI inside +/-1percentage point at each noise",
+    "A": "broad criterion met",
+    "B": "broad unmet, predeclared slow subgroup met",
+    "C": "no prespecified robust independent advantage; not proof of exact equivalence"
+  },
+  "no_C5_C6_D": true
+}

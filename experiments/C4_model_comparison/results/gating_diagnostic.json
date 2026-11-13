@@ -1,0 +1,86 @@
+[
+  {
+    "mode": "common_CUSUM_gate",
+    "origin": 12,
+    "all_condition_block_prediction_gain": {
+      "n": 1200,
+      "mean": -0.0004146257150661607,
+      "sd": 1.2785482102722339,
+      "median": 0.06409659820965408,
+      "ci95": [
+        -0.07319820283760338,
+        0.07236895140747106
+      ]
+    },
+    "example_medium_tau2": {
+      "M3_MSE": 3.7423611972033246,
+      "local_drift_MSE": 3.687739468381738,
+      "M3_gate_rate": 0.1325,
+      "CUSUM_gate_rate": 0.1325
+    },
+    "note": "exploratory readout check; threshold/gate depends only on X available before origin; all400 trials retained; primary ungated prediction result unchanged"
+  },
+  {
+    "mode": "common_CUSUM_gate",
+    "origin": 15,
+    "all_condition_block_prediction_gain": {
+      "n": 1200,
+      "mean": -0.0842184181257545,
+      "sd": 0.8733097451170619,
+      "median": -0.0036226305940944845,
+      "ci95": [
+        -0.13393309190567942,
+        -0.03450374434582955
+      ]
+    },
+    "example_medium_tau2": {
+      "M3_MSE": 0.48988253768928003,
+      "local_drift_MSE": 0.37826951975874545,
+      "M3_gate_rate": 1.0,
+      "CUSUM_gate_rate": 1.0
+    },
+    "note": "exploratory readout check; threshold/gate depends only on X available before origin; all400 trials retained; primary ungated prediction result unchanged"
+  },
+  {
+    "mode": "own_detector_gate",
+    "origin": 12,
+    "all_condition_block_prediction_gain": {
+      "n": 1200,
+      "mean": 0.08104532316786281,
+      "sd": 1.4479415329582563,
+      "median": 0.07752638917064986,
+      "ci95": [
+        -0.001381263007212044,
+        0.16347190934293765
+      ]
+    },
+    "example_medium_tau2": {
+      "M3_MSE": 3.6984527940266894,
+      "local_drift_MSE": 3.687739468381738,
+      "M3_gate_rate": 0.15,
+      "CUSUM_gate_rate": 0.1325
+    },
+    "note": "exploratory readout check; threshold/gate depends only on X available before origin; all400 trials retained; primary ungated prediction result unchanged"
+  },
+  {
+    "mode": "own_detector_gate",
+    "origin": 15,
+    "all_condition_block_prediction_gain": {
+      "n": 1200,
+      "mean": -0.08072563574386998,
+      "sd": 0.9001126855015665,
+      "median": -0.003702136742079055,
+      "ci95": [
+        -0.13196611344961717,
+        -0.029485158038122808
+      ]
+    },
+    "example_medium_tau2": {
+      "M3_MSE": 0.48988253768928003,
+      "local_drift_MSE": 0.37826951975874545,
+      "M3_gate_rate": 1.0,
+      "CUSUM_gate_rate": 1.0
+    },
+    "note": "exploratory readout check; threshold/gate depends only on X available before origin; all400 trials retained; primary ungated prediction result unchanged"
+  }
+]
