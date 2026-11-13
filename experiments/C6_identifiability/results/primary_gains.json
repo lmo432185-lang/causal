@@ -1,0 +1,122 @@
+[
+  {
+    "family": "main_passive",
+    "baseline": "X",
+    "added": "X_VU_0.1",
+    "gain": 0.539375,
+    "simultaneous_ci": [
+      0.5255201822916667,
+      0.5527083333333334
+    ],
+    "cohort_gains": {
+      "0": 0.5385416666666667,
+      "1": 0.5402083333333333
+    },
+    "passes": true
+  },
+  {
+    "family": "main_passive",
+    "baseline": "X",
+    "added": "X_VU_0.5",
+    "gain": 0.218125,
+    "simultaneous_ci": [
+      0.20197916666666668,
+      0.2346357421875
+    ],
+    "cohort_gains": {
+      "0": 0.21354166666666666,
+      "1": 0.22270833333333334
+    },
+    "passes": true
+  },
+  {
+    "family": "main_passive",
+    "baseline": "X",
+    "added": "X_VU_1.5",
+    "gain": 0.06572916666666667,
+    "simultaneous_ci": [
+      0.05046842447916666,
+      0.07947916666666667
+    ],
+    "cohort_gains": {
+      "0": 0.06541666666666666,
+      "1": 0.06604166666666667
+    },
+    "passes": true
+  },
+  {
+    "family": "causal_equivalent",
+    "baseline": "X",
+    "added": "X_VY_0.1",
+    "gain": 0.5,
+    "simultaneous_ci": [
+      0.5,
+      0.5
+    ],
+    "cohort_gains": {
+      "0": 0.5,
+      "1": 0.5
+    },
+    "passes": true
+  },
+  {
+    "family": "causal_equivalent",
+    "baseline": "X",
+    "added": "X_VY_0.5",
+    "gain": 0.47375,
+    "simultaneous_ci": [
+      0.464375,
+      0.4825
+    ],
+    "cohort_gains": {
+      "0": 0.47583333333333333,
+      "1": 0.4716666666666667
+    },
+    "passes": true
+  },
+  {
+    "family": "causal_equivalent",
+    "baseline": "X",
+    "added": "X_VY_1.5",
+    "gain": 0.2866666666666667,
+    "simultaneous_ci": [
+      0.26843684895833336,
+      0.30562500000000004
+    ],
+    "cohort_gains": {
+      "0": 0.28708333333333336,
+      "1": 0.28625
+    },
+    "passes": true
+  },
+  {
+    "family": "main_active",
+    "baseline": "X_input_hidden",
+    "added": "X_input_known",
+    "gain": 0.030104166666666668,
+    "simultaneous_ci": [
+      0.017135091145833333,
+      0.0428125
+    ],
+    "cohort_gains": {
+      "0": 0.033541666666666664,
+      "1": 0.02666666666666667
+    },
+    "passes": false
+  },
+  {
+    "family": "causal_active",
+    "baseline": "X_input_hidden",
+    "added": "X_input_known",
+    "gain": 0.018125,
+    "simultaneous_ci": [
+      0.0023951822916666674,
+      0.034896484374999946
+    ],
+    "cohort_gains": {
+      "0": 0.0275,
+      "1": 0.00875
+    },
+    "passes": false
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "legacy_stream.py": {
+    "prior_C5_source": "legacy_stream.py",
+    "sha256": "3d92df5e11852c434f95f19869d0cf8296e455efbbbaba4bbb002d5463bf27cf",
+    "unchanged_from_C5": true
+  },
+  "warning_detectors.py": {
+    "prior_C5_source": "detectors.py",
+    "sha256": "fc35ec6216a834f2b91ecf938958a824c2cf8bd234f3cfed0d53b1b39db6455f",
+    "unchanged_from_C5": true
+  },
+  "source_A.py": {
+    "prior_C5_source": "source_A.py",
+    "sha256": "81ec680c54e2e33c748a86c40c94fb3e63c69f37ef780a3ca12e371f1579cc5f",
+    "unchanged_from_C5": true
+  },
+  "source_C0.py": {
+    "prior_C5_source": "source_C0.py",
+    "sha256": "a2b7a70124cfce9ab1935a090f67e26a37ab6e36966f876f6cdbd410942d0eb7",
+    "unchanged_from_C5": true
+  },
+  "support.py": {
+    "prior_C5_source": "support.py",
+    "sha256": "8b306b00d8d6a8baa5e15b42ef891b99542e9d665d6a67127745d6c9c9943c28",
+    "unchanged_from_C5": true
+  }
+}

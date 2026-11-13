@@ -1,0 +1,118 @@
+{
+  "experiment": "C6-A/B/C identifiability and observation information, not model superiority",
+  "dt": 0.05,
+  "duration": 25,
+  "classes": [
+    "A_first",
+    "B_direct",
+    "C_two",
+    "D_variable"
+  ],
+  "nominal_mean_lag": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "cohorts": 2,
+  "n_each_class_each_cell_each_cohort": 100,
+  "sensor_standard_deviations": [
+    0.1,
+    0.5,
+    1.5
+  ],
+  "normal_train": 2000,
+  "unlabelled_train_per_class": 100,
+  "warning_cal": 3000,
+  "warning_null": 3000,
+  "seed_map": {
+    "normal_train": [
+      201000,
+      201001,
+      201002
+    ],
+    "unlabelled_train": [
+      202000,
+      202001,
+      202002
+    ],
+    "sensor_train": [
+      203000,
+      203001,
+      203002
+    ],
+    "warning_calibration": [
+      204000,
+      204001,
+      204002
+    ],
+    "warning_null": [
+      205000,
+      205001,
+      205002
+    ],
+    "passive": [
+      [
+        210000,
+        210001,
+        210002
+      ],
+      [
+        211000,
+        211001,
+        211002
+      ]
+    ],
+    "equivalent": [
+      [
+        212000,
+        212001,
+        212002
+      ],
+      [
+        213000,
+        213001,
+        213002
+      ]
+    ],
+    "intervention": [
+      [
+        214000,
+        214001,
+        214002
+      ],
+      [
+        215000,
+        215001,
+        215002
+      ]
+    ]
+  },
+  "latent_units": "effective-force units: dX=(1.5-.15X-U)dt+sigma*dW; formerly1.5*U absorbed into U,Y; V=U+noise is calibrated in these units",
+  "A": "first order, time constant kappa",
+  "B": "direct, effective U=Y, no internal transfer state",
+  "C": "two identical stages kappa/2, total mean lag kappa",
+  "D": "time-varying first-order: tau_pre=kappa/(1-.75/e), switches to tau_pre/4 at onset+tau_pre; total mean lag kappa",
+  "classification": "predeclared model library, Gaussian X innovation likelihood, proper half-normal amplitude marginal, onset and scale marginalized; no sample mechanism labels used in fitting",
+  "nuisance_prior": "amplitude prior scale chosen from [.5,1,2,4] by pooled UNLABELLED training-X mixture evidence; uniform class prior, log-grid scale prior, uniform onset grid",
+  "uncertainty": "argmax accuracy plus max-posterior<.8 abstention and95% class credible-set size; abstention is finite-data uncertainty, not proof of structural impossibility",
+  "passive": "unknown step source at10, amplitude randomized1.125..1.875, inference not given onset/amplitude/scale",
+  "auxiliary": "main test X+V_U at3 noise levels; physical-equivalence pair also X+V_Y to test sensor placement",
+  "equivalence_controls": {
+    "representation": "first-order hidden-state and reduced form are same physical input-output model, including registered interventions",
+    "causal": "filtered step source versus direct exponentially-smooth source, identical passive X AND effective U, different Y; do(Y=I) overrides both source generators"
+  },
+  "interventions": "randomized27 protocols: source amplitudes1/1.5/2, starts7/10/13, durations.5/2/4; same protocol across paired candidate true mechanisms",
+  "intervention_comparison": "same active X, input assignment hidden versus known; hidden arm marginalizes all27 randomized protocols, avoiding wrong step-only baseline",
+  "primary_family": "8 paired information gains: main V_U three levels; causal-equivalence V_Y three levels; main intervention known-vs-hidden; binary causal intervention known-vs-hidden",
+  "primary_gain_minimum": 0.05,
+  "correction": "99.375% paired stratified-cluster CI, Bonferroni8; both cohorts positive",
+  "classification_feasibility": "descriptive absolute balanced accuracy>=70%, with uncertainty/condition limits; no forced superiority over equivalent laws",
+  "warnings": "M3 and matched generic GLR unchanged algorithm, X only in ALL arms; independent5% whole-trajectory calibration; B does not change detector while adding classification sensor; intervention response alarms are not unexpected-fault advance warnings",
+  "no_real_data_D": true
+}

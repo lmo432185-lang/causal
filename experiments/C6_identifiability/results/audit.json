@@ -1,0 +1,17 @@
+{
+  "M3_no_future_prefix_error": 0.0,
+  "GLR_no_future_prefix_error": 0.0,
+  "passive_equivalence_X_and_VU_likelihood_equal": true,
+  "hidden_input_exactly_marginalizes_known_protocol_likelihood_error": 8.881784197001252e-16,
+  "frozen_files_unchanged": {
+    "config.py": true,
+    "mechanisms.py": true,
+    "generate.py": true,
+    "inference.py": true,
+    "run.py": true,
+    "PROTOCOL.json": true,
+    "results/trained_settings.json": true
+  },
+  "inference_inputs": "(x, bank, bg, amp_scale, V=None, Vvar=None, sensor='u', details=False)",
+  "active_inference_inputs": "(x, bank, bg, protocol=None)"
+}

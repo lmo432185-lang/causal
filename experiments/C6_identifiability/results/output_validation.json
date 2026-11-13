@@ -1,0 +1,9 @@
+{
+  "classification_records": 110400,
+  "warning_records": 19200,
+  "onset_records": 9600,
+  "unique_row_keys": true,
+  "posterior_normalization": true,
+  "deterministic_input_replay": true,
+  "replayed_probabilities_max_error": 9.71445146547012e-16
+}
