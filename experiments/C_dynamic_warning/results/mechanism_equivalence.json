@@ -1,0 +1,6 @@
+{
+  "source_change_model": "dU=(Y(t)-U)/tau; Y(t)=step; gain=1",
+  "gain_change_model": "dU=(g(t)*Y-U)/tau; Y=1; g(t)=same step",
+  "effective_input_difference": 0.0,
+  "consequence": "same U and X distribution for matching initial state/noise; X-only alarm cannot uniquely label source-state versus transmission-gain change"
+}

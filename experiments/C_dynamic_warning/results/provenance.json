@@ -1,0 +1,17 @@
+{
+  "source_C0_commit": "3b0cddd759cac330262ed38b156b4229b1d3c465",
+  "source_A_commit": "95da75567b88a06157ed57599f0c481e605a5c83",
+  "frozen_models_sha256": {
+    "model_2_11.npz": "03d515a0a4d5b160d76622bf4b531e9cd062411f0410ec0a0b0a8e57c9dbd41d",
+    "model_0_11.npz": "22562c64ac6664ad8bbf1562bc168583a47964cbbb0b98a6f44c64d1b1f87895",
+    "model_1_11.npz": "a435aba80b209741a410d5abe6c573586ebf3b3e819160821131e447e97c47ee"
+  },
+  "C1_X_seeds": "13000+noise_index, unchanged A/C0 source generator",
+  "null_calibration_seeds": "31000+noise_index",
+  "null_test_seeds": "32000+noise_index",
+  "C3_seeds": "33000+noise_index*10+shape_index",
+  "supplement_event_seeds": "34000+noise_index",
+  "supplement_null_seeds": "35000+noise_index",
+  "supplement_status": "exploratory after primary results, fixed CUSUM allowance .5, no event tuning",
+  "failure_reference": "fixed primary2 confirmation across all variants; only matured forecasts used"
+}

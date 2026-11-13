@@ -1,0 +1,51 @@
+{
+  "stage": "C1 basic; C2 independently calibrated reliability; C3 gradual/transient/repeated stress",
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "tau": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "strength": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "n_each_cell": 200,
+  "calibration_null": 2000,
+  "test_null": 2000,
+  "T_end": 25,
+  "sample_dt": 0.05,
+  "all_detector_update_dt": 0.25,
+  "candidate_onset_step": 0.25,
+  "tau_grid": "same41 log grid .05..5 from C0",
+  "confirmation": [
+    1,
+    2,
+    3
+  ],
+  "primary_confirmation": 2,
+  "target_trajectory_false_alarm": 0.05,
+  "failure_definition": "frozen healthy AR 1-unit-ahead predictions; mean latest4 matured normalized squared errors; fixed primary k=2 confirmation, independent whole-trajectory calibration; unchanged across C2 confirmation variants",
+  "event_precision_prevalence": "balanced 200 event+first200 independent null trajectories; early event false alarm counted FP",
+  "C3_shapes": [
+    "ramp2",
+    "pulse1",
+    "repeated2"
+  ],
+  "C3_tau": [
+    0.5,
+    2
+  ],
+  "C3_onset": "random8..12, not supplied",
+  "episode_matching_window": 5,
+  "hysteresis_reset": "two consecutive values below half high threshold; compare high-threshold reset",
+  "fixed_model_inputs": "C0 independent-X normal AR and shared tau; frozen HMM seed11; no Y,U,true tau,T1 supplied to detector",
+  "mechanism_interpretation": "known first-order step-change hypothesis; does not uniquely distinguish source change from transmission-gain change",
+  "supplement": "after primary results, fixed allowance0.5 traditional CUSUM on new event seeds34000+noise and new null seeds35000+noise; no event tuning"
+}

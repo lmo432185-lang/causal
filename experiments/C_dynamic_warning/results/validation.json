@@ -1,0 +1,11 @@
+{
+  "causal_profile_vs_independent_prefix_likelihood": "passed",
+  "all_detector_future_exclusion": "passed",
+  "prediction_failure_uses_only_matured_errors": "passed",
+  "confirmation_clock": "passed",
+  "hysteresis_first_alarm_equivalence": "passed",
+  "whole_trajectory_calibration": "passed",
+  "fixed_failure_reference_across_confirmation_variants": "passed",
+  "source_vs_transfer_gain_effective_input_equivalence": "passed",
+  "supplement_CUSUM_future_exclusion": "passed"
+}

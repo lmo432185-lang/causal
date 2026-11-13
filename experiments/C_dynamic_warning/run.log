@@ -1,0 +1,29 @@
+noise 0.12 C2 calibration/null done 10.0
+noise 0.12 C1 done 14.6
+noise 0.12 C3 done 16.9
+noise 0.35 C2 calibration/null done 26.5
+noise 0.35 C1 done 31.4
+noise 0.35 C3 done 33.9
+noise 0.7 C2 calibration/null done 43.4
+noise 0.7 C1 done 48.0
+noise 0.7 C3 done 50.3
+0.1 M1 {'delay': 1.1434010152284264, 'lead_X': 0.6602564102564102, 'lead_failure': 0.3494897959183674, 'coverage_failure': 0.885, 'valid_failure': 0.99} recall 0.985
+0.1 M2 {'delay': 1.2272727272727273, 'lead_X': 0.5727040816326531, 'lead_failure': 0.2639593908629442, 'coverage_failure': 0.77, 'valid_failure': 0.99} recall 0.99
+0.1 M3 {'delay': 1.2146464646464648, 'lead_X': 0.5854591836734694, 'lead_failure': 0.2766497461928934, 'coverage_failure': 0.785, 'valid_failure': 0.99} recall 0.99
+0.1 M4_X {'delay': 1.8055555555555556, 'lead_X': 0.0, 'lead_failure': -0.30739795918367346, 'coverage_failure': 0.12, 'valid_failure': 0.99} recall 0.99
+0.1 M4_E {'delay': 1.4911616161616161, 'lead_X': 0.30739795918367346, 'lead_failure': 0.0, 'coverage_failure': 0.0, 'valid_failure': 0.99} recall 0.99
+0.5 M1 {'delay': 1.5545685279187818, 'lead_X': 0.6089743589743589, 'lead_failure': 0.31760204081632654, 'coverage_failure': 0.845, 'valid_failure': 0.99} recall 0.985
+0.5 M2 {'delay': 1.6376262626262625, 'lead_X': 0.5216836734693877, 'lead_failure': 0.23477157360406092, 'coverage_failure': 0.705, 'valid_failure': 0.99} recall 0.99
+0.5 M3 {'delay': 1.6262626262626263, 'lead_X': 0.5331632653061225, 'lead_failure': 0.24619289340101522, 'coverage_failure': 0.735, 'valid_failure': 0.99} recall 0.99
+0.5 M4_X {'delay': 2.167929292929293, 'lead_X': 0.0, 'lead_failure': -0.2844387755102041, 'coverage_failure': 0.175, 'valid_failure': 0.99} recall 0.99
+0.5 M4_E {'delay': 1.8737373737373737, 'lead_X': 0.2844387755102041, 'lead_failure': 0.0, 'coverage_failure': 0.0, 'valid_failure': 0.99} recall 0.99
+1.0 M1 {'delay': 2.001269035532995, 'lead_X': 0.5923076923076923, 'lead_failure': 0.28061224489795916, 'coverage_failure': 0.81, 'valid_failure': 0.99} recall 0.985
+1.0 M2 {'delay': 2.0505050505050506, 'lead_X': 0.5408163265306123, 'lead_failure': 0.23604060913705585, 'coverage_failure': 0.665, 'valid_failure': 0.99} recall 0.99
+1.0 M3 {'delay': 2.039141414141414, 'lead_X': 0.5522959183673469, 'lead_failure': 0.24619289340101522, 'coverage_failure': 0.7, 'valid_failure': 0.99} recall 0.99
+1.0 M4_X {'delay': 2.6035353535353534, 'lead_X': 0.0, 'lead_failure': -0.3048469387755102, 'coverage_failure': 0.21, 'valid_failure': 0.99} recall 0.99
+1.0 M4_E {'delay': 2.287878787878788, 'lead_X': 0.3048469387755102, 'lead_failure': 0.0, 'coverage_failure': 0.0, 'valid_failure': 0.99} recall 0.99
+2.0 M1 {'delay': 2.7766497461928936, 'lead_X': 0.4717948717948718, 'lead_failure': 0.34311224489795916, 'coverage_failure': 0.785, 'valid_failure': 0.99} recall 0.985
+2.0 M2 {'delay': 2.7285353535353534, 'lead_X': 0.5204081632653061, 'lead_failure': 0.3934010152284264, 'coverage_failure': 0.715, 'valid_failure': 0.99} recall 0.99
+2.0 M3 {'delay': 2.712121212121212, 'lead_X': 0.5369897959183674, 'lead_failure': 0.4098984771573604, 'coverage_failure': 0.75, 'valid_failure': 0.99} recall 0.99
+2.0 M4_X {'delay': 3.263888888888889, 'lead_X': 0.0, 'lead_failure': -0.11479591836734694, 'coverage_failure': 0.355, 'valid_failure': 0.99} recall 0.99
+2.0 M4_E {'delay': 3.128787878787879, 'lead_X': 0.11479591836734694, 'lead_failure': 0.0, 'coverage_failure': 0.0, 'valid_failure': 0.99} recall 0.99
