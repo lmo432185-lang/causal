@@ -1,0 +1,27 @@
+{
+  "frozen_files_unchanged": {
+    "config.py": true,
+    "generate.py": true,
+    "mechanisms.py": true,
+    "online.py": true,
+    "run.py": true,
+    "training_inference.py": true,
+    "PROTOCOL.json": true,
+    "results/trained_settings.json": true,
+    "source_A.py": true,
+    "source_C0.py": true,
+    "support.py": true,
+    "legacy_stream.py": true
+  },
+  "row_count": 43200,
+  "row_keys_unique": true,
+  "commit_outcomes_partition": true,
+  "exact_equivalent_X_U_all_abstain": true,
+  "calibration_thresholds_reproduced": {
+    "0": true,
+    "1": true,
+    "2": true
+  },
+  "replayed_score_max_error": 0.0,
+  "replayed_posterior_float32_max_error": 2.9800626411002895e-08
+}

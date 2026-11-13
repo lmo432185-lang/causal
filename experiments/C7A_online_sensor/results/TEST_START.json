@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-13T14:05:22.219310+00:00",
+  "sha256": {
+    "config.py": "a87d69896d694117f490ec06cea1f80c50794d9a22f79c5db0d6e0ff0ee6d54e",
+    "generate.py": "786e7aa983093be6b6f786b9f1c19ec41f4a2cecc11d741b84024c7893fa6596",
+    "mechanisms.py": "beafe6c111a6bb17a286bfd882d63c8c2c4bdeaf2428b261e60416be702ca89b",
+    "online.py": "bc4ea378019e2ed42f7fd176a92a6c25bcec774e9dea5e843749f63d64ff7002",
+    "run.py": "0517f34669ad337e006a873aa50f1f35824a41a46b8e8fac0462117793122895",
+    "training_inference.py": "c34b2ec5d3771eae743cd41a92447c8c75346449b67d6e20764ae564048e4a4f",
+    "PROTOCOL.json": "cdcca40b6ef3248a36187726accec0609383d8b480ecb898ef869aca5d010dcd",
+    "results/trained_settings.json": "8b74a66651f761093b9a69f0f298c27faf869094b42686b883cf1cab6a4dcd71"
+  }
+}

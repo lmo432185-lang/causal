@@ -1,0 +1,15 @@
+{
+  "no_future_max_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "batch_prefix_likelihood_errors": [
+    1.27675647831893e-15,
+    1.8496489062602706e-14,
+    2.127270581908647e-12
+  ],
+  "sensor_endpoint_alignment": true,
+  "wrong_first_commit_not_overwritten": true,
+  "exact_equivalent_pair_X_posterior_half": true
+}

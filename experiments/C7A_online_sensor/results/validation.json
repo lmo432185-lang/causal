@@ -1,0 +1,7 @@
+{
+  "max_exact_kernel_vs_independent_ODE_error": 3.1886975282446883e-09,
+  "representation_equivalence": true,
+  "causal_passive_X_U_equivalence": true,
+  "source_intervention_separates_causal_pair": true,
+  "proper_amplitude_integral_error": 4.440892098500626e-16
+}

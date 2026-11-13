@@ -1,0 +1,119 @@
+{
+  "name": "C7-A only: online activation detection and candidate transfer-mechanism identification",
+  "not_executed": [
+    "C7-B",
+    "C7-C",
+    "real data D"
+  ],
+  "dt": 0.05,
+  "decision_clock": 0.25,
+  "duration": 25,
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "lag": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "labels": [
+    "A_first",
+    "B_direct",
+    "C_two",
+    "D_variable"
+  ],
+  "source": "positive unknown-amplitude step at10 in simulator; source event, not change of transfer parameters",
+  "n_per_cell_per_cohort": 100,
+  "cohorts": 2,
+  "seeds": {
+    "normal_train": [
+      301000,
+      301001,
+      301002
+    ],
+    "unlabelled_train": [
+      302000,
+      302001,
+      302002
+    ],
+    "sensor_train": [
+      303000,
+      303001,
+      303002
+    ],
+    "calibration": [
+      304000,
+      304001,
+      304002
+    ],
+    "null": [
+      305000,
+      305001,
+      305002
+    ],
+    "passive": [
+      [
+        310000,
+        310001,
+        310002
+      ],
+      [
+        311000,
+        311001,
+        311002
+      ]
+    ],
+    "equivalent": [
+      [
+        312000,
+        312001,
+        312002
+      ],
+      [
+        313000,
+        313001,
+        313002
+      ]
+    ]
+  },
+  "channels": [
+    "X",
+    "X_U",
+    "X_Y"
+  ],
+  "sensor_noise_std": 0.1,
+  "sensor_timing": "sensor at t_j accompanies X_j, t_j=.05,.10,...; never the next sensor sample",
+  "source_and_transfer": "same C6 generators and physical units; main four classes all share step source; separate genuinely passive-equivalent causal pair",
+  "training": "independent healthy-X AR, unlabelled pooled X amplitude-prior learning, healthy sensor variance estimation; no true Y/U/kappa/onset/class labels to inference",
+  "online_method": "new candidate-library Gaussian GLR for change gate plus proper half-normal amplitude and onset/scale-marginal posterior for identification; not original M3",
+  "candidate_library": "C6 same21 scale grid,79 onset grid; at each clock only origins<=clock-.25 eligible",
+  "alarm": "first2 consecutive calibrated GLR crossings; never reset at true event",
+  "identification": "first same-class posterior>=.8 for2 consecutive updates ending on/after gate alarm, then irrevocable commit; no truth-driven retry",
+  "first_correct": "retrospective oracle diagnostic only, distinct from first operational commit and not advertised as algorithm output",
+  "calibration": {
+    "n": 4000,
+    "target_trajectory_FPR": 0.05,
+    "method": "binomial order-statistic tolerance threshold, simultaneous95% confidence over21 main/binary-channel/noise/reference cells",
+    "no_test_retuning": true
+  },
+  "null_audit": 4000,
+  "primary": "paired event-detection and correct-first-commit coverage at time12 (2 after event), sensor-U vsX andsensor-Y vsX:4 contrasts",
+  "inference_rule": "Bonferroni4 paired stratified cluster98.75% bootstrap intervals,5percentage-point practical reference, both cohorts positive",
+  "independent_unit": "noise/cohort/trajectory, average4 classes and4 lag groups first;600 independent paired blocks",
+  "warning_reference": "healthy AR1-unit matured prediction errors, latest4 updates,2-crossing tolerance-calibrated whole trajectory; not physical failure ground truth",
+  "lead_windows": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "cost": "channel count0 extra vs1 extra; same sensor sampling/noise, no financial-cost claim",
+  "limitations": [
+    "known family and source-type prior",
+    "low-noise sensor only; not arbitrary sensor quality",
+    "source activation does not establish changing causal edge detection",
+    "no original-M3 superiority comparison in C7-A"
+  ]
+}
