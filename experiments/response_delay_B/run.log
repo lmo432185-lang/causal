@@ -1,0 +1,33 @@
+noise 0.12 seed 11 done 6.6
+noise 0.12 seed 22 done 13.5
+noise 0.12 seed 33 done 20.2
+noise 0.35 seed 11 done 26.8
+noise 0.35 seed 22 done 33.5
+noise 0.35 seed 33 done 40.1
+noise 0.7 seed 11 done 46.3
+noise 0.7 seed 22 done 52.7
+noise 0.7 seed 33 done 59.1
+{'tau': 0.1, 'horizon': 0} {'onset_error': 0.38274111675126965, 'onset_signed': 0.3725888324873104, 'estimate_available': 0.985, 'brier_Y': 0.03312574239646139, 'ACI_past_mean': 0.25174670362503176, 'paired_onset_gain_vs_h0': 0.0}
+{'tau': 0.1, 'horizon': 0.5} {'onset_error': 0.35463917525773253, 'onset_signed': 0.3329896907216502, 'estimate_available': 0.97, 'brier_Y': 0.03216828360444831, 'ACI_past_mean': 0.276716606218088, 'paired_onset_gain_vs_h0': 0.02912371134020624}
+{'tau': 0.1, 'horizon': 1} {'onset_error': 0.34820512820512883, 'onset_signed': 0.3261538461538468, 'estimate_available': 0.975, 'brier_Y': 0.031739541421187754, 'ACI_past_mean': 0.2818666915251389, 'paired_onset_gain_vs_h0': 0.03461538461538465}
+{'tau': 0.1, 'horizon': 2} {'onset_error': 0.35000000000000053, 'onset_signed': 0.3280612244897966, 'estimate_available': 0.98, 'brier_Y': 0.031551566237728014, 'ACI_past_mean': 0.28272623095904953, 'paired_onset_gain_vs_h0': 0.03290816326530616}
+{'tau': 0.1, 'horizon': 3} {'onset_error': 0.34974489795918423, 'onset_signed': 0.3278061224489802, 'estimate_available': 0.98, 'brier_Y': 0.031541120290173474, 'ACI_past_mean': 0.28278770360862954, 'paired_onset_gain_vs_h0': 0.033163265306122486}
+{'tau': 0.1, 'horizon': 5} {'onset_error': 0.34974489795918423, 'onset_signed': 0.3278061224489802, 'estimate_available': 0.98, 'brier_Y': 0.031540995118027625, 'ACI_past_mean': 0.2827884827531383, 'paired_onset_gain_vs_h0': 0.033163265306122486}
+{'tau': 0.5, 'horizon': 0} {'onset_error': 0.8000000000000007, 'onset_signed': 0.7974619289340108, 'estimate_available': 0.985, 'brier_Y': 0.09063394819690233, 'ACI_past_mean': 0.26141315638013896, 'paired_onset_gain_vs_h0': 0.0}
+{'tau': 0.5, 'horizon': 0.5} {'onset_error': 0.7566666666666675, 'onset_signed': 0.7500000000000009, 'estimate_available': 0.975, 'brier_Y': 0.08822181730794401, 'ACI_past_mean': 0.2912347785536392, 'paired_onset_gain_vs_h0': 0.03897435897435899}
+{'tau': 0.5, 'horizon': 1} {'onset_error': 0.7512755102040823, 'onset_signed': 0.7446428571428579, 'estimate_available': 0.98, 'brier_Y': 0.08763601237145875, 'ACI_past_mean': 0.2964256207016191, 'paired_onset_gain_vs_h0': 0.048724489795918396}
+{'tau': 0.5, 'horizon': 2} {'onset_error': 0.7502538071065997, 'onset_signed': 0.7436548223350262, 'estimate_available': 0.985, 'brier_Y': 0.08747802624424676, 'ACI_past_mean': 0.29747015302623, 'paired_onset_gain_vs_h0': 0.04974619289340105}
+{'tau': 0.5, 'horizon': 3} {'onset_error': 0.7500000000000007, 'onset_signed': 0.7434010152284272, 'estimate_available': 0.985, 'brier_Y': 0.08747344602775732, 'ACI_past_mean': 0.29754827443356635, 'paired_onset_gain_vs_h0': 0.05000000000000004}
+{'tau': 0.5, 'horizon': 5} {'onset_error': 0.7500000000000007, 'onset_signed': 0.7434010152284272, 'estimate_available': 0.985, 'brier_Y': 0.08747344333257809, 'ACI_past_mean': 0.2975483029267791, 'paired_onset_gain_vs_h0': 0.05000000000000004}
+{'tau': 1.0, 'horizon': 0} {'onset_error': 1.146700507614214, 'onset_signed': 1.143654822335026, 'estimate_available': 0.985, 'brier_Y': 0.1487406580803145, 'ACI_past_mean': 0.27592555990628476, 'paired_onset_gain_vs_h0': 0.0}
+{'tau': 1.0, 'horizon': 0.5} {'onset_error': 1.1049450549450557, 'onset_signed': 1.1010989010989018, 'estimate_available': 0.91, 'brier_Y': 0.14837175239654818, 'ACI_past_mean': 0.2940538466772935, 'paired_onset_gain_vs_h0': 0.04230769230769233}
+{'tau': 1.0, 'horizon': 1} {'onset_error': 1.105208333333334, 'onset_signed': 1.1015625000000007, 'estimate_available': 0.96, 'brier_Y': 0.14688377473888922, 'ACI_past_mean': 0.3039821690466637, 'paired_onset_gain_vs_h0': 0.049218750000000006}
+{'tau': 1.0, 'horizon': 2} {'onset_error': 1.0969230769230778, 'onset_signed': 1.093333333333334, 'estimate_available': 0.975, 'brier_Y': 0.1459157916010554, 'ACI_past_mean': 0.3089098986694325, 'paired_onset_gain_vs_h0': 0.05512820512820514}
+{'tau': 1.0, 'horizon': 3} {'onset_error': 1.0966666666666673, 'onset_signed': 1.093076923076924, 'estimate_available': 0.975, 'brier_Y': 0.145905689764718, 'ACI_past_mean': 0.309005841071622, 'paired_onset_gain_vs_h0': 0.055384615384615386}
+{'tau': 1.0, 'horizon': 5} {'onset_error': 1.0966666666666673, 'onset_signed': 1.093076923076924, 'estimate_available': 0.975, 'brier_Y': 0.1459055928565035, 'ACI_past_mean': 0.3090065148960277, 'paired_onset_gain_vs_h0': 0.055384615384615386}
+{'tau': 2.0, 'horizon': 0} {'onset_error': 1.9408629441624372, 'onset_signed': 1.9378172588832496, 'estimate_available': 0.985, 'brier_Y': 0.2750607274808226, 'ACI_past_mean': 0.296567438702375, 'paired_onset_gain_vs_h0': 0.0}
+{'tau': 2.0, 'horizon': 0.5} {'onset_error': 1.9628491620111739, 'onset_signed': 1.9628491620111739, 'estimate_available': 0.895, 'brier_Y': 0.2750580665829038, 'ACI_past_mean': 0.31001086996737043, 'paired_onset_gain_vs_h0': 0.03016759776536311}
+{'tau': 2.0, 'horizon': 1} {'onset_error': 1.9527173913043487, 'onset_signed': 1.9527173913043487, 'estimate_available': 0.92, 'brier_Y': 0.2730338383225018, 'ACI_past_mean': 0.32097435366707944, 'paired_onset_gain_vs_h0': 0.040760869565217385}
+{'tau': 2.0, 'horizon': 2} {'onset_error': 1.9320312500000008, 'onset_signed': 1.9283854166666672, 'estimate_available': 0.96, 'brier_Y': 0.27146082196381977, 'ACI_past_mean': 0.32876542348456633, 'paired_onset_gain_vs_h0': 0.04479166666666665}
+{'tau': 2.0, 'horizon': 3} {'onset_error': 1.9227979274611406, 'onset_signed': 1.9191709844559592, 'estimate_available': 0.965, 'brier_Y': 0.27136717234799307, 'ACI_past_mean': 0.32933516142432373, 'paired_onset_gain_vs_h0': 0.04404145077720206}
+{'tau': 2.0, 'horizon': 5} {'onset_error': 1.9227979274611406, 'onset_signed': 1.9191709844559592, 'estimate_available': 0.965, 'brier_Y': 0.27135093365698265, 'ACI_past_mean': 0.32940817362050845, 'paired_onset_gain_vs_h0': 0.04404145077720206}

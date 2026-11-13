@@ -1,0 +1,7 @@
+{
+  "variable_endpoint_smoothing_vs_exact_enumeration": "passed",
+  "future_after_endpoint_excluded": "passed",
+  "finite_lag_vs_independent_endpoint_smoothing": "passed",
+  "KL_zero_and_nonnegative": "passed",
+  "end_to_end_scoring_and_missing_alarm": "passed"
+}

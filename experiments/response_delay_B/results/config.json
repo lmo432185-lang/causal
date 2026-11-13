@@ -1,0 +1,41 @@
+{
+  "experiment": "B only; same A trajectories, frozen HMM, thresholds and first alarms",
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "tau": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "strength": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "n_each_cell": 200,
+  "horizons_after_alarm": [
+    0,
+    0.5,
+    1,
+    2,
+    3,
+    5
+  ],
+  "full_reference_end": 25,
+  "dt": 0.05,
+  "onset_rule": "first two consecutive posterior log odds above frozen A threshold, restricted to time already past at A alarm",
+  "state_evaluation": "same last 5 time units preceding each A alarm, for every future horizon",
+  "ACI": "KL(HMM smoothed state at endpoint || HMM prior conditioned on X up to state time)",
+  "CIR_proxy": "trapezoidal integral 0..5 of KL(full25 smoothing || finite-future smoothing)/KL(full25 smoothing || filter); grid 0,.5,1,2,3,5; discard denominator<1e-4",
+  "stability": "earliest tested extra horizon after which all tested onset estimates within .1 of full25 reference and mean absolute posterior difference<=.02 on same past window",
+  "no_Y_U_tau_input_to_inference": true
+}
