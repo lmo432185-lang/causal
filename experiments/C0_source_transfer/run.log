@@ -1,0 +1,15 @@
+noise 0.12 done 2.8 shared_tau 0.49999999999999994
+noise 0.35 done 5.4 shared_tau 0.05
+noise 0.7 done 8.2 shared_tau 0.05
+0.1 M1 {'detected': 1.0, 'onset_error': 0.3507500000000006, 'U_rmse': 0.06478143059140912, 'tau_error': None, 'tau_interval_coverage': None, 'forecast_mse_h40': 1.1774020201714968}
+0.1 M2 {'detected': 1.0, 'onset_error': 0.20725000000000018, 'U_rmse': 0.0773351192180502, 'tau_error': 0.05, 'tau_interval_coverage': None, 'forecast_mse_h40': 0.2272639818893537}
+0.1 M3 {'detected': 1.0, 'onset_error': 0.27549999999999997, 'U_rmse': 0.07747939470923296, 'tau_error': 0.279263572595207, 'tau_interval_coverage': 0.995, 'forecast_mse_h40': 0.25328556077159375}
+0.5 M1 {'detected': 1.0, 'onset_error': 0.7442500000000006, 'U_rmse': 0.07280755920977594, 'tau_error': None, 'tau_interval_coverage': None, 'forecast_mse_h40': 1.1805824894759054}
+0.5 M2 {'detected': 1.0, 'onset_error': 0.5015000000000006, 'U_rmse': 0.09662251887180506, 'tau_error': 0.4500000000000001, 'tau_interval_coverage': None, 'forecast_mse_h40': 0.23845391913753558}
+0.5 M3 {'detected': 1.0, 'onset_error': 0.4537500000000004, 'U_rmse': 0.0843327873930375, 'tau_error': 0.488435260151939, 'tau_interval_coverage': 0.915, 'forecast_mse_h40': 0.29912501852159196}
+1.0 M1 {'detected': 1.0, 'onset_error': 1.1005000000000007, 'U_rmse': 0.0902097857013796, 'tau_error': None, 'tau_interval_coverage': None, 'forecast_mse_h40': 1.1845871752590764}
+1.0 M2 {'detected': 1.0, 'onset_error': 0.7772500000000007, 'U_rmse': 0.11138533301807588, 'tau_error': 0.9499999999999998, 'tau_interval_coverage': None, 'forecast_mse_h40': 0.2829218383234811}
+1.0 M3 {'detected': 1.0, 'onset_error': 0.6697500000000005, 'U_rmse': 0.0931900200814447, 'tau_error': 0.8332273748519987, 'tau_interval_coverage': 0.87, 'forecast_mse_h40': 0.3681359182243595}
+2.0 M1 {'detected': 1.0, 'onset_error': 1.948250000000001, 'U_rmse': 0.12116866134044106, 'tau_error': None, 'tau_interval_coverage': None, 'forecast_mse_h40': 1.1414663798776539}
+2.0 M2 {'detected': 1.0, 'onset_error': 1.3457500000000007, 'U_rmse': 0.1382021926107034, 'tau_error': 1.9499999999999995, 'tau_interval_coverage': None, 'forecast_mse_h40': 0.42124018325831797}
+2.0 M3 {'detected': 1.0, 'onset_error': 0.9400000000000003, 'U_rmse': 0.09362329217465098, 'tau_error': 1.4024147709456662, 'tau_interval_coverage': 0.86, 'forecast_mse_h40': 0.44057726653334006}

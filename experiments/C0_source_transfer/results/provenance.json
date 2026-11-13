@@ -1,0 +1,14 @@
+{
+  "source_response_A_commit": "95da75567b88a06157ed57599f0c481e605a5c83",
+  "frozen_M1_seed": 11,
+  "model_sha256": {
+    "model_0_11.npz": "22562c64ac6664ad8bbf1562bc168583a47964cbbb0b98a6f44c64d1b1f87895",
+    "model_1_11.npz": "a435aba80b209741a410d5abe6c573586ebf3b3e819160821131e447e97c47ee",
+    "model_2_11.npz": "03d515a0a4d5b160d76622bf4b531e9cd062411f0410ec0a0b0a8e57c9dbd41d"
+  },
+  "test_X_generator": "unchanged source_A.simulate, same A seeds 13000+noise_index",
+  "truth_used_only_for_simulation_and_evaluation": true,
+  "normal_coefficients_learned_from_independent_X": true,
+  "inference_latent_units": "effect gain convention=1; physical gain1.5 used only to score latent errors",
+  "C0B_scope": "structural misspecification and exact identifiability audit; no arbitrary-structure black-box learning"
+}

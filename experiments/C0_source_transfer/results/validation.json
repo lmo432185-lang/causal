@@ -1,0 +1,9 @@
+{
+  "noiseless_joint_onset_tau_amplitude": "passed",
+  "exact_transfer_state_reconstruction": "passed",
+  "FFT_likelihood_vs_direct": "passed",
+  "prefix_only_forecast_matches_deterministic_truth": "passed",
+  "different_source_tau_same_transfer": "passed",
+  "gain_source_scale_ambiguity": "passed",
+  "prediction_future_exclusion": "passed"
+}

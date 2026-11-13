@@ -1,0 +1,99 @@
+{
+  "experiment": "C0-A structured source/transfer inference; limited C0-B identifiability audit",
+  "dt": 0.05,
+  "duration": 25,
+  "test_each_cell": 200,
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "tau_test": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "strength_test": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "source_test_onset": 10,
+  "normal_train": 2000,
+  "unlabelled_mixture_train": 200,
+  "calibration_null": 500,
+  "test_null": 500,
+  "tau_grid": [
+    0.05,
+    0.056100922715098166,
+    0.06294627058970836,
+    0.0706268772311377,
+    0.07924465962305566,
+    0.08891397050194613,
+    0.09976311574844397,
+    0.11193605692841699,
+    0.125594321575479,
+    0.14091914656322266,
+    0.15811388300841894,
+    0.17740669461678774,
+    0.19905358527674863,
+    0.22334179607548155,
+    0.2505936168136361,
+    0.2811706625951745,
+    0.3154786722400966,
+    0.353972892192069,
+    0.3971641173621407,
+    0.4456254690668728,
+    0.49999999999999994,
+    0.5610092271509817,
+    0.6294627058970836,
+    0.7062687723113772,
+    0.7924465962305569,
+    0.8891397050194613,
+    0.9976311574844399,
+    1.11936056928417,
+    1.2559432157547903,
+    1.4091914656322273,
+    1.5811388300841893,
+    1.7740669461678773,
+    1.9905358527674866,
+    2.233417960754816,
+    2.505936168136362,
+    2.8117066259517447,
+    3.154786722400966,
+    3.5397289219206898,
+    3.9716411736214083,
+    4.456254690668729,
+    5.0
+  ],
+  "onset_grid": "0.5 to observed endpoint minus 0.25, step 0.05; no T1 supplied",
+  "models": {
+    "M1": "frozen seed11 HMM from A/B",
+    "M2": "two explicit states with one shared tau learned from independent X only",
+    "M3": "two explicit states with per-trajectory unknown tau, onset and positive amplitude profile likelihood"
+  },
+  "known_assumptions": [
+    "one persistent positive hidden source step",
+    "first-order transfer",
+    "linear observation drift, additive Gaussian process noise",
+    "no unmodelled pure transport dead time",
+    "effect gain normalized to 1; physical latent scale not identified"
+  ],
+  "unknown_learned": [
+    "normal AR coefficients and innovation variance from independent normal X",
+    "source onset",
+    "source effect amplitude",
+    "shared or individual tau"
+  ],
+  "true_Y_U_tau_T1_not_in_fit": true,
+  "intervals": "approximate 95% 1D profile likelihood intervals, 2deltaLL<=3.841; not Bayesian intervals; calibrated coverage evaluated",
+  "forecast_cut": 15,
+  "forecast_horizons": [
+    0.05,
+    0.5,
+    2.0,
+    5.0
+  ],
+  "false_alarm_target": 0.05
+}
