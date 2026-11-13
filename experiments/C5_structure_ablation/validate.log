@@ -1,0 +1,2 @@
+{'exact_ramp_interval_integral': 'passed', 'generic_matched_GLR_vs_bruteforce': 'passed', 'direct_GLR_vs_bruteforce': 'passed', 'collapsed_likelihood_vs_independent_no_latent_model': 'passed', 'M3_ablation_exact_score_and_predictive_equivalence': 'passed', 'all_future_exclusion': 'passed', 'new_seed_disjointness': 'passed'}
+Paired controls and frozen references verified

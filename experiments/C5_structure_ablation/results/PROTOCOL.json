@@ -1,0 +1,87 @@
+{
+  "experiment": "C5 response-structure and explicit-state ablation only",
+  "dt": 0.05,
+  "update": 0.25,
+  "confirmation": 2,
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "tau_test": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "strength": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "cohorts": 2,
+  "n_event_each_cell_each_cohort": 200,
+  "n_normal_calibration": 5000,
+  "n_normal_test": 5000,
+  "seed_map": {
+    "calibration": [
+      121000,
+      121001,
+      121002
+    ],
+    "null_test": [
+      122000,
+      122001,
+      122002
+    ],
+    "events": [
+      [
+        130000,
+        130001,
+        130002
+      ],
+      [
+        131000,
+        131001,
+        131002
+      ]
+    ]
+  },
+  "models": {
+    "M3": "unchanged41-grid source plus first-order response GLR",
+    "M2": "frozen C0 shared tau",
+    "Direct": "Gaussian innovation mean is an instantaneous persistent step, unknown onset and positive amplitude",
+    "Ablation": "no explicit Y/U: reduced-form exponential innovation kernel, analytically same observable likelihood as M3",
+    "GLR_Ramp": "generic exact linear-ramp-to-plateau innovation mean; unknown onset/amplitude/mean-lag kappa,41 grid; ramp full-rise=2*kappa to match response-area mean lag",
+    "CUSUM": "frozen C4 multiscale normalization; new overall5% calibration"
+  },
+  "normal_model": "frozen C0 learned AR, not true physical coefficients",
+  "input_labels": "X only; true Y/U/tau/T1 excluded from fit and inference",
+  "prediction": "same raw frozen point-model readout as C4; origins12,15, future2; report full tail distribution; no test-time improvement",
+  "failure_reference": "exact C4 healthy predictor, horizon1, last4 matured normalized errors,2 confirmations AND frozen numerical thresholds",
+  "primary_margin": 0.5,
+  "secondary_margins": [
+    0.25,
+    1.0
+  ],
+  "comparison_family": [
+    "M3-Direct",
+    "M3-Ablation",
+    "M3-GLR_Ramp",
+    "M3-M2"
+  ],
+  "primary_groups": [
+    "all36conditions",
+    "predeclared tau1/2 strength1 subgroup"
+  ],
+  "correction": "Bonferroni8 comparisons;99.375% paired stratified-cluster CI; practical coverage gain>=5pp; positive direction both cohorts",
+  "FPR": "each trajectory target5%; compare paired95% FPR difference inside+/-1pp and both point rates4%-6%",
+  "strict_structure_success": "M3 must outperform all4 required controls in a group, including ablation; equivalence may make this scientifically impossible and must not be hidden",
+  "subclaims": {
+    "explicit_Y_U_naming": "same likelihood predicts exact equality, not extra observable information",
+    "transmission_kernel": "needs practical corrected superiority over BOTH Direct and complexity-matched GLR_Ramp",
+    "adaptive_tau": "needs practical corrected superiority over frozen M2"
+  },
+  "complexity": "same41 shape grid, same onset grid.25 and analytic positive amplitude for M3/Ablation/GLR_Ramp; direct and M2 have deliberately one shape; shared update/inputs/variance",
+  "no_C6_or_D": true
+}

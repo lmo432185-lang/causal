@@ -1,0 +1,28 @@
+{
+  "source_C4_commit": "31a19e3a3405c765b7c915966cdcfa5b84913bc9",
+  "frozen_files_sha256": {
+    "frozen_C0.json": "f4e5dd4896d4ee193a24bdb0bfe75059c4b738670a485be1c061b752fa537008",
+    "frozen_C4.json": "064e99897389ec231108ac745ef8d0b0e5455cf3defb68698a0807ff09d7bfbe"
+  },
+  "protocol_sha256": "86445b689a3804034e74ba4d2bd24d086c79082a43876c10ad41a18d47eeefaa",
+  "protocol_markdown_sha256": "5e0bf456d26df3876d3b8a5b5e98c283d62fdb4541a0dd478748a23efd80fdae",
+  "previous_seed_maximum": 91002,
+  "new_seed_minimum": 121000,
+  "original_M3_unchanged": true,
+  "equivalent_ablation_declared_before_test": true,
+  "matched_generic_GLR": {
+    "shapes": 41,
+    "onset_grid": 0.25,
+    "same_positive_amplitude_fit": true,
+    "same_innovation_noise_model": true,
+    "mean_lag_support": [
+      0.05,
+      5
+    ]
+  },
+  "failure_statistic_and_threshold_frozen_from_C4": true,
+  "stages_not_run": [
+    "C6",
+    "D"
+  ]
+}

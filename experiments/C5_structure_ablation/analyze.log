@@ -1,0 +1,458 @@
+{
+  "strict_structure_superiority": {
+    "broad": false,
+    "slow": false
+  },
+  "response_kernel_subclaim": {
+    "broad": false,
+    "slow": false
+  },
+  "adaptive_tau_subclaim": {
+    "broad": false,
+    "slow": false
+  },
+  "exact_M3_Ablation_equality": true,
+  "comparisons": {
+    "Direct": {
+      "broad": {
+        "mean": 0.029375,
+        "ci95": [
+          0.023541666666666662,
+          0.03500173611111112
+        ],
+        "corrected_ci99375": [
+          0.02093728298611111,
+          0.03697938368055553
+        ],
+        "cohort_means": [
+          0.03375,
+          0.025
+        ],
+        "practical_corrected_superiority": false
+      },
+      "slow": {
+        "mean": 0.014166666666666666,
+        "ci95": [
+          0.002916666666666667,
+          0.024583333333333332
+        ],
+        "corrected_ci99375": [
+          -0.001876302083333333,
+          0.028542968749999887
+        ],
+        "cohort_means": [
+          0.020833333333333332,
+          0.0075
+        ],
+        "practical_corrected_superiority": false
+      }
+    },
+    "Ablation": {
+      "broad": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "corrected_ci99375": [
+          0.0,
+          0.0
+        ],
+        "cohort_means": [
+          0.0,
+          0.0
+        ],
+        "practical_corrected_superiority": false
+      },
+      "slow": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "corrected_ci99375": [
+          0.0,
+          0.0
+        ],
+        "cohort_means": [
+          0.0,
+          0.0
+        ],
+        "practical_corrected_superiority": false
+      }
+    },
+    "GLR_Ramp": {
+      "broad": {
+        "mean": -0.0032638888888888882,
+        "ci95": [
+          -0.005694444444444444,
+          -0.000902777777777778
+        ],
+        "corrected_ci99375": [
+          -0.006666666666666667,
+          -6.94444444444441e-05
+        ],
+        "cohort_means": [
+          -0.004305555555555555,
+          -0.0022222222222222222
+        ],
+        "practical_corrected_superiority": false
+      },
+      "slow": {
+        "mean": -0.0020833333333333333,
+        "ci95": [
+          -0.0075,
+          0.002916666666666667
+        ],
+        "corrected_ci99375": [
+          -0.009583333333333333,
+          0.0052096354166665535
+        ],
+        "cohort_means": [
+          -0.0033333333333333335,
+          -0.0008333333333333334
+        ],
+        "practical_corrected_superiority": false
+      }
+    },
+    "M2": {
+      "broad": {
+        "mean": 0.0024305555555555556,
+        "ci95": [
+          -0.000833333333333333,
+          0.005625
+        ],
+        "corrected_ci99375": [
+          -0.0020833333333333333,
+          0.006909939236111092
+        ],
+        "cohort_means": [
+          0.006388888888888889,
+          -0.0015277777777777779
+        ],
+        "practical_corrected_superiority": false
+      },
+      "slow": {
+        "mean": -0.0004166666666666667,
+        "ci95": [
+          -0.008333333333333333,
+          0.007083333333333333
+        ],
+        "corrected_ci99375": [
+          -0.010833333333333334,
+          0.010416666666666666
+        ],
+        "cohort_means": [
+          0.0016666666666666668,
+          -0.0025
+        ],
+        "practical_corrected_superiority": false
+      }
+    },
+    "CUSUM": {
+      "broad": {
+        "mean": 0.04527777777777777,
+        "ci95": [
+          0.03881944444444444,
+          0.05146006944444445
+        ],
+        "corrected_ci99375": [
+          0.036562282986111104,
+          0.053993272569444424
+        ],
+        "cohort_means": [
+          0.04652777777777777,
+          0.04402777777777778
+        ],
+        "practical_corrected_superiority": false
+      },
+      "slow": {
+        "mean": 0.03916666666666667,
+        "ci95": [
+          0.02666666666666667,
+          0.050833333333333335
+        ],
+        "corrected_ci99375": [
+          0.022290364583333333,
+          0.05604296874999989
+        ],
+        "cohort_means": [
+          0.0425,
+          0.035833333333333335
+        ],
+        "practical_corrected_superiority": false
+      }
+    }
+  },
+  "FPR_fairness": {
+    "Direct": {
+      "passed": true,
+      "details": [
+        {
+          "sigma": 0.12,
+          "M3_FPR": 0.0506,
+          "control_FPR": 0.0548,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0042,
+            "sd": 0.12564042782249943,
+            "median": 0.0,
+            "ci95": [
+              -0.0077038968690162305,
+              -0.0006961031309837694
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.35,
+          "M3_FPR": 0.0516,
+          "control_FPR": 0.0508,
+          "paired_difference": {
+            "n": 5000,
+            "mean": 0.0008,
+            "sd": 0.11136355044660536,
+            "median": 0.0,
+            "ci95": [
+              -0.002305739151761422,
+              0.0039057391517614217
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.7,
+          "M3_FPR": 0.0488,
+          "control_FPR": 0.0504,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0016,
+            "sd": 0.12806529640784345,
+            "median": 0.0,
+            "ci95": [
+              -0.005171522310852247,
+              0.0019715223108522474
+            ]
+          },
+          "passed": true
+        }
+      ]
+    },
+    "Ablation": {
+      "passed": true,
+      "details": [
+        {
+          "sigma": 0.12,
+          "M3_FPR": 0.0506,
+          "control_FPR": 0.0506,
+          "paired_difference": {
+            "n": 5000,
+            "mean": 0.0,
+            "sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.35,
+          "M3_FPR": 0.0516,
+          "control_FPR": 0.0516,
+          "paired_difference": {
+            "n": 5000,
+            "mean": 0.0,
+            "sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.7,
+          "M3_FPR": 0.0488,
+          "control_FPR": 0.0488,
+          "paired_difference": {
+            "n": 5000,
+            "mean": 0.0,
+            "sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "passed": true
+        }
+      ]
+    },
+    "GLR_Ramp": {
+      "passed": true,
+      "details": [
+        {
+          "sigma": 0.12,
+          "M3_FPR": 0.0506,
+          "control_FPR": 0.0528,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0022,
+            "sd": 0.06779438926521256,
+            "median": 0.0,
+            "ci95": [
+              -0.004090669686502825,
+              -0.00030933031349717507
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.35,
+          "M3_FPR": 0.0516,
+          "control_FPR": 0.0516,
+          "paired_difference": {
+            "n": 5000,
+            "mean": 0.0,
+            "sd": 0.0721182376936764,
+            "median": 0.0,
+            "ci95": [
+              -0.002011254431661438,
+              0.002011254431661438
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.7,
+          "M3_FPR": 0.0488,
+          "control_FPR": 0.0508,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.002,
+            "sd": 0.07209049457370628,
+            "median": 0.0,
+            "ci95": [
+              -0.004010480723445979,
+              1.0480723445979116e-05
+            ]
+          },
+          "passed": true
+        }
+      ]
+    },
+    "M2": {
+      "passed": true,
+      "details": [
+        {
+          "sigma": 0.12,
+          "M3_FPR": 0.0506,
+          "control_FPR": 0.0542,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0036,
+            "sd": 0.11827864544199648,
+            "median": 0.0,
+            "ci95": [
+              -0.006898589336397308,
+              -0.0003014106636026917
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.35,
+          "M3_FPR": 0.0516,
+          "control_FPR": 0.052,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0004,
+            "sd": 0.060004667418646726,
+            "median": 0.0,
+            "ci95": [
+              -0.002073427653331385,
+              0.0012734276533313852
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.7,
+          "M3_FPR": 0.0488,
+          "control_FPR": 0.052,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0032,
+            "sd": 0.08939439731691429,
+            "median": 0.0,
+            "ci95": [
+              -0.0056930570063709746,
+              -0.0007069429936290257
+            ]
+          },
+          "passed": true
+        }
+      ]
+    },
+    "CUSUM": {
+      "passed": true,
+      "details": [
+        {
+          "sigma": 0.12,
+          "M3_FPR": 0.0506,
+          "control_FPR": 0.054,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0034,
+            "sd": 0.17144771466477107,
+            "median": 0.0,
+            "ci95": [
+              -0.008181383835007135,
+              0.001381383835007135
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.35,
+          "M3_FPR": 0.0516,
+          "control_FPR": 0.055,
+          "paired_difference": {
+            "n": 5000,
+            "mean": -0.0034,
+            "sd": 0.15935343957298426,
+            "median": 0.0,
+            "ci95": [
+              -0.00784409516637094,
+              0.0010440951663709401
+            ]
+          },
+          "passed": true
+        },
+        {
+          "sigma": 0.7,
+          "M3_FPR": 0.0488,
+          "control_FPR": 0.0476,
+          "paired_difference": {
+            "n": 5000,
+            "mean": 0.0012,
+            "sd": 0.15493017999129294,
+            "median": 0.0,
+            "ci95": [
+              -0.0031207380139977384,
+              0.005520738013997738
+            ]
+          },
+          "passed": true
+        }
+      ]
+    }
+  },
+  "primary_margin": 0.5,
+  "corrected_interval": 0.99375,
+  "independent_innovation_blocks": 1200,
+  "interpretation": "Explicit Y/U labels do not add observable information in the frozen deterministic step-response family; non-equivalent kernel/shape contrasts must be assessed separately"
+}
