@@ -1,0 +1,113 @@
+{
+  "name": "C7-B1 only: actual source interventions and passive causal equivalence",
+  "not_run": [
+    "C7-B2 input optimization",
+    "C7-B3 adaptive intervention",
+    "C7-C causal failure warning"
+  ],
+  "dt": 0.05,
+  "clock": 0.25,
+  "end": 25,
+  "source_intervention": "active do(Y_t=I_t) for entire0..25; I zero outside10..14; overwrites both endogenous source generators; not editing X",
+  "passive_models": {
+    "H1": "Y=A step(t-10), tau Udot=Y-U",
+    "H2": "Y=A(1-exp(-(t-10)/tau))step(t-10), U=Y direct"
+  },
+  "observation": "dX=(1.5-.15X-U)dt+sigma*dW, sensor V_U=U+eta; source actuator gain assumed calibrated to1; unknown individual tau marginalized",
+  "input_design": {
+    "I0": "no do intervention; endogenous sources, X/U exactly same across labels",
+    "I1": "unit step held10..14 then released/clamped0; not a permanent step",
+    "I2": "amplitude sqrt(8), duration.5 from10, then0",
+    "I3": "16 blocks of.25, exactly8 on at sqrt(2), first on and7 remaining selected randomly independent of label"
+  },
+  "energy": "all active total int I^2dt=4, amplitude<=sqrt(8); report consumed energy at decision because early energy is not matched",
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "true_tau": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "candidate_tau": [
+    0.05,
+    0.06294627058970836,
+    0.07924465962305566,
+    0.09976311574844397,
+    0.125594321575479,
+    0.15811388300841894,
+    0.19905358527674863,
+    0.2505936168136361,
+    0.3154786722400966,
+    0.3971641173621407,
+    0.49999999999999994,
+    0.6294627058970836,
+    0.7924465962305569,
+    0.9976311574844399,
+    1.2559432157547903,
+    1.5811388300841893,
+    1.9905358527674866,
+    2.505936168136362,
+    3.154786722400966,
+    3.9716411736214083,
+    5.0
+  ],
+  "observations": [
+    "X",
+    "X_U"
+  ],
+  "sensor_std": 0.1,
+  "cohorts": 2,
+  "n_per_class_cell_cohort": 100,
+  "seeds": {
+    "healthy": [
+      401000,
+      401001,
+      401002
+    ],
+    "sensor": [
+      402000,
+      402001,
+      402002
+    ],
+    "calibration": [
+      403000,
+      403001,
+      403002
+    ],
+    "null": [
+      404000,
+      404001,
+      404002
+    ],
+    "test": [
+      [
+        410000,
+        410001,
+        410002
+      ],
+      [
+        411000,
+        411001,
+        411002
+      ]
+    ]
+  },
+  "training": "new healthy-X AR and healthy sensor variance only; hypotheses predeclared, no true labels/tau/hidden source to inference",
+  "decision": "prefix Gaussian likelihood and equal model priors, uniform log-grid tau prior for H1; posterior>=.95 same class2 updates then irrevocable first commit; no truth-driven retry",
+  "primary": "X-only correct first-commit coverage by14, each active input vs paired passive I0;3 Bonferroni contrasts98.3333% paired stratified-cluster bootstrap,5pp reference and both cohorts positive",
+  "uncertainty": "hard argmax accuracy separate from committed accuracy, wrong-first, refusal, delay and all-event coverage; do not call identity confidence a failure alarm",
+  "null_controls": "blank do(Y=0) has identical candidate predictions and should give no identity commitment; separate registered-input nominal goodness-of-fit monitor evaluates whole-trajectory false anomaly rate",
+  "nominal_monitor": "minimum cumulative whitened residual sum over H1 tau grid and H2 direct, standardized by observation count; separately calibrated no-fault mixture of input types and both mechanisms; no true label passed to monitor",
+  "calibration": {
+    "n": 4000,
+    "healthy_audit": 4000,
+    "target": 0.05,
+    "threshold": "binomial order-statistic tolerance, simultaneous95% over6 noise/observation cells"
+  },
+  "interpretation": "active-model identity is not a causal-failure alarm; nominal-monitor recall not tested; true system fixed during each trial; all conclusions conditional on actuator modularity and calibrated units",
+  "equivalence_control": "eliminating U in H1 gives same physical model for every source command; interventions cannot distinguish that alternate representation"
+}

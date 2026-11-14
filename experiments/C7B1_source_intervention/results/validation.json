@@ -1,0 +1,36 @@
+{
+  "equal_active_energy": {
+    "I1_step_hold": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "I2_pulse": [
+      4.000000000000002,
+      4.000000000000002,
+      4.000000000000002
+    ],
+    "I3_random": [
+      4.000000000000002,
+      4.000000000000002,
+      4.000000000000002
+    ],
+    "blank": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "passive_X_U_identical": true,
+  "passive_distinct_source": true,
+  "independent_continuous_equivalence_error": 4.565237077258644e-13,
+  "reduced_form_all_registered_input_error": 1.942890293094024e-16,
+  "no_future_prefix_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "blank_no_identity_commit": true,
+  "wrong_commit_not_overwritten": true,
+  "independent_joint_likelihood_error": 0.0
+}

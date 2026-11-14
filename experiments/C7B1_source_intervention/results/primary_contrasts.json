@@ -1,0 +1,44 @@
+[
+  {
+    "input": "I1_step_hold",
+    "metric": "X_correct_first_by14",
+    "gain": 0.25666666666666665,
+    "simultaneous_ci": [
+      0.24229166666666666,
+      0.27145833333333336
+    ],
+    "cohort_gains": {
+      "0": 0.26708333333333334,
+      "1": 0.24625
+    },
+    "passes": true
+  },
+  {
+    "input": "I2_pulse",
+    "metric": "X_correct_first_by14",
+    "gain": 0.6654166666666667,
+    "simultaneous_ci": [
+      0.65,
+      0.6803489583333333
+    ],
+    "cohort_gains": {
+      "0": 0.6616666666666666,
+      "1": 0.6691666666666667
+    },
+    "passes": true
+  },
+  {
+    "input": "I3_random",
+    "metric": "X_correct_first_by14",
+    "gain": 0.6345833333333334,
+    "simultaneous_ci": [
+      0.6177760416666668,
+      0.6511822916666666
+    ],
+    "cohort_gains": {
+      "0": 0.64375,
+      "1": 0.6254166666666666
+    },
+    "passes": true
+  }
+]

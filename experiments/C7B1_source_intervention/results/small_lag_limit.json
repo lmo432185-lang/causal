@@ -1,0 +1,18 @@
+[
+  {
+    "tau": 0.1,
+    "mean_squared_force_integral_distance": 0.03860825720624084
+  },
+  {
+    "tau": 0.01,
+    "mean_squared_force_integral_distance": 0.0015595972948220795
+  },
+  {
+    "tau": 0.001,
+    "mean_squared_force_integral_distance": 1.5766520635092748e-05
+  },
+  {
+    "tau": 0.0001,
+    "mean_squared_force_integral_distance": 1.5762263898018938e-07
+  }
+]

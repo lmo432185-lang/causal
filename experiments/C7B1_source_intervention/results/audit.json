@@ -1,0 +1,24 @@
+{
+  "frozen_files_unchanged": {
+    "config.py": true,
+    "physics.py": true,
+    "inference.py": true,
+    "run.py": true,
+    "PROTOCOL.json": true,
+    "results/trained_settings.json": true
+  },
+  "records": 38400,
+  "commit_outcome_partition": true,
+  "passive_all_refuse_and_forced_chance": true,
+  "equal_active_energy": true,
+  "calibration_thresholds_reproduced": {
+    "0": true,
+    "1": true,
+    "2": true
+  },
+  "replayed_probability_float32_max_error": 8.137165396351443e-41,
+  "replayed_nominal_score_max_error": 0.0,
+  "actual_source_command_identical_across_mechanisms": true,
+  "observation_equation_unchanged": true,
+  "inference_interface": "(x, command, bg, V=None, Vvar=None, passive=False)"
+}
