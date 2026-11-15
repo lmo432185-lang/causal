@@ -1,0 +1,78 @@
+[
+  {
+    "test": "J_superiority",
+    "available": true,
+    "selected": "square_period0.2_E4",
+    "metric": "J",
+    "mean_difference": 0.1802888888888889,
+    "simultaneous_ci": [
+      0.14881578993055553,
+      0.21094451822916663
+    ],
+    "cohort_differences": {
+      "0": 0.1673,
+      "1": 0.19327777777777777
+    },
+    "margin": 0,
+    "practical": 0.02,
+    "energy": 4.000000000000001,
+    "passes": true
+  },
+  {
+    "test": "coverage_noninferiority",
+    "available": true,
+    "selected": "square_period0.2_E4",
+    "metric": "cover_4.0",
+    "mean_difference": 0.13791666666666666,
+    "simultaneous_ci": [
+      0.11312499999999999,
+      0.16291666666666665
+    ],
+    "cohort_differences": {
+      "0": 0.12916666666666668,
+      "1": 0.14666666666666667
+    },
+    "margin": -0.05,
+    "practical": null,
+    "energy": 4.000000000000001,
+    "passes": true
+  },
+  {
+    "test": "energy_noninferiority",
+    "available": true,
+    "selected": "square_period0.2_E2",
+    "metric": "cover_4.0",
+    "mean_difference": -0.008125,
+    "simultaneous_ci": [
+      -0.03458463541666666,
+      0.016667968749999987
+    ],
+    "cohort_differences": {
+      "0": -0.01125,
+      "1": -0.005
+    },
+    "margin": -0.1,
+    "practical": null,
+    "energy": 2.0,
+    "passes": true
+  },
+  {
+    "test": "high_noise_superiority",
+    "available": true,
+    "selected": "pulse_d0.5_E4",
+    "metric": "cover_4.0",
+    "mean_difference": 0.0,
+    "simultaneous_ci": [
+      0.0,
+      0.0
+    ],
+    "cohort_differences": {
+      "0": 0.0,
+      "1": 0.0
+    },
+    "margin": 0,
+    "practical": 0.05,
+    "energy": 4.000000000000001,
+    "passes": false
+  }
+]

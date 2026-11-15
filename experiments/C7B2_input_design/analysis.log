@@ -1,0 +1,84 @@
+       J  energy     peak     tcap    wrong   refuse    cover          role             program  correct  conditional_delay  final_hard_accuracy  energy_at_commit  nominal_fpr  cover_0.5  cover_1.0  cover_2.0  cover_4.0  cover_8.0  cover_15.0
+0.848333     4.0 2.828427 8.937448 0.000833 0.576667 0.421458     reference       pulse_d0.5_E4 0.422500           0.650764             0.923125          4.000000     0.025208   0.305417   0.407917   0.418542   0.421458   0.422500    0.422500
+0.668044     4.0 1.414214 7.228281 0.002500 0.414167 0.559375         bestJ square_period0.2_E4 0.583333           1.677054             0.936042          1.716181     0.028125   0.161250   0.262500   0.400000   0.559375   0.582917    0.583333
+0.668044     4.0 1.414214 7.228281 0.002500 0.414167 0.559375       fastest square_period0.2_E4 0.583333           1.677054             0.936042          1.716181     0.028125   0.161250   0.262500   0.400000   0.559375   0.582917    0.583333
+0.757451     2.0 1.000000 9.168229 0.001667 0.555208 0.413333 lowest_energy square_period0.2_E2 0.443125           1.839445             0.893333          0.926347     0.029167   0.097708   0.182708   0.287917   0.413333   0.442500    0.443125
+0.848333     4.0 2.828427 8.937448 0.000833 0.576667 0.421458    high_noise       pulse_d0.5_E4 0.422500           0.650764             0.923125          4.000000     0.025208   0.305417   0.407917   0.418542   0.421458   0.422500    0.422500
+[
+  {
+    "test": "J_superiority",
+    "available": true,
+    "selected": "square_period0.2_E4",
+    "metric": "J",
+    "mean_difference": 0.1802888888888889,
+    "simultaneous_ci": [
+      0.14881578993055553,
+      0.21094451822916663
+    ],
+    "cohort_differences": {
+      "0": 0.1673,
+      "1": 0.19327777777777777
+    },
+    "margin": 0,
+    "practical": 0.02,
+    "energy": 4.000000000000001,
+    "passes": true
+  },
+  {
+    "test": "coverage_noninferiority",
+    "available": true,
+    "selected": "square_period0.2_E4",
+    "metric": "cover_4.0",
+    "mean_difference": 0.13791666666666666,
+    "simultaneous_ci": [
+      0.11312499999999999,
+      0.16291666666666665
+    ],
+    "cohort_differences": {
+      "0": 0.12916666666666668,
+      "1": 0.14666666666666667
+    },
+    "margin": -0.05,
+    "practical": null,
+    "energy": 4.000000000000001,
+    "passes": true
+  },
+  {
+    "test": "energy_noninferiority",
+    "available": true,
+    "selected": "square_period0.2_E2",
+    "metric": "cover_4.0",
+    "mean_difference": -0.008125,
+    "simultaneous_ci": [
+      -0.03458463541666666,
+      0.016667968749999987
+    ],
+    "cohort_differences": {
+      "0": -0.01125,
+      "1": -0.005
+    },
+    "margin": -0.1,
+    "practical": null,
+    "energy": 2.0,
+    "passes": true
+  },
+  {
+    "test": "high_noise_superiority",
+    "available": true,
+    "selected": "pulse_d0.5_E4",
+    "metric": "cover_4.0",
+    "mean_difference": 0.0,
+    "simultaneous_ci": [
+      0.0,
+      0.0
+    ],
+    "cohort_differences": {
+      "0": 0.0,
+      "1": 0.0
+    },
+    "margin": 0,
+    "practical": 0.05,
+    "energy": 4.000000000000001,
+    "passes": false
+  }
+]

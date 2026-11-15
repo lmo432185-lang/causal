@@ -1,0 +1,22 @@
+{
+  "time": "2026-11-15T13:41:03.897794+00:00",
+  "reference": "pulse_d0.5_E4",
+  "policies": {
+    "bestJ": "square_period0.2_E4",
+    "fastest": "square_period0.2_E4",
+    "lowest_energy": "square_period0.2_E2",
+    "high_noise": "pulse_d0.5_E4"
+  },
+  "validation_reference_coverage": 0.43583333333333335,
+  "coverage_retention_fraction": 0.8,
+  "pareto": [
+    "pulse_d0.25_E2",
+    "square_period0.2_E1",
+    "square_period0.2_E2",
+    "square_period0.2_E4",
+    "square_period0.5_E2",
+    "square_period0.5_E4",
+    "step_E1"
+  ],
+  "protocol_hash": "456855c519ca1daed5acde154913da53d1935ca3ff8008e84dbdec4fab425483"
+}

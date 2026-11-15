@@ -1,0 +1,49 @@
+2026-11-15T13:36:26.135050+00:00 Nominal calibration/audit noise=0.12 programs=6/46
+2026-11-15T13:36:36.097487+00:00 Nominal calibration/audit noise=0.12 programs=12/46
+2026-11-15T13:36:46.398487+00:00 Nominal calibration/audit noise=0.12 programs=18/46
+2026-11-15T13:36:56.800715+00:00 Nominal calibration/audit noise=0.12 programs=24/46
+2026-11-15T13:37:07.887081+00:00 Nominal calibration/audit noise=0.12 programs=30/46
+2026-11-15T13:37:18.049601+00:00 Nominal calibration/audit noise=0.12 programs=36/46
+2026-11-15T13:37:28.305405+00:00 Nominal calibration/audit noise=0.12 programs=42/46
+2026-11-15T13:37:35.191166+00:00 Nominal complete noise=0.12
+2026-11-15T13:37:45.506917+00:00 Nominal calibration/audit noise=0.35 programs=6/46
+2026-11-15T13:37:56.040222+00:00 Nominal calibration/audit noise=0.35 programs=12/46
+2026-11-15T13:38:06.705853+00:00 Nominal calibration/audit noise=0.35 programs=18/46
+2026-11-15T13:38:17.305256+00:00 Nominal calibration/audit noise=0.35 programs=24/46
+2026-11-15T13:38:27.734442+00:00 Nominal calibration/audit noise=0.35 programs=30/46
+2026-11-15T13:38:38.052833+00:00 Nominal calibration/audit noise=0.35 programs=36/46
+2026-11-15T13:38:48.509134+00:00 Nominal calibration/audit noise=0.35 programs=42/46
+2026-11-15T13:38:55.415604+00:00 Nominal complete noise=0.35
+2026-11-15T13:39:05.963781+00:00 Nominal calibration/audit noise=0.7 programs=6/46
+2026-11-15T13:39:15.921734+00:00 Nominal calibration/audit noise=0.7 programs=12/46
+2026-11-15T13:39:25.921909+00:00 Nominal calibration/audit noise=0.7 programs=18/46
+2026-11-15T13:39:36.467231+00:00 Nominal calibration/audit noise=0.7 programs=24/46
+2026-11-15T13:39:46.563235+00:00 Nominal calibration/audit noise=0.7 programs=30/46
+2026-11-15T13:39:56.332470+00:00 Nominal calibration/audit noise=0.7 programs=36/46
+2026-11-15T13:40:06.673090+00:00 Nominal calibration/audit noise=0.7 programs=42/46
+2026-11-15T13:40:13.541600+00:00 Nominal complete noise=0.7
+2026-11-15T13:40:19.748346+00:00 Validation programs=6/46
+2026-11-15T13:40:25.892997+00:00 Validation programs=12/46
+2026-11-15T13:40:32.544879+00:00 Validation programs=18/46
+2026-11-15T13:40:39.163130+00:00 Validation programs=24/46
+2026-11-15T13:40:45.641130+00:00 Validation programs=30/46
+2026-11-15T13:40:51.929830+00:00 Validation programs=36/46
+2026-11-15T13:40:58.703761+00:00 Validation programs=42/46
+2026-11-15T13:41:03.899307+00:00 FROZEN POLICIES {'bestJ': 'square_period0.2_E4', 'fastest': 'square_period0.2_E4', 'lowest_energy': 'square_period0.2_E2', 'high_noise': 'pulse_d0.5_E4'}
+2026-11-15T13:41:14.799313+00:00 Test programs=3/46
+2026-11-15T13:41:25.289554+00:00 Test programs=6/46
+2026-11-15T13:41:36.611202+00:00 Test programs=9/46
+2026-11-15T13:41:48.488022+00:00 Test programs=12/46
+2026-11-15T13:42:00.818171+00:00 Test programs=15/46
+2026-11-15T13:42:13.270514+00:00 Test programs=18/46
+2026-11-15T13:42:25.654448+00:00 Test programs=21/46
+2026-11-15T13:42:38.310060+00:00 Test programs=24/46
+2026-11-15T13:42:50.966977+00:00 Test programs=27/46
+2026-11-15T13:43:03.962024+00:00 Test programs=30/46
+2026-11-15T13:43:17.177433+00:00 Test programs=33/46
+2026-11-15T13:43:29.842157+00:00 Test programs=36/46
+2026-11-15T13:43:42.346529+00:00 Test programs=39/46
+2026-11-15T13:43:55.289872+00:00 Test programs=42/46
+2026-11-15T13:44:07.888725+00:00 Test programs=45/46
+2026-11-15T13:44:21.616880+00:00 Stress complete
+2026-11-15T13:44:21.760506+00:00 ALL COMPLETE 485.5s

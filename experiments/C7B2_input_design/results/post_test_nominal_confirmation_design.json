@@ -1,0 +1,10 @@
+{
+  "post_test": true,
+  "reason": "Selected E4 square has5.44% nominal anomaly point in dependent main test; follow up independently without retuning",
+  "n_per_program_noise": 5000,
+  "seed_base": 630000,
+  "seed_derivation": "run.seed_for(base+100*noise_index,program,batch)",
+  "no_threshold_change": true,
+  "no_policy_change": true,
+  "not_part_of_primary_inferential_family": true
+}

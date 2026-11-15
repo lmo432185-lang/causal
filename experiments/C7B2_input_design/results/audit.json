@@ -1,0 +1,33 @@
+{
+  "protocol_registered_before_selection_and_test": true,
+  "frozen_files_unchanged": {
+    "config.py": true,
+    "physics.py": true,
+    "inference.py": true,
+    "run.py": true,
+    "PROTOCOL.json": true,
+    "PROTOCOL_REGISTERED.json": true,
+    "results/trained_settings.json": true,
+    "results/SELECTION.json": true
+  },
+  "validation_selection_exactly_reproduced": {
+    "bestJ": "square_period0.2_E4",
+    "fastest": "square_period0.2_E4",
+    "lowest_energy": "square_period0.2_E2",
+    "high_noise": "pulse_d0.5_E4"
+  },
+  "only_primary_candidates_selected": true,
+  "validation_rows": 55200,
+  "test_rows": 220800,
+  "stress_rows": 7200,
+  "all_costs_caps_and_outcome_partitions_valid": true,
+  "all138_calibrated_thresholds_reproduced": {
+    "0": true,
+    "1": true,
+    "2": true
+  },
+  "replay_float32_posterior_max_error": 2.979962976379369e-08,
+  "replay_score_error": 0.0,
+  "command_signature": "(n, program, seed)",
+  "inference_signature": "(x, command, bg, V=None, Vvar=None, passive=False)"
+}
