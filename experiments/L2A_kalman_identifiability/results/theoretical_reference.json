@@ -1,0 +1,28 @@
+[
+  {
+    "task": "Y",
+    "unconditional_variance": 0.6944444444444446,
+    "expected_filter_MSE": 0.5692477897915789,
+    "expected_smooth_MSE": 0.2828918440110844,
+    "expected_filter_NMSE": 0.8197168172998733,
+    "expected_smooth_NMSE": 0.40736425537596144,
+    "population_filter_correlation": 0.4245976715670102,
+    "population_smoother_correlation": 0.7698283864758682,
+    "unseen_fresh_innovation_variance": 0.41,
+    "unseen_fresh_fraction_of_filter_uncertainty": 0.7202487341235265,
+    "remaining_filter_variance": 0.1592477897915789
+  },
+  {
+    "task": "Z",
+    "unconditional_variance": 1.6971182412358883,
+    "expected_filter_MSE": 0.5619702756648425,
+    "expected_smooth_MSE": 0.1758886907188285,
+    "expected_filter_NMSE": 0.33113206965214176,
+    "expected_smooth_NMSE": 0.10363962064937887,
+    "population_filter_correlation": 0.8178434632298887,
+    "population_smoother_correlation": 0.9467631062470808,
+    "unseen_fresh_innovation_variance": 0.3125,
+    "unseen_fresh_fraction_of_filter_uncertainty": 0.5560792332482264,
+    "remaining_filter_variance": 0.24947027566484248
+  }
+]

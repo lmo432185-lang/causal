@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "trajectories_per_seed": 1000,
+  "split": [
+    600,
+    200,
+    200
+  ],
+  "length": 500,
+  "burn": 200,
+  "noise_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "history": 20,
+  "latent": 2,
+  "steps": 4000,
+  "batch": 512,
+  "lr": 0.001,
+  "validation_every": 100,
+  "patience": 8,
+  "noise": "mutually independent Gaussian innovations",
+  "alignment": "history ends at t; probe Y_t,Z_t; predict X_t+1",
+  "predictor_controls": "ridge alpha=1e-3 in standardized features; linear heads; no test fitting"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 101,
+    "method": "A1_current",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 101,
+    "method": "A1_current",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 101,
+    "method": "A2_history20",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 101,
+    "method": "A2_history20",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 101,
+    "method": "A3_original_L",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 101,
+    "method": "A3_original_L",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 202,
+    "method": "A1_current",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 202,
+    "method": "A1_current",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 202,
+    "method": "A2_history20",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 202,
+    "method": "A2_history20",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 202,
+    "method": "A3_original_L",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 202,
+    "method": "A3_original_L",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 303,
+    "method": "A1_current",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 303,
+    "method": "A1_current",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 303,
+    "method": "A2_history20",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 303,
+    "method": "A2_history20",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 303,
+    "method": "A3_original_L",
+    "task": "Y",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  },
+  {
+    "seed": 303,
+    "method": "A3_original_L",
+    "task": "Z",
+    "max_L1_metric_difference": 5.551115123125783e-17
+  }
+]

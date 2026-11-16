@@ -1,0 +1,90 @@
+[
+  {
+    "task": "Y",
+    "method": "A4_Kalman_filter",
+    "reference": "A3_original_L",
+    "MSE_difference": -0.0038067413915797293,
+    "CI95": [
+      -0.004311560981396766,
+      -0.003306735601897318
+    ],
+    "relative_MSE_reduction": 0.006641584494584518
+  },
+  {
+    "task": "Y",
+    "method": "A5_RTS_smoother",
+    "reference": "A4_Kalman_filter",
+    "MSE_difference": -0.28782889847526727,
+    "CI95": [
+      -0.2918857042527911,
+      -0.28379585369023147
+    ],
+    "relative_MSE_reduction": 0.505529784389046
+  },
+  {
+    "task": "Y",
+    "method": "A4_Kalman_filter",
+    "reference": "A2_history20",
+    "MSE_difference": -0.00022784022080568872,
+    "CI95": [
+      -0.00034779516297430736,
+      -0.00010122551133890887
+    ],
+    "relative_MSE_reduction": 0.00040000828737973837
+  },
+  {
+    "task": "Y",
+    "method": "D_known_model_history20",
+    "reference": "A4_Kalman_filter",
+    "MSE_difference": 4.208780638818392e-11,
+    "CI95": [
+      -6.013719554276431e-10,
+      6.622871200669586e-10
+    ],
+    "relative_MSE_reduction": -7.392131351480202e-11
+  },
+  {
+    "task": "Z",
+    "method": "A4_Kalman_filter",
+    "reference": "A3_original_L",
+    "MSE_difference": -0.006112429726749875,
+    "CI95": [
+      -0.006633708379122311,
+      -0.005584675424379659
+    ],
+    "relative_MSE_reduction": 0.010784538501015573
+  },
+  {
+    "task": "Z",
+    "method": "A5_RTS_smoother",
+    "reference": "A4_Kalman_filter",
+    "MSE_difference": -0.3848026130275472,
+    "CI95": [
+      -0.3879743140718076,
+      -0.38166981582887977
+    ],
+    "relative_MSE_reduction": 0.6863328763655057
+  },
+  {
+    "task": "Z",
+    "method": "A4_Kalman_filter",
+    "reference": "A2_history20",
+    "MSE_difference": -0.0001651876586269931,
+    "CI95": [
+      -0.00024789434597884396,
+      -7.699670872335608e-05
+    ],
+    "relative_MSE_reduction": 0.00029454147083662896
+  },
+  {
+    "task": "Z",
+    "method": "D_known_model_history20",
+    "reference": "A4_Kalman_filter",
+    "MSE_difference": -3.3349233939198677e-10,
+    "CI95": [
+      -1.041384682131293e-09,
+      3.9114093473615274e-10
+    ],
+    "relative_MSE_reduction": 5.948159742530379e-10
+  }
+]

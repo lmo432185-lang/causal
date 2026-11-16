@@ -1,0 +1,25 @@
+{
+  "pretest_and_original_input_hashes": "PASS",
+  "independent_block_Gaussian_max_errors": {
+    "filter_mean": 5.329070518200751e-15,
+    "smooth_mean": 4.884981308350689e-15,
+    "filter_cov": 8.881784197001252e-16,
+    "smooth_cov": 1.7763568394002505e-15
+  },
+  "future_truncation_filter_max_error": 0.0,
+  "exact_X_and_covariance_PSD": "PASS",
+  "fresh_unseen_innovation_covariance_floor": [
+    [
+      0.41,
+      0.1
+    ],
+    [
+      0.1,
+      0.3125
+    ]
+  ],
+  "exact_burn_prior_vs_stationary_relative_error": 4.405847541760362e-16,
+  "L1_replayed_MSE_max_difference": 5.551115123125783e-17,
+  "records": 7200,
+  "status": "PASS"
+}

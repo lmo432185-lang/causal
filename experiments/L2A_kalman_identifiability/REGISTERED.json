@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-16T14:08:20.754809+00:00",
+  "sha256": {
+    "kalman.py": "04d719430b2635e07331184150e11ea1227446867cac3822ada7ba6a964529c4",
+    "encoder.py": "f2db3ceca8cc4c47d71a2b2d01d10d9d2affc092b4cf340bf39c49fccf3082e2",
+    "run.py": "13b9e7569512bed5eacb5af3adb8c1a77be8564ab9de99156d99675f0d05ae1a",
+    "PROTOCOL.json": "62e9c515ad071e24fb18263f55ad56172e107dc0cf9ad801e9bcb6d7dfff721f",
+    "SOURCE_MANIFEST.json": "268f14e01304e369bae054ab48a682c2607eddaddec604803fd42e03d5184126"
+  }
+}

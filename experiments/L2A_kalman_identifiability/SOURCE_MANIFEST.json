@@ -1,0 +1,28 @@
+{
+  "source_repo": "https://github.com/lmo432185-lang/causal",
+  "source_commit": "a033238a17ccab47c417ea2f03e6da4f5bf0f9e6",
+  "source_directory": "experiments/L1_hidden_representation",
+  "time": "2026-11-16T14:07:26.419522+00:00",
+  "files": {
+    "inputs/seed101/X_only.npz": "15d66fe47a30fcf3df3a96fe725dfb72de48db2380c6b5f4a7788dab81e07352",
+    "inputs/seed101/sealed_truth.npz": "4944862e9cb7ac87cf5c981974c8be03d574aed5eb41e0e71e49083bed53a131",
+    "inputs/seed101/frozen.pt": "7c2fb1c72463d2e79ffcf644ee4dd7261522f0c1647e97587b3e2ea5434cf7eb",
+    "inputs/seed101/probe_maps.json": "e00f7c538ab331ddb8aa12389e14d032f90c8487cca8cb0e214988e0537a6f25",
+    "inputs/seed101/FREEZE.json": "dda94ba18c1520252477a40d0fd53178d03adcf9816dd7fdab0390b1bd43c33c",
+    "inputs/seed202/X_only.npz": "111d4ded8daa0807edd8a13c41c2527fbe49a6e1b39d6b45acebd63692239724",
+    "inputs/seed202/sealed_truth.npz": "f16f91f15d65335dd3eddea88991551712d93c6e5b244a1b22ff42f8c4af0b23",
+    "inputs/seed202/frozen.pt": "f6deb01c611e2af638cec23b3c60cc7b3ee0cfa15258baa0d83d4e41931adb36",
+    "inputs/seed202/probe_maps.json": "ee63c0f0219da6e3c0ffd0d2c43dd51afad6a328fe5c8b46281601f7dcd14d93",
+    "inputs/seed202/FREEZE.json": "2c331947c8cc69b83252e68a7860b7774328e0227fe446f4c447bb4fa9525215",
+    "inputs/seed303/X_only.npz": "1d72532c32362cf6e2c08160f909bb91cf80f04c8a6b9a3a9b6e268ce4a7a819",
+    "inputs/seed303/sealed_truth.npz": "ad52e0a1dc8dfdb630e619c75dcc6956a382150ce50cd17e031fef1a138a38e0",
+    "inputs/seed303/frozen.pt": "4bfd3432e0dc848d8957061c88393bf3461518be770b5153878277320f63c60d",
+    "inputs/seed303/probe_maps.json": "5d6ee1176ad1b80da1046d3b3cbaefe6349ba8b9ac5f99008b2c4161f2cbc2e2",
+    "inputs/seed303/FREEZE.json": "fd1981f1cbac3ad1f3d635b66c9eeeee223f0aa8e055ddcac26899e73ab88b11",
+    "inputs/L1_PROTOCOL.json": "84c3bd2e3a51019b036b1e96185cdade1ca68a40fe028726201fb4a9d9123d7a",
+    "inputs/L1_REGISTERED.json": "4420b5e9ff8f574de676d5409b78ba142ba65bcad128121376fe757e6122e4dc",
+    "inputs/L1_run.py": "56ab75dbcde44c9a724c7fcf96ef33d75cacc2efcbb285b4866f4a22ca015c79",
+    "inputs/L1_REPORT.md": "396f72511f2710c6ac8b4ba7ef6ff172abb3f9a10ca68d7f5b369f0cbb3af7da",
+    "inputs/L1_trajectory_metrics.csv.gz": "e1b9296628f9763d337506beae219995f08a7dcf006eec5549da02e79bbe7964"
+  }
+}
