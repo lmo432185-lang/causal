@@ -1,0 +1,35 @@
+{
+  "frozen_files_unchanged": {
+    "config.py": true,
+    "physics.py": true,
+    "detectors.py": true,
+    "train.py": true,
+    "run.py": true,
+    "PROTOCOL.json": true,
+    "PROTOCOL_REGISTERED.json": true,
+    "legacy_stream.py": true,
+    "source_C0.py": true,
+    "source_A.py": true,
+    "support.py": true,
+    "results/settings.json": true
+  },
+  "registered_before_test": true,
+  "rows": 518400,
+  "unique_row_keys": true,
+  "outcome_partition": true,
+  "input_energy16_active": true,
+  "same_failure_and_phase_across_modes_policies": true,
+  "all_calibrated_thresholds_reproduced": 648,
+  "replay_first_alarms_equal": true,
+  "replay_float32_max_errors": {
+    "GLR": 1.5235530383961304e-05,
+    "GainGLR": 1.520246769359801e-05,
+    "GainSpecific": 1.520246769359801e-05,
+    "CUSUM": 9.522712538512224e-07,
+    "M3_adapted": 1.5179871127202205e-05,
+    "PredictionError": 3.5053816986874153e-06
+  },
+  "inference_interface": "(x, I, model, scales)",
+  "input_interface": "(n, policy, seed, steps=640)",
+  "true_tau_only_in_generator": true
+}

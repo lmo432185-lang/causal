@@ -1,0 +1,113 @@
+{
+  "name": "C7-C1 genuine causal-path gain failure",
+  "scope": "primary abrupt beta1->0 andlinear4-unit decay1->0;secondary4-unit decay1->.5;normalbeta fluctuation andsource-only confounding diagnostics",
+  "physics": "Udot=(1+registeredI-U)/tau;dX=(1.5-.15X-beta(t)*U)dt+sigma*dW;onlybeta changes inprimary;U andsource unchangedbybeta",
+  "normal": "beta=1+.05*sin(randomphase,period4..12),held each.05;failure multiplies thisnormalfluctuation by1-rho*progress;fullfailure beta0",
+  "dt": 0.05,
+  "end": 32.0,
+  "clock": 0.25,
+  "noise": [
+    0.12,
+    0.35,
+    0.7
+  ],
+  "true_tau": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "test_n": 100,
+  "test_cohorts": 2,
+  "failure_time": "random uniform .25-grid10..18 independentofprobephase,not suppliedtodetectors",
+  "inputs": {
+    "period": 8,
+    "phase": "random .05-grid0..8 independentlyoffailure;registeredcommands",
+    "none": "natural sourcebaseline1",
+    "pulse": "B2 reference additional sqrt(8) for.5 each8units",
+    "square": "B2 frozen additional sqrt(2) .1on/.1off for4 ofeach8units",
+    "cost": "eachactiveenergy4 percycle,16 over32;noinputreselection"
+  },
+  "learning": "healthy do(Y=0),U0=0 learnsbackgroundq/c/variance;independenthealthy source1+knownmixedcommands learnsbaselineforce,inputgain,tau byprofile regression;no trueU/beta/tau/failuretime ininference",
+  "tau_fit": [
+    0.05,
+    0.056100922715098166,
+    0.06294627058970836,
+    0.0706268772311377,
+    0.07924465962305566,
+    0.08891397050194613,
+    0.09976311574844397,
+    0.11193605692841699,
+    0.125594321575479,
+    0.14091914656322266,
+    0.15811388300841894,
+    0.17740669461678774,
+    0.19905358527674863,
+    0.22334179607548155,
+    0.2505936168136361,
+    0.2811706625951745,
+    0.3154786722400966,
+    0.353972892192069,
+    0.3971641173621407,
+    0.4456254690668728,
+    0.49999999999999994,
+    0.5610092271509817,
+    0.6294627058970836,
+    0.7062687723113772,
+    0.7924465962305569,
+    0.8891397050194613,
+    0.9976311574844399,
+    1.11936056928417,
+    1.2559432157547903,
+    1.4091914656322273,
+    1.5811388300841893,
+    1.7740669461678773,
+    1.9905358527674866,
+    2.233417960754816,
+    2.505936168136362,
+    2.8117066259517447,
+    3.154786722400966,
+    3.5397289219206898,
+    3.9716411736214083,
+    4.456254690668729,
+    5.0
+  ],
+  "training": {
+    "background": 1000,
+    "transfer": 160,
+    "cusum_scale": 300
+  },
+  "detectors": {
+    "CUSUM": "multiscale one-sided positiveinnovation CUSUM,scalestrainednormal",
+    "GLR": "generic positive forcingchange,unknownonset andsame6durationgrid",
+    "M3_adapted": "original frozen structured_scores withhealthy-command residual andsignadapter;scorecodeunchanged,notrawold-taskmodel",
+    "GainGLR": "new fractional loss oflearnedtotalnormalforce;unknownonset/duration andrho in[0,1]",
+    "PredictionError": "frozen normal1-unitforecast,registeredfuturecommands knownatissue,latest4maturederrors,2crossings"
+  },
+  "comparison": "full4detectorx3policy factorialplus ownpredictionreference;headline5:passiveCUSUM/GLR/M3,squareGLR,squareGain",
+  "monitor": "first2consecutivecrossings fromtime0,neverrestartattruefailure;earlyalarms countfalseandfailure",
+  "calibration": {
+    "n": 1000,
+    "audit": 1000,
+    "whole_trajectory_targets": [
+      0.01,
+      0.025,
+      0.05
+    ],
+    "main": 0.05,
+    "method": "samequantilerank andindependentnormaldata perplant/noise/policy,pairedaudit;notclaimingfinitetrueFPRexactlyequal"
+  },
+  "primary_tests": "foreach abrupt/gradual:squareGain vs squareGLR all-eventlead>=1coverage superiority5pp;noneGain minussquareGain capped-delay superiority.25time;4Bonferroni98.75% pairedclusterbootstrap4000",
+  "fairness_gate": "no superiority declarationif advantagedpoolednormalFPR exceeds comparatorby>1pp andpaired95%FPRdifferenceCIexcludes0;budgets1/2.5sensitivitiesseparate",
+  "independent_unit": "noise,plant,cohort,trajectory;2400mainpairedblocks;policiespaired onW,failtime,normalbetaosc,phase",
+  "lead": "validpredictionalarm minusvaliddetectoralarm;untriggered/earlyreference,earlydetector,misses allcoveragefailures;windows.5/1/2",
+  "secondary_attribution": "GainSpecific:GainGLR and2logLRgain-minusgeneric>2log10 at2updates;thresholdneverlowerthanGainGLR;stricterdiagnostic,notsame-FPRprimary",
+  "source_only": "beta staysnormal;sourcebaseline1->.5;gainalarms areconfoundingdiagnostic,notnormalFPRorcausalsuccess",
+  "limits": [
+    "knownlinearform andcalibratablesourceport",
+    "stablebackground/naturalbaselineassumptions",
+    "predictionalarm operationalreference notphysicalfailure",
+    "no realdata/B3"
+  ],
+  "seed_algorithm": "seed_for inconfig.py,newnamespace701000+"
+}

@@ -1,0 +1,22 @@
+{
+  "exact_beta_U_integration_versus_independent_ODE_error": 4.995204250235474e-11,
+  "full_failure_innovations_independent_of_U": true,
+  "inputs_and_U_unchanged_by_beta_failure": true,
+  "pre_failure_paths_identical": true,
+  "input_energy16_each_active": true,
+  "no_future_max_errors": {
+    "GLR": 0.0,
+    "GainGLR": 0.0,
+    "GainSpecific": 0.0,
+    "CUSUM": 0.0,
+    "M3_adapted": 0.0,
+    "PredictionError": 0.0
+  },
+  "passive_gain_not_unique_against_offset": true,
+  "frozen_legacy_files_unchanged": {
+    "legacy_stream.py": true,
+    "source_C0.py": true,
+    "source_A.py": true,
+    "support.py": true
+  }
+}

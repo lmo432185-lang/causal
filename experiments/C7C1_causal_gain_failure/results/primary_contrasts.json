@@ -1,0 +1,114 @@
+[
+  {
+    "mode": "abrupt",
+    "test": "same_input_model",
+    "metric": "cover_1.0",
+    "advantaged": "square/GainGLR",
+    "comparator": "square/GLR",
+    "improvement": 0.010833333333333334,
+    "simultaneous_ci": [
+      0.004583333333333333,
+      0.0175
+    ],
+    "cohort_improvements": {
+      "0": 0.0125,
+      "1": 0.009166666666666667
+    },
+    "practical": 0.05,
+    "fairness_gate": {
+      "advantaged_FPR": 0.05133333333333334,
+      "comparator_FPR": 0.054750000000000014,
+      "difference": -0.003416666666666667,
+      "paired_ci95": [
+        -0.005886997614241525,
+        -0.0009463357190918082
+      ],
+      "passes": true
+    },
+    "passes": false
+  },
+  {
+    "mode": "abrupt",
+    "test": "active_input_delay",
+    "metric": "capped_delay",
+    "advantaged": "square/GainGLR",
+    "comparator": "none/GainGLR",
+    "improvement": 0.761875,
+    "simultaneous_ci": [
+      0.6626002604166668,
+      0.8586477864583332
+    ],
+    "cohort_improvements": {
+      "0": 0.733125,
+      "1": 0.790625
+    },
+    "practical": 0.25,
+    "fairness_gate": {
+      "advantaged_FPR": 0.05133333333333334,
+      "comparator_FPR": 0.05300000000000001,
+      "difference": -0.001666666666666667,
+      "paired_ci95": [
+        -0.004217271642215968,
+        0.0008839383088826342
+      ],
+      "passes": true
+    },
+    "passes": true
+  },
+  {
+    "mode": "gradual",
+    "test": "same_input_model",
+    "metric": "cover_1.0",
+    "advantaged": "square/GainGLR",
+    "comparator": "square/GLR",
+    "improvement": 0.013333333333333334,
+    "simultaneous_ci": [
+      0.006250000000000001,
+      0.020419270833333298
+    ],
+    "cohort_improvements": {
+      "0": 0.015833333333333335,
+      "1": 0.010833333333333334
+    },
+    "practical": 0.05,
+    "fairness_gate": {
+      "advantaged_FPR": 0.05133333333333334,
+      "comparator_FPR": 0.054750000000000014,
+      "difference": -0.003416666666666667,
+      "paired_ci95": [
+        -0.005886997614241525,
+        -0.0009463357190918082
+      ],
+      "passes": true
+    },
+    "passes": false
+  },
+  {
+    "mode": "gradual",
+    "test": "active_input_delay",
+    "metric": "capped_delay",
+    "advantaged": "square/GainGLR",
+    "comparator": "none/GainGLR",
+    "improvement": 0.8484375,
+    "simultaneous_ci": [
+      0.7609348958333333,
+      0.9349121093749996
+    ],
+    "cohort_improvements": {
+      "0": 0.8385416666666666,
+      "1": 0.8583333333333333
+    },
+    "practical": 0.25,
+    "fairness_gate": {
+      "advantaged_FPR": 0.05133333333333334,
+      "comparator_FPR": 0.05300000000000001,
+      "difference": -0.001666666666666667,
+      "paired_ci95": [
+        -0.004217271642215968,
+        0.0008839383088826342
+      ],
+      "passes": true
+    },
+    "passes": true
+  }
+]

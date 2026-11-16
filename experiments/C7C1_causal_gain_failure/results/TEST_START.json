@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-16T05:25:14.570094+00:00",
+  "sha256": {
+    "config.py": "7546c93551ef029327efb47ca86a5067f2f86a754a8f4be9f3b04c587afb09da",
+    "physics.py": "7e2383011076a11d345b1b2c50e714c8bb11c72cbe17641efe2901f4de3802ba",
+    "detectors.py": "e3ede5891e74f645923422338479d2d126b81c2911a906150667b7c6e44508d5",
+    "train.py": "2d1d3f68ec04724509a0c755417cd00686dfb80fe55b9098ae5eb3277e77fa5e",
+    "run.py": "d36dbb423cb6755fa47c2fc187c907133cb037b06be78470035a850b86ed60bf",
+    "PROTOCOL.json": "0bacb52ddc293a944ebd11acf8b5db9dc85aab0fe850453466ff50f8f8c9f149",
+    "PROTOCOL_REGISTERED.json": "57b53a47e68a5f63ac92e666e55d4f94ba8ede651581951d211a496a0d9c1e11",
+    "legacy_stream.py": "3d92df5e11852c434f95f19869d0cf8296e455efbbbaba4bbb002d5463bf27cf",
+    "source_C0.py": "a2b7a70124cfce9ab1935a090f67e26a37ab6e36966f876f6cdbd410942d0eb7",
+    "source_A.py": "81ec680c54e2e33c748a86c40c94fb3e63c69f37ef780a3ca12e371f1579cc5f",
+    "support.py": "8b306b00d8d6a8baa5e15b42ef891b99542e9d665d6a67127745d6c9c9943c28",
+    "results/settings.json": "daeaa98e632757635ecd6b601e6f875a2a94dc3d6f3c28d4331e19b633f90f5f"
+  }
+}
