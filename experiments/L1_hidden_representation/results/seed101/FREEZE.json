@@ -1,0 +1,8 @@
+{
+  "time": 1794837414.879666,
+  "checkpoint_sha256": "7c2fb1c72463d2e79ffcf644ee4dd7261522f0c1647e97587b3e2ea5434cf7eb",
+  "run_sha256": "56ab75dbcde44c9a724c7fcf96ef33d75cacc2efcbb285b4866f4a22ca015c79",
+  "best_step": 1900,
+  "validation_X_MSE": 0.15115076303482056,
+  "truth_read_before_freeze": false
+}
