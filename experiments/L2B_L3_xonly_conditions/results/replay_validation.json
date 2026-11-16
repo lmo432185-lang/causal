@@ -1,0 +1,6 @@
+{
+  "case": "source_speed_0.95",
+  "seed": 101,
+  "neural_estimate_max_difference": 0.0,
+  "KF_max_difference": 0.0
+}

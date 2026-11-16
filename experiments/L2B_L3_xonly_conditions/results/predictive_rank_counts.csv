@@ -1,0 +1,4 @@
+group,1,2,3
+G1_direct,2,1,0
+G2_indirect,3,0,0
+G3_mixed,1,1,1

@@ -1,0 +1,90 @@
+[
+  {
+    "pair": "direct_vs_noisy_indirect",
+    "H0": {
+      "kind": "direct",
+      "a": 0.8,
+      "beta": 0.8,
+      "qy": 0.5,
+      "qx": 0.25
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.8,
+      "c": 0.4,
+      "alpha": 0.8246211251235321,
+      "beta": 0.8,
+      "qy": 0.25,
+      "qz": 0.25,
+      "qx": 0.25
+    },
+    "covariance_max_relative_error": 2.8662331472394464e-16,
+    "spectrum_max_relative_error": 6.459479416000908e-16,
+    "matched_stationary_Gaussian_output_laws": true,
+    "equal_prior_exact_posterior": [
+      0.5,
+      0.5
+    ],
+    "decision": "refuse unique structure; known equivalent alternatives, not a learned ambiguity detector"
+  },
+  {
+    "pair": "mixed_positive_cancellation_vs_direct",
+    "H0": {
+      "kind": "mixed",
+      "a": 0.3,
+      "c": 0.8,
+      "alpha": 0.5,
+      "beta": 0.5,
+      "beta1": 0.5,
+      "qy": 0.25,
+      "qz": 0.0,
+      "qx": 0.25
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 0.8,
+      "beta": 0.5,
+      "qy": 0.25,
+      "qx": 0.25
+    },
+    "covariance_max_relative_error": 1.2710680564613099e-16,
+    "spectrum_max_relative_error": 7.350442094069999e-16,
+    "matched_stationary_Gaussian_output_laws": true,
+    "equal_prior_exact_posterior": [
+      0.5,
+      0.5
+    ],
+    "decision": "refuse unique structure; known equivalent alternatives, not a learned ambiguity detector"
+  },
+  {
+    "pair": "source_middle_clock_swap",
+    "H0": {
+      "kind": "indirect",
+      "a": 0.8,
+      "c": 0.4,
+      "alpha": 0.5,
+      "beta": 0.8,
+      "qy": 0.25,
+      "qz": 0.0,
+      "qx": 0.25
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.4,
+      "c": 0.8,
+      "alpha": 0.5,
+      "beta": 0.8,
+      "qy": 0.25,
+      "qz": 0.0,
+      "qx": 0.25
+    },
+    "covariance_max_relative_error": 9.175546372598714e-17,
+    "spectrum_max_relative_error": 7.333583281927638e-16,
+    "matched_stationary_Gaussian_output_laws": true,
+    "equal_prior_exact_posterior": [
+      0.5,
+      0.5
+    ],
+    "decision": "refuse unique structure; known equivalent alternatives, not a learned ambiguity detector"
+  }
+]

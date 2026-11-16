@@ -1,0 +1,728 @@
+[
+  {
+    "cell": "base",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0038067413915797293,
+    "CI95": [
+      -0.00431483088246177,
+      -0.003317957268012223
+    ]
+  },
+  {
+    "cell": "base",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.28782889847526727,
+    "CI95": [
+      -0.2920324416705074,
+      -0.2836665084483835
+    ]
+  },
+  {
+    "cell": "base",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "cell": "base",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.006112429726749875,
+    "CI95": [
+      -0.006617632619362826,
+      -0.005598502062326969
+    ]
+  },
+  {
+    "cell": "base",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.3848026130275472,
+    "CI95": [
+      -0.3878541525022201,
+      -0.38175201647993773
+    ]
+  },
+  {
+    "cell": "base",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.25",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.00425267210668301,
+    "CI95": [
+      -0.00478649923162935,
+      -0.003737398105492543
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.25",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.28937043463085577,
+    "CI95": [
+      -0.2935658587109986,
+      -0.28512892669187423
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.25",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": 0.0014778231164561668,
+    "CI95": [
+      0.0012940343476830272,
+      0.001659851572778824
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.25",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.006880215898031753,
+    "CI95": [
+      -0.00746652547644197,
+      -0.00636307425727312
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.25",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.39688461065194264,
+    "CI95": [
+      -0.4001502320745339,
+      -0.3935264598123407
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.25",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": 0.0006451182598021791,
+    "CI95": [
+      0.00018382725520904063,
+      0.0011442883969107146
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.75",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.006757980067680015,
+    "CI95": [
+      -0.007293663933175272,
+      -0.006161069044870416
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.75",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.2924387082300402,
+    "CI95": [
+      -0.296751109570706,
+      -0.287892635948286
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.75",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.0017436830950673262,
+    "CI95": [
+      -0.002537918150706592,
+      -0.0009206406074847958
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.75",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.02335134364185125,
+    "CI95": [
+      -0.02438065436206836,
+      -0.022345741046420106
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.75",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.452940723361909,
+    "CI95": [
+      -0.4576349569592406,
+      -0.4487060776764346
+    ]
+  },
+  {
+    "cell": "measurement_noise_0.75",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.05902137314234729,
+    "CI95": [
+      -0.06161401842237797,
+      -0.056420757127186374
+    ]
+  },
+  {
+    "cell": "middle_gain_0.25",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0008730881702884324,
+    "CI95": [
+      -0.0011873938381412276,
+      -0.0005498654982547036
+    ]
+  },
+  {
+    "cell": "middle_gain_0.25",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.2329074553197373,
+    "CI95": [
+      -0.23782964289923783,
+      -0.22845033560162223
+    ]
+  },
+  {
+    "cell": "middle_gain_0.25",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.013964954790308313,
+    "CI95": [
+      -0.015519541877009184,
+      -0.012467069157320937
+    ]
+  },
+  {
+    "cell": "middle_gain_0.25",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.010634331514776149,
+    "CI95": [
+      -0.011814353879303323,
+      -0.009443647883318246
+    ]
+  },
+  {
+    "cell": "middle_gain_0.25",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.41954932800086264,
+    "CI95": [
+      -0.42695926314209715,
+      -0.41240419096212105
+    ]
+  },
+  {
+    "cell": "middle_gain_0.25",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.16343437340928518,
+    "CI95": [
+      -0.17071687277514855,
+      -0.15635394444133618
+    ]
+  },
+  {
+    "cell": "middle_gain_1.4",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.005481288722618884,
+    "CI95": [
+      -0.006053098248537151,
+      -0.004907003211285316
+    ]
+  },
+  {
+    "cell": "middle_gain_1.4",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.28974829578547895,
+    "CI95": [
+      -0.2936418416582188,
+      -0.28609552952880407
+    ]
+  },
+  {
+    "cell": "middle_gain_1.4",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.03838148127376401,
+    "CI95": [
+      -0.04001891307064386,
+      -0.036654480674747116
+    ]
+  },
+  {
+    "cell": "middle_gain_1.4",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.009004345355676631,
+    "CI95": [
+      -0.009572999318376938,
+      -0.008469881859727269
+    ]
+  },
+  {
+    "cell": "middle_gain_1.4",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.3646598103486707,
+    "CI95": [
+      -0.3669573500914805,
+      -0.3623818312344213
+    ]
+  },
+  {
+    "cell": "middle_gain_1.4",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.3134686954300336,
+    "CI95": [
+      -0.3155580793297081,
+      -0.3114606253730242
+    ]
+  },
+  {
+    "cell": "middle_memory_0.3",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.00178660136243955,
+    "CI95": [
+      -0.0020851098641876133,
+      -0.0015149291018530654
+    ]
+  },
+  {
+    "cell": "middle_memory_0.3",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.34164144811664054,
+    "CI95": [
+      -0.3448405060460779,
+      -0.3384618825360298
+    ]
+  },
+  {
+    "cell": "middle_memory_0.3",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.010153141634392985,
+    "CI95": [
+      -0.011064372522287596,
+      -0.009341662473098747
+    ]
+  },
+  {
+    "cell": "middle_memory_0.3",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.01038844796328376,
+    "CI95": [
+      -0.01119830178453856,
+      -0.009579387149117094
+    ]
+  },
+  {
+    "cell": "middle_memory_0.3",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.6381005748949478,
+    "CI95": [
+      -0.642631122476781,
+      -0.6335651368664745
+    ]
+  },
+  {
+    "cell": "middle_memory_0.3",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.006127172675943575,
+    "CI95": [
+      -0.006750567124846169,
+      -0.005476136717149135
+    ]
+  },
+  {
+    "cell": "middle_memory_0.9",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.004118358599898611,
+    "CI95": [
+      -0.004747265567935632,
+      -0.0034718286920591645
+    ]
+  },
+  {
+    "cell": "middle_memory_0.9",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.12121490415292248,
+    "CI95": [
+      -0.1252045946400858,
+      -0.11723901390401546
+    ]
+  },
+  {
+    "cell": "middle_memory_0.9",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.03875867902659699,
+    "CI95": [
+      -0.0412786234485026,
+      -0.036005667763418125
+    ]
+  },
+  {
+    "cell": "middle_memory_0.9",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0028180657678817064,
+    "CI95": [
+      -0.0032383019097253947,
+      -0.0024092582694086413
+    ]
+  },
+  {
+    "cell": "middle_memory_0.9",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.3010867754983369,
+    "CI95": [
+      -0.3037792308091371,
+      -0.2983577998986057
+    ]
+  },
+  {
+    "cell": "middle_memory_0.9",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.011470359221641536,
+    "CI95": [
+      -0.012522444923809786,
+      -0.010414312662908256
+    ]
+  },
+  {
+    "cell": "source_gain_0.15",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0005413367013510678,
+    "CI95": [
+      -0.0007855385389671254,
+      -0.00028321416624915025
+    ]
+  },
+  {
+    "cell": "source_gain_0.15",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.09661667394700905,
+    "CI95": [
+      -0.10035936732262239,
+      -0.09285326942492918
+    ]
+  },
+  {
+    "cell": "source_gain_0.15",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.006333430507058017,
+    "CI95": [
+      -0.0070253878682122696,
+      -0.005601542487305457
+    ]
+  },
+  {
+    "cell": "source_gain_0.15",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.002022147878489106,
+    "CI95": [
+      -0.002248984452393864,
+      -0.0017780685299301313
+    ]
+  },
+  {
+    "cell": "source_gain_0.15",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.20912873429046552,
+    "CI95": [
+      -0.21116838615598973,
+      -0.20716387449811963
+    ]
+  },
+  {
+    "cell": "source_gain_0.15",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.043362473998804996,
+    "CI95": [
+      -0.044582461515938594,
+      -0.0423011364037953
+    ]
+  },
+  {
+    "cell": "source_gain_1.0",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.014242109804841488,
+    "CI95": [
+      -0.01513295747080143,
+      -0.013391691452710451
+    ]
+  },
+  {
+    "cell": "source_gain_1.0",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.34721740956897384,
+    "CI95": [
+      -0.350681458412991,
+      -0.3439363167307252
+    ]
+  },
+  {
+    "cell": "source_gain_1.0",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.03841972131650313,
+    "CI95": [
+      -0.03973450709244032,
+      -0.03705680620316846
+    ]
+  },
+  {
+    "cell": "source_gain_1.0",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.02851610415827294,
+    "CI95": [
+      -0.030141079647153988,
+      -0.026897163236566452
+    ]
+  },
+  {
+    "cell": "source_gain_1.0",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.7311317933700864,
+    "CI95": [
+      -0.736657809766513,
+      -0.7263449663068434
+    ]
+  },
+  {
+    "cell": "source_gain_1.0",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.2502428882042715,
+    "CI95": [
+      -0.25914361427145166,
+      -0.24261201220256845
+    ]
+  },
+  {
+    "cell": "source_speed_0.3",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0003805634911327625,
+    "CI95": [
+      -0.0005213687775539349,
+      -0.00024362379239962567
+    ]
+  },
+  {
+    "cell": "source_speed_0.3",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.19897369852474633,
+    "CI95": [
+      -0.20174522889433377,
+      -0.1961394702275749
+    ]
+  },
+  {
+    "cell": "source_speed_0.3",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.06031799161413974,
+    "CI95": [
+      -0.062044104579669135,
+      -0.05863287982572586
+    ]
+  },
+  {
+    "cell": "source_speed_0.3",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0062399185193718065,
+    "CI95": [
+      -0.006777641821208698,
+      -0.005695279110774521
+    ]
+  },
+  {
+    "cell": "source_speed_0.3",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.37056956501376975,
+    "CI95": [
+      -0.3734754233427431,
+      -0.3675435885638404
+    ]
+  },
+  {
+    "cell": "source_speed_0.3",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.027056964525628325,
+    "CI95": [
+      -0.02814219638103907,
+      -0.025994418723636795
+    ]
+  },
+  {
+    "cell": "source_speed_0.95",
+    "state": "Y",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.001319027722591258,
+    "CI95": [
+      -0.0016108984949503072,
+      -0.0010281624104345876
+    ]
+  },
+  {
+    "cell": "source_speed_0.95",
+    "state": "Y",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.17836596094210222,
+    "CI95": [
+      -0.18130495622234244,
+      -0.1752840365840778
+    ]
+  },
+  {
+    "cell": "source_speed_0.95",
+    "state": "Y",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.06028173331026397,
+    "CI95": [
+      -0.06402665854743779,
+      -0.056421461337846236
+    ]
+  },
+  {
+    "cell": "source_speed_0.95",
+    "state": "Z",
+    "method": "KF_known",
+    "reference": "L1_matched",
+    "MSE_difference": -0.0023814534794730983,
+    "CI95": [
+      -0.0027047811075331107,
+      -0.0020539534326102773
+    ]
+  },
+  {
+    "cell": "source_speed_0.95",
+    "state": "Z",
+    "method": "RTS_future",
+    "reference": "KF_known",
+    "MSE_difference": -0.3188819467106517,
+    "CI95": [
+      -0.3217179232904661,
+      -0.31616771998451415
+    ]
+  },
+  {
+    "cell": "source_speed_0.95",
+    "state": "Z",
+    "method": "L1_matched",
+    "reference": "L1_frozen_OOD",
+    "MSE_difference": -0.025221573998365464,
+    "CI95": [
+      -0.026875902828776214,
+      -0.023461625477712793
+    ]
+  }
+]

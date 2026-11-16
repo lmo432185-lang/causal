@@ -1,0 +1,137 @@
+[
+  {
+    "group": "G1_direct",
+    "seed": 101,
+    "rank": 1,
+    "test_future_MSE": 1.0883628023111116,
+    "validation_MSE": [
+      0.6438909057850711,
+      0.6430269575304272,
+      0.6430358715727952,
+      0.6430665014553003,
+      0.6430677766156627
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G1_direct",
+    "seed": 202,
+    "rank": 1,
+    "test_future_MSE": 1.1028429481234212,
+    "validation_MSE": [
+      0.6366318516904187,
+      0.6353939676481593,
+      0.635441981604544,
+      0.6354477479968598,
+      0.6354516404693226
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G1_direct",
+    "seed": 303,
+    "rank": 2,
+    "test_future_MSE": 1.0910442455672347,
+    "validation_MSE": [
+      0.6387262427184113,
+      0.6376531501539943,
+      0.6376431688121993,
+      0.637644543204882,
+      0.6376437863833461
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G2_indirect",
+    "seed": 101,
+    "rank": 1,
+    "test_future_MSE": 1.9880331334244385,
+    "validation_MSE": [
+      0.5001555417269347,
+      0.4910895393155548,
+      0.4911445864578346,
+      0.4911477415651757,
+      0.4911504839717454
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G2_indirect",
+    "seed": 202,
+    "rank": 1,
+    "test_future_MSE": 1.989573127497692,
+    "validation_MSE": [
+      0.5050492079137969,
+      0.4953511833735799,
+      0.49535944654139774,
+      0.49535924179533,
+      0.495359170961466
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G2_indirect",
+    "seed": 303,
+    "rank": 1,
+    "test_future_MSE": 2.002786473507948,
+    "validation_MSE": [
+      0.50647525904708,
+      0.4963743881165124,
+      0.49637968283664036,
+      0.49638414486086574,
+      0.49638552812747005
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G3_mixed",
+    "seed": 101,
+    "rank": 3,
+    "test_future_MSE": 2.62528765411068,
+    "validation_MSE": [
+      0.4555940612314827,
+      0.4385710326862026,
+      0.4385616763311434,
+      0.4385602165401239,
+      0.4385606484576172
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G3_mixed",
+    "seed": 202,
+    "rank": 2,
+    "test_future_MSE": 2.616021550417476,
+    "validation_MSE": [
+      0.4644722814292658,
+      0.4466067715566575,
+      0.44660053951639606,
+      0.4466023554045092,
+      0.4466029266179559
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  },
+  {
+    "group": "G3_mixed",
+    "seed": 303,
+    "rank": 1,
+    "test_future_MSE": 2.6233011899654124,
+    "validation_MSE": [
+      0.4620305587099749,
+      0.4449168157037276,
+      0.44492504961808377,
+      0.44492962872759406,
+      0.4449311224696377
+    ],
+    "graph_declaration": "insufficient evidence: generic predictive dimension does not identify causal graph",
+    "causal_refused": true
+  }
+]

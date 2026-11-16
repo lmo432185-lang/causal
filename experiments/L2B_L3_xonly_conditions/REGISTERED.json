@@ -1,0 +1,30 @@
+{
+  "time": 1794841610.3604667,
+  "files": {
+    "main.py": "f26d87edd55bc568f9897f32d4e41ceb843fddab8eedea26e7b0911fd65af303",
+    "config.py": "d09d267f5de61b14bee87ec8be14c89eda9a6d680ac2bb54195d4c8ed8b15736",
+    "core.py": "7ea69e3909899e690461eaeedb6b30a5671ba555ff4a3fa73887cf9318d49f27",
+    "encoder.py": "f2db3ceca8cc4c47d71a2b2d01d10d9d2affc092b4cf340bf39c49fccf3082e2",
+    "scan.py": "c2d0e3c5a15e51f5972e86f3ecbc71e0053d868ae03c1bebc6e1034780961ab9",
+    "predictive.py": "1c2b93e312ad455ea18995f3afbe3db65c49a4e6fd4a4372756629af43d1dcb4",
+    "structure.py": "005625ba7a1234f61d9ffaa06d6dfb23829a3f7c3a5e48dd1c4d5add6dc75302",
+    "equivalence.py": "4862679ddeca174ed7605dc5841faf701a52f29d70a28ada7a451b5ce9a79ecc",
+    "PROTOCOL.json": "d39b1fabfc549b8bc3de331f693d62c56b9001341f4d9199dd9e24878cf721e5"
+  },
+  "inputs": {
+    "inputs/101/X_only.npz": "15d66fe47a30fcf3df3a96fe725dfb72de48db2380c6b5f4a7788dab81e07352",
+    "inputs/101/sealed_truth.npz": "4944862e9cb7ac87cf5c981974c8be03d574aed5eb41e0e71e49083bed53a131",
+    "inputs/101/frozen.pt": "7c2fb1c72463d2e79ffcf644ee4dd7261522f0c1647e97587b3e2ea5434cf7eb",
+    "inputs/101/probe_maps.json": "e00f7c538ab331ddb8aa12389e14d032f90c8487cca8cb0e214988e0537a6f25",
+    "inputs/202/X_only.npz": "111d4ded8daa0807edd8a13c41c2527fbe49a6e1b39d6b45acebd63692239724",
+    "inputs/202/sealed_truth.npz": "f16f91f15d65335dd3eddea88991551712d93c6e5b244a1b22ff42f8c4af0b23",
+    "inputs/202/frozen.pt": "f6deb01c611e2af638cec23b3c60cc7b3ee0cfa15258baa0d83d4e41931adb36",
+    "inputs/202/probe_maps.json": "ee63c0f0219da6e3c0ffd0d2c43dd51afad6a328fe5c8b46281601f7dcd14d93",
+    "inputs/303/X_only.npz": "1d72532c32362cf6e2c08160f909bb91cf80f04c8a6b9a3a9b6e268ce4a7a819",
+    "inputs/303/sealed_truth.npz": "ad52e0a1dc8dfdb630e619c75dcc6956a382150ce50cd17e031fef1a138a38e0",
+    "inputs/303/frozen.pt": "4bfd3432e0dc848d8957061c88393bf3461518be770b5153878277320f63c60d",
+    "inputs/303/probe_maps.json": "5d6ee1176ad1b80da1046d3b3cbaefe6349ba8b9ac5f99008b2c4161f2cbc2e2"
+  },
+  "source_commit": "a033238a17ccab47c417ea2f03e6da4f5bf0f9e6",
+  "source": "L1 immutable archives via L2A inputs"
+}

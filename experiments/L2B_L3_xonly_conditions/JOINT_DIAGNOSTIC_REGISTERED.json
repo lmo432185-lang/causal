@@ -1,0 +1,6 @@
+{
+  "time": 1794841818.9697163,
+  "sha256": "d38f0c089d6ef3f4b12b1809989a252d179f8540072b2702ef3a7ec98284391f",
+  "status": "post-hoc evaluation diagnostic, not original primary protocol",
+  "reason": "predictive learner explicitly residualizes L against current X and uses current-X bypass; evaluate joint available state without retraining"
+}

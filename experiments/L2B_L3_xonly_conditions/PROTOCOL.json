@@ -1,0 +1,300 @@
+{
+  "name": "L2-B condition scan (new definition), L3-A generic predictive rank, L3-B causal nonidentifiability",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "per_condition": {
+    "n": 1000,
+    "split": [
+      600,
+      200,
+      200
+    ],
+    "length": 500,
+    "burn": 200
+  },
+  "cells": [
+    {
+      "name": "base",
+      "factor": "base",
+      "level": 0.0,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "source_gain_0.15",
+      "factor": "source_gain",
+      "level": 0.15,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.15,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "source_gain_1.0",
+      "factor": "source_gain",
+      "level": 1.0,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 1.0,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "middle_gain_0.25",
+      "factor": "middle_gain",
+      "level": 0.25,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.25,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "middle_gain_1.4",
+      "factor": "middle_gain",
+      "level": 1.4,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 1.4,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "measurement_noise_0.25",
+      "factor": "measurement_noise",
+      "level": 0.25,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.25
+      }
+    },
+    {
+      "name": "measurement_noise_0.75",
+      "factor": "measurement_noise",
+      "level": 0.75,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.75
+      }
+    },
+    {
+      "name": "source_speed_0.3",
+      "factor": "source_speed",
+      "level": 0.3,
+      "params": {
+        "kind": "indirect",
+        "a": 0.3,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.6319444444444446,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "source_speed_0.95",
+      "factor": "source_speed",
+      "level": 0.95,
+      "params": {
+        "kind": "indirect",
+        "a": 0.95,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.06770833333333337,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "middle_memory_0.3",
+      "factor": "middle_memory",
+      "level": 0.3,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.3,
+        "alpha": 1.1666666666666665,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "middle_memory_0.9",
+      "factor": "middle_memory",
+      "level": 0.9,
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.9,
+        "alpha": 0.1666666666666666,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    }
+  ],
+  "structures": [
+    {
+      "name": "G1_direct",
+      "params": {
+        "kind": "direct",
+        "a": 0.8,
+        "beta": 0.8,
+        "qy": 0.25,
+        "qx": 0.25
+      }
+    },
+    {
+      "name": "G2_indirect",
+      "params": {
+        "kind": "indirect",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    },
+    {
+      "name": "G3_mixed",
+      "params": {
+        "kind": "mixed",
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta": 0.8,
+        "beta1": 0.4,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "obs": 0.0
+      }
+    }
+  ],
+  "L2B": [
+    "original L1 frozen OOD",
+    "L1 architecture retrained X-only on each condition",
+    "20-history ridge diagnostic",
+    "known-parameter Kalman filter",
+    "known-parameter RTS future"
+  ],
+  "normalizations": {
+    "source_speed": "stationary Y variance held at .25/(1-.8^2)",
+    "middle_memory": "DC Y->Z gain alpha/(1-c) held fixed; process Z noise fixed",
+    "observation": "Xobs=Xphysical+independent N(0,obs^2); qx=.25 stays fixed"
+  },
+  "L3A": {
+    "input": "X only",
+    "history": 20,
+    "future": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "candidate_ranks": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "learner": "reduced-rank multi-horizon linear predictive state; current-X bypass",
+    "selection": "minimum validation trajectory-mean MSE, tie<=1e-6 chooses smaller rank",
+    "hidden_counts_or_topology_labels_given_to_learner": false,
+    "interpretation": "predictive latent rank is not causal graph; general topology decision refused without extra assumptions"
+  },
+  "L3B": {
+    "exact_pairs": [
+      "direct_vs_noisy_indirect",
+      "positive_mixed_pole_cancellation_vs_direct",
+      "source_middle_clock_swap"
+    ],
+    "stationary": true,
+    "equal_prior_matched_law_posterior": 0.5,
+    "claim": "known equivalent alternatives invalidate unique graph claim; not universal learned rejection oracle"
+  },
+  "calibration": "all training/selection only X; hidden truth used for post-freeze validation probes and test evaluation",
+  "statistics": "paired independent trajectory within seed, conditional on frozen models; all cells retained",
+  "excluded": [
+    "L2-B old meaning neural multi-horizon retraining",
+    "L2-C dynamic neural model",
+    "early warning",
+    "unqualified causal graph recovery"
+  ]
+}

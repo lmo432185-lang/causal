@@ -1,0 +1,7 @@
+{
+  "time": 1794841666.5586603,
+  "checkpoint_sha256": "34f1b261775022cc16c982b45581334aabc815534d2017ea029c5cdb48843f03",
+  "truth_not_used_in_encoder": true,
+  "base_reused": false,
+  "step": 4000
+}
