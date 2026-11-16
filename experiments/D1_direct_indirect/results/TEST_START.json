@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-16T10:41:52.522088+00:00",
+  "sha256": {
+    "config.py": "fa4c37ea8540db060aef422bee49714a06b73ea0bd2284a532bed4274f4dcf44",
+    "physics.py": "57c921f67d93dac5425ac3d278ab9f6f4c0615ef5f2ec103e52f55ee1eddd592",
+    "spectral.py": "16e967c179975e60e0c96f6591fc6096b37c57c97ec9ac515c4fbff10e0e1b66",
+    "states.py": "b6bf782e07cc6152cbf5b3e57b3be86179a4403eec11c66e9d077866e18a827a",
+    "representation.py": "77cc76332542c2146c3419910d2a6285e71a0fb517d93c6c2af094e3fad619a0",
+    "main.py": "7aba9e3a213d1d11b85ecf28d94a06dad0cd98f0017a64a01c5aeeeddb5c64c9",
+    "PROTOCOL.json": "5648c62ff94304c8be7b067e882384f658288a8448c9692fbf755a4bd7512ff1",
+    "PROTOCOL_REGISTERED.json": "5e095bdc0a4c7ccfd9d6675e58aefdeea98e4b1c5168c1fa437d10fab9d396e8",
+    "results/training.json": "57e709d170893643c43ff938f521fd7680f47973f4801fc8d2cc724bff3bc1a4",
+    "results/latent_n0_s11.pt": "9f271cbb18cf82e4cca50d1c0dcf7832c40a5de31c28c282cc17ccc8d218977a",
+    "results/latent_n0_s22.pt": "fa36c964ee8879040ec13922c0962ed09defabdfc4859a384ab9fe3c732b4e35",
+    "results/latent_n0_s33.pt": "4e1475ab0a8e33a2e8a3e45562802e38d8b90c9a1fde23d66d92caa4190f9997",
+    "results/latent_n1_s11.pt": "b01744229981962f99ddc3edb52b0598f5ccb1e25673184a7783709e40c3aa4a",
+    "results/latent_n1_s22.pt": "050c820a95f94af8cae3f03226fc65ecc56b3c7b30768f87fd0e567af81b38af",
+    "results/latent_n1_s33.pt": "3040ec103042177a701604492a78f4417dc1370961f11696e0e151514560caab",
+    "results/latent_n2_s11.pt": "5087135119671dbf6d22c31cfdb0a90aef5058ee7da4b2d6dbf09ae3aeba9dbb",
+    "results/latent_n2_s22.pt": "ffee8706a8c5509dd72a3ea854cfdc90403105e9ca738b67154262ceee4de58e",
+    "results/latent_n2_s33.pt": "e841a136f5e84a0a2c4500573112658f4d4a306430ba49189341bcdfe8ef2c23"
+  }
+}

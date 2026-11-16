@@ -1,0 +1,53 @@
+[
+  {
+    "noise": 0.12,
+    "theta": [
+      0.27,
+      2.0,
+      0.0,
+      1.0,
+      0.014480269424183503
+    ],
+    "thresholds": {
+      "SourceY_live": 3.1700439123449806,
+      "InnovationCUSUM": 65.5247635157425,
+      "PredictionError": 16.527861479715146,
+      "SourceY_retrospective": 3.1072641219374577
+    },
+    "known_indirect_family": true
+  },
+  {
+    "noise": 0.35,
+    "theta": [
+      0.23,
+      2.2,
+      0.0,
+      1.05,
+      0.1228401645624192
+    ],
+    "thresholds": {
+      "SourceY_live": 2.4673077931444602,
+      "InnovationCUSUM": 32.43014623708215,
+      "PredictionError": 7.603485631325848,
+      "SourceY_retrospective": 2.680836719383617
+    },
+    "known_indirect_family": true
+  },
+  {
+    "noise": 0.7,
+    "theta": [
+      1.1,
+      0.5,
+      0.0,
+      0.9485494822646623,
+      0.49019092587011126
+    ],
+    "thresholds": {
+      "SourceY_live": 0.8361330141495867,
+      "InnovationCUSUM": 28.385673425200398,
+      "PredictionError": 6.785768164494751,
+      "SourceY_retrospective": 1.784830954839764
+    },
+    "known_indirect_family": true
+  }
+]

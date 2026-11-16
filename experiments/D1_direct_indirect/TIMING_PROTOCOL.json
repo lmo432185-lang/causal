@@ -1,0 +1,41 @@
+{
+  "stage": "supplementary timing, independent implementation-frozen rerun",
+  "time": "2026-11-16T10:50:27.393626+00:00",
+  "main_structure_protocol_unchanged": true,
+  "old_seed832000": "development implementation check, no outcome summary inspected or used to choose parameters",
+  "new_test_seed": 833000,
+  "normal_training_seed": 830000,
+  "normal_calibration_seed": 831000,
+  "known_family": "indirect conditional diagnostic, parameters fitted fromnormalX only",
+  "physical": {
+    "a": 0.25,
+    "c": 2.0,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "qY": 1.0,
+    "qZ": 0.0,
+    "b": 0.7,
+    "source_mean_shift": 8.0,
+    "beta_loss": "1->0",
+    "horizon": 32,
+    "event_time": "uniform10..18 independenttest",
+    "dt": 0.025
+  },
+  "methods": [
+    "livefilteredYstate",
+    "innovationCUSUM",
+    "matured1-unitforecasterror",
+    "RTSretrospective_notlive"
+  ],
+  "false_alarm_target": 0.05,
+  "ncal": 1000,
+  "n_test_each_noise_each_event_each_cohort": 100,
+  "cohorts": 2,
+  "code_hashes": {
+    "timing.py": "6a590d736f7e5d2e86cfd672e88de79e9b5e22fccf27c9d6cabd1dac9d1f6c9c",
+    "states.py": "b6bf782e07cc6152cbf5b3e57b3be86179a4403eec11c66e9d077866e18a827a",
+    "physics.py": "57c921f67d93dac5425ac3d278ab9f6f4c0615ef5f2ec103e52f55ee1eddd592",
+    "spectral.py": "16e967c179975e60e0c96f6591fc6096b37c57c97ec9ac515c4fbff10e0e1b66",
+    "config.py": "fa4c37ea8540db060aef422bee49714a06b73ea0bd2284a532bed4274f4dcf44"
+  }
+}

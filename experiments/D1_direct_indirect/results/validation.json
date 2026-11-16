@@ -1,0 +1,7 @@
+{
+  "steady_filter_matches_Kalman_loop": 4.027889133340068e-13,
+  "RTS_matches_loop": 8.819611707622244e-13,
+  "filter_no_future_error": 0.0,
+  "observed_X_reconstructed_exactly": true,
+  "tapered_spectrum_vs_covariance_relative_error": 1.7026839897227672e-16
+}

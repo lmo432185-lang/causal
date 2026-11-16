@@ -1,0 +1,326 @@
+[
+  {
+    "pair": "direct_vs_noisy_indirect",
+    "noise": 0.12,
+    "relative_covariance_error": 5.82846290558339e-15,
+    "H0": {
+      "kind": "direct",
+      "a": 0.25,
+      "beta": 0.3,
+      "sigma": 0.12
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 3.3426951866885966,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "qz": 0.09,
+      "sigma": 0.12
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "mixed_vs_noisy_indirect",
+    "noise": 0.12,
+    "relative_covariance_error": 4.511837351991868e-16,
+    "H0": {
+      "kind": "mixed",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "beta1": 0.5,
+      "sigma": 0.12
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.996089927833914,
+      "beta": 1.0,
+      "qz": 0.25,
+      "sigma": 0.12
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "source_transfer_pole_swap",
+    "noise": 0.12,
+    "relative_covariance_error": 5.997102162799796e-16,
+    "H0": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "sigma": 0.12
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 2.0,
+      "c": 0.25,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "sigma": 0.12
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "source_scale_beta_ambiguity",
+    "noise": 0.12,
+    "relative_covariance_error": 1.1477405175118141e-14,
+    "H0": {
+      "kind": "direct",
+      "a": 1.0,
+      "beta": 1.0,
+      "qy": 1.0,
+      "sigma": 0.12
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 1.0,
+      "beta": 0.5,
+      "qy": 4.0,
+      "sigma": 0.12
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "mixed_clean_pole_cancellation",
+    "noise": 0.12,
+    "relative_covariance_error": 1.1876390169276413e-14,
+    "H0": {
+      "kind": "mixed",
+      "a": 2.0,
+      "c": 0.5,
+      "alpha": 1.0,
+      "beta": 0.75,
+      "beta1": 0.5,
+      "sigma": 0.12
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 0.5,
+      "beta": 0.5,
+      "sigma": 0.12
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "direct_vs_noisy_indirect",
+    "noise": 0.35,
+    "relative_covariance_error": 2.0147736652604522e-15,
+    "H0": {
+      "kind": "direct",
+      "a": 0.25,
+      "beta": 0.3,
+      "sigma": 0.35
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 3.3426951866885966,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "qz": 0.09,
+      "sigma": 0.35
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "mixed_vs_noisy_indirect",
+    "noise": 0.35,
+    "relative_covariance_error": 4.3968625921064653e-16,
+    "H0": {
+      "kind": "mixed",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "beta1": 0.5,
+      "sigma": 0.35
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.996089927833914,
+      "beta": 1.0,
+      "qz": 0.25,
+      "sigma": 0.35
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "source_transfer_pole_swap",
+    "noise": 0.35,
+    "relative_covariance_error": 5.430818333890039e-16,
+    "H0": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "sigma": 0.35
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 2.0,
+      "c": 0.25,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "sigma": 0.35
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "source_scale_beta_ambiguity",
+    "noise": 0.35,
+    "relative_covariance_error": 9.485710605389321e-15,
+    "H0": {
+      "kind": "direct",
+      "a": 1.0,
+      "beta": 1.0,
+      "qy": 1.0,
+      "sigma": 0.35
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 1.0,
+      "beta": 0.5,
+      "qy": 4.0,
+      "sigma": 0.35
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "mixed_clean_pole_cancellation",
+    "noise": 0.35,
+    "relative_covariance_error": 7.981765686312079e-15,
+    "H0": {
+      "kind": "mixed",
+      "a": 2.0,
+      "c": 0.5,
+      "alpha": 1.0,
+      "beta": 0.75,
+      "beta1": 0.5,
+      "sigma": 0.35
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 0.5,
+      "beta": 0.5,
+      "sigma": 0.35
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "direct_vs_noisy_indirect",
+    "noise": 0.7,
+    "relative_covariance_error": 3.8681286453059095e-15,
+    "H0": {
+      "kind": "direct",
+      "a": 0.25,
+      "beta": 0.3,
+      "sigma": 0.7
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 3.3426951866885966,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "qz": 0.09,
+      "sigma": 0.7
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "mixed_vs_noisy_indirect",
+    "noise": 0.7,
+    "relative_covariance_error": 4.0463198831549474e-16,
+    "H0": {
+      "kind": "mixed",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "beta1": 0.5,
+      "sigma": 0.7
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.996089927833914,
+      "beta": 1.0,
+      "qz": 0.25,
+      "sigma": 0.7
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "source_transfer_pole_swap",
+    "noise": 0.7,
+    "relative_covariance_error": 4.1110973480612273e-16,
+    "H0": {
+      "kind": "indirect",
+      "a": 0.25,
+      "c": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "sigma": 0.7
+    },
+    "H1": {
+      "kind": "indirect",
+      "a": 2.0,
+      "c": 0.25,
+      "alpha": 1.0,
+      "beta": 1.0,
+      "sigma": 0.7
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "source_scale_beta_ambiguity",
+    "noise": 0.7,
+    "relative_covariance_error": 5.730095430696287e-15,
+    "H0": {
+      "kind": "direct",
+      "a": 1.0,
+      "beta": 1.0,
+      "qy": 1.0,
+      "sigma": 0.7
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 1.0,
+      "beta": 0.5,
+      "qy": 4.0,
+      "sigma": 0.7
+    },
+    "matched_output_laws": true
+  },
+  {
+    "pair": "mixed_clean_pole_cancellation",
+    "noise": 0.7,
+    "relative_covariance_error": 1.8321741183037392e-15,
+    "H0": {
+      "kind": "mixed",
+      "a": 2.0,
+      "c": 0.5,
+      "alpha": 1.0,
+      "beta": 0.75,
+      "beta1": 0.5,
+      "sigma": 0.7
+    },
+    "H1": {
+      "kind": "direct",
+      "a": 0.5,
+      "beta": 0.5,
+      "sigma": 0.7
+    },
+    "matched_output_laws": true
+  }
+]

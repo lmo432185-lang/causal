@@ -1,0 +1,242 @@
+[
+  {
+    "mode": "beta_loss",
+    "method": "InnovationCUSUM",
+    "metric": "valid",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "InnovationCUSUM",
+    "metric": "cover_1",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "PredictionError",
+    "metric": "valid",
+    "k": 2,
+    "n": 600,
+    "rate": 0.0033333333333333335,
+    "wilson95": [
+      0.0009145966868046758,
+      0.012071359653471017
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "PredictionError",
+    "metric": "cover_1",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "SourceY_live",
+    "metric": "valid",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "SourceY_live",
+    "metric": "cover_1",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "SourceY_retrospective",
+    "metric": "valid",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "beta_loss",
+    "method": "SourceY_retrospective",
+    "metric": "cover_1",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "null",
+    "method": "InnovationCUSUM",
+    "metric": "normal_false_alarm",
+    "k": 27,
+    "n": 600,
+    "rate": 0.045,
+    "wilson95": [
+      0.031108488667728654,
+      0.06468065925473866
+    ]
+  },
+  {
+    "mode": "null",
+    "method": "PredictionError",
+    "metric": "normal_false_alarm",
+    "k": 26,
+    "n": 600,
+    "rate": 0.043333333333333335,
+    "wilson95": [
+      0.02974099813478296,
+      0.06273602212439669
+    ]
+  },
+  {
+    "mode": "null",
+    "method": "SourceY_live",
+    "metric": "normal_false_alarm",
+    "k": 25,
+    "n": 600,
+    "rate": 0.041666666666666664,
+    "wilson95": [
+      0.028379729654938877,
+      0.06078516294095311
+    ]
+  },
+  {
+    "mode": "null",
+    "method": "SourceY_retrospective",
+    "metric": "normal_false_alarm",
+    "k": 32,
+    "n": 600,
+    "rate": 0.05333333333333334,
+    "wilson95": [
+      0.03802910359011184,
+      0.07432068264879381
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "InnovationCUSUM",
+    "metric": "valid",
+    "k": 587,
+    "n": 600,
+    "rate": 0.9783333333333334,
+    "wilson95": [
+      0.963285723804272,
+      0.987294915559288
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "InnovationCUSUM",
+    "metric": "cover_1",
+    "k": 177,
+    "n": 600,
+    "rate": 0.295,
+    "wilson95": [
+      0.2599066821451972,
+      0.33270161527041986
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "PredictionError",
+    "metric": "valid",
+    "k": 402,
+    "n": 600,
+    "rate": 0.67,
+    "wilson95": [
+      0.6313986265933211,
+      0.7064383950620208
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "PredictionError",
+    "metric": "cover_1",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "SourceY_live",
+    "metric": "valid",
+    "k": 580,
+    "n": 600,
+    "rate": 0.9666666666666667,
+    "wilson95": [
+      0.9490759071771075,
+      0.9783198385434386
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "SourceY_live",
+    "metric": "cover_1",
+    "k": 122,
+    "n": 600,
+    "rate": 0.20333333333333334,
+    "wilson95": [
+      0.17306341797818853,
+      0.23737785795660704
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "SourceY_retrospective",
+    "metric": "valid",
+    "k": 584,
+    "n": 600,
+    "rate": 0.9733333333333334,
+    "wilson95": [
+      0.9571240661880871,
+      0.9835201901856099
+    ]
+  },
+  {
+    "mode": "source_mean",
+    "method": "SourceY_retrospective",
+    "metric": "cover_1",
+    "k": 0,
+    "n": 600,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.006361701013700361
+    ]
+  }
+]

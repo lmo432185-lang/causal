@@ -1,0 +1,9 @@
+{
+  "results/TEST_START.json": "all frozen hashes match",
+  "TIMING_PROTOCOL.json": "all frozen hashes match",
+  "structure_rows": 52200,
+  "timing_rows": 7200,
+  "exact_equivalence_covariance_max_error": 1.1876390169276413e-14,
+  "non_online_RTS_available_at": 32,
+  "status": "PASS"
+}
