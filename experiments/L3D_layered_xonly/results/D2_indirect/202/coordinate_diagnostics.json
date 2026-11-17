@@ -1,0 +1,14 @@
+[
+  {
+    "coordinate": "L1",
+    "state": "Y",
+    "validation_corr": 0.13582270946170952,
+    "test_corr": 0.13615913039612026
+  },
+  {
+    "coordinate": "L1",
+    "state": "Z",
+    "validation_corr": 0.1341235932910819,
+    "test_corr": 0.1363407258666422
+  }
+]

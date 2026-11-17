@@ -1,0 +1,404 @@
+[
+  {
+    "group": "D1_direct",
+    "seed": 101,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 8.881784197001252e-16,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "X->L1",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "X->L1",
+          "L2->L1",
+          "X->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 2
+  },
+  {
+    "group": "D1_direct",
+    "seed": 202,
+    "distinct_graphs": 3,
+    "max_prediction_difference": 8.881784197001252e-16,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "X->L1",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 2
+  },
+  {
+    "group": "D1_direct",
+    "seed": 303,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 8.881784197001252e-16,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "X->L1",
+          "L2->L1",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 101,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 8.881784197001252e-16,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "L1->X",
+          "L2->X",
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->X",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 202,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 8.881784197001252e-16,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "L1->X",
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->X",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 303,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 8.881784197001252e-16,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "L1->X",
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->X",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 101,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 1.7763568394002505e-15,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "L1->X",
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 202,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 1.7763568394002505e-15,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "L1->X",
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 303,
+    "distinct_graphs": 4,
+    "max_prediction_difference": 1.7763568394002505e-15,
+    "graphs": [
+      {
+        "angle": 0.0,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.39269908169872414,
+        "edges": [
+          "L1->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 0.7853981633974483,
+        "edges": [
+          "L1->X",
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2",
+          "L1->L2"
+        ]
+      },
+      {
+        "angle": 1.5707963267948966,
+        "edges": [
+          "L2->X",
+          "X->L1",
+          "L2->L1",
+          "X->L2"
+        ]
+      }
+    ],
+    "distinct_graphs_up_to_latent_swap": 3
+  }
+]

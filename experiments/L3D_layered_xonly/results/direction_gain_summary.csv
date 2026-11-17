@@ -1,0 +1,13 @@
+group,control,lag,validation_gain,test_gain,test_supported
+D1_direct,all_node_histories,1,0.1502708214859624,0.15061199788194532,0.5
+D1_direct,all_node_histories,5,0.15113975329287055,0.15153464704988676,0.5
+D1_direct,all_nodes_plus_full_X_covered,1,1.0963967829999016e-19,-4.1928319368187716e-17,0.0
+D1_direct,all_nodes_plus_full_X_covered,5,3.787678448895083e-17,1.7892841629197132e-17,0.0
+D2_indirect,all_node_histories,1,0.11127633782624062,0.11071469618859354,1.0
+D2_indirect,all_node_histories,5,0.09371863004846155,0.09389142598428431,0.5
+D2_indirect,all_nodes_plus_full_X_covered,1,-2.162721238034948e-16,2.378133462321526e-16,0.0
+D2_indirect,all_nodes_plus_full_X_covered,5,-6.809982441517352e-17,3.8041057851644386e-17,0.0
+D3_mixed,all_node_histories,1,0.11328470475890622,0.11356406708342393,1.0
+D3_mixed,all_node_histories,5,0.07607833074743799,0.07611014274878594,0.5
+D3_mixed,all_nodes_plus_full_X_covered,1,-4.4608520028070885e-16,-7.016099284489049e-16,0.0
+D3_mixed,all_nodes_plus_full_X_covered,5,2.7737632020339265e-17,1.4497818815618707e-16,0.0

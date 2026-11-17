@@ -1,0 +1,86 @@
+{
+  "name": "L3-D X-only layered predictive chain experiment, new user definition",
+  "groups": [
+    {
+      "name": "D1_direct",
+      "kind": "direct",
+      "a": 0.8,
+      "b": 0.5,
+      "beta": 0.8,
+      "qy": 0.25,
+      "qx": 0.25
+    },
+    {
+      "name": "D2_indirect",
+      "kind": "indirect",
+      "a": 0.8,
+      "b": 0.5,
+      "c": 0.7,
+      "alpha": 0.5,
+      "beta": 0.8,
+      "beta1": 0.0,
+      "qy": 0.25,
+      "qz": 0.25,
+      "qx": 0.25
+    },
+    {
+      "name": "D3_mixed",
+      "kind": "mixed",
+      "a": 0.8,
+      "b": 0.5,
+      "c": 0.7,
+      "alpha": 0.5,
+      "beta": 0.8,
+      "beta1": 0.4,
+      "qy": 0.25,
+      "qz": 0.25,
+      "qx": 0.25
+    }
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "N": 1000,
+  "split": [
+    600,
+    200,
+    200
+  ],
+  "length": 500,
+  "burn": 200,
+  "data_seed": "960000 + 1000*group_index + displayed_seed; fresh independent namespace",
+  "history": 20,
+  "future": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "latent_dimensions": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "learner": "linear X-only reduced-rank predictive representation with current-X bypass; dimension chosen by validation future-X MSE; no graph/hidden count labels",
+  "dimension_selection": "minimum validation trajectory-mean MSE, within1e-6 choose smaller",
+  "hidden_answers": "access only after predictive checkpoint freeze; diagnostic probes fit validation answers only; oracle labeled-state reference isolated",
+  "layer1": "selected latent coordinates plus current X constitute predictive state; joint and coordinate Y/Z diagnostics after freeze",
+  "layer2": "leave-one-L-out X_t+1 forecasting conditional on all other L: current X diagnostic vs full20 X main; report h1/2/4/8 separately",
+  "layer3": "learn directed candidate VAR lag1 andlag5 relations, and explicit L-source screening under full covered X history; do not invent upper layers if no direct state survives",
+  "layer4": "both directions, all-other-node histories controlled; then full covered X history (20+p-1) additional control; no real intervention",
+  "edge_rule": "validation relative MSE reduction >=1% selects candidate before test; independent test reports gain and paired trajectory CI; supported edge additionally test gain>=1% andCI lower>0",
+  "oracle": "same lagged conditional forecasts on full observed [Y,Z,X], training truth allowed only in isolated ideal reference, not X-only encoder/graph learner",
+  "rotation": "predeclared fixed-rank2 capacity diagnostic; orthogonal theta0,pi/8,pi/4,pi/2; predictor transforms inversely so forecast unchanged; compare conditional directed candidates",
+  "claim": "predictive edges are not causal proof; general X-only Gaussian graph nonuniqueness guard retained",
+  "statistics": "paired independent trajectories, not timepoints; bootstrap1000; no selection on test; all seeds and groups retained",
+  "excluded": [
+    "L3-D old meaning classifier with extra-information calibration",
+    "physical interventions",
+    "early warning",
+    "forcing latent count equal true hidden count"
+  ]
+}

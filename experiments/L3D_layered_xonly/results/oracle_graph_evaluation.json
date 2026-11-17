@@ -1,0 +1,110 @@
+[
+  {
+    "group": "D1_direct",
+    "seed": 101,
+    "links": [
+      "Y->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 1,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D1_direct",
+    "seed": 202,
+    "links": [
+      "Y->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 1,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D1_direct",
+    "seed": 303,
+    "links": [
+      "Y->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 1,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 101,
+    "links": [
+      "Y->Z",
+      "Z->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 2,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 202,
+    "links": [
+      "Y->Z",
+      "Z->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 2,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 303,
+    "links": [
+      "Y->Z",
+      "Z->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 2,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 101,
+    "links": [
+      "Y->X",
+      "Y->Z",
+      "Z->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 3,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 202,
+    "links": [
+      "Y->X",
+      "Y->Z",
+      "Z->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 3,
+    "FP": 0,
+    "FN": 0
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 303,
+    "links": [
+      "Y->X",
+      "Y->Z",
+      "Z->X"
+    ],
+    "exact_graph_match": true,
+    "TP": 3,
+    "FP": 0,
+    "FN": 0
+  }
+]

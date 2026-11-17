@@ -1,0 +1,13 @@
+{
+  "pretest_hashes": "PASS",
+  "future_perturbation_encoder_error": 0.0,
+  "joint_state_rotation_reconstruction_error": 9.325873406851315e-15,
+  "alignment": "PASS",
+  "full_history_added_state_MSE_change_max": 3.0736524436747457e-15,
+  "rotation_forecast_max_error": 1.7763568394002505e-15,
+  "models": 9,
+  "edge_summaries": 564,
+  "edge_trajectory_rows": 112800,
+  "state_trajectory_rows": 12000,
+  "status": "PASS"
+}

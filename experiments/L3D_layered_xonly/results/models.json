@@ -1,0 +1,137 @@
+[
+  {
+    "group": "D1_direct",
+    "seed": 101,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.4898029616548834,
+      0.8757561276404592,
+      1.3431204596236925,
+      1.6467803389943203
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D1_direct",
+    "seed": 202,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.4859540709373187,
+      0.8725814879600797,
+      1.3518554349582188,
+      1.65605382898178
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D1_direct",
+    "seed": 303,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.48522212774863066,
+      0.8683360033491108,
+      1.3374096089824377,
+      1.6445089177067296
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 101,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.6120281221787415,
+      1.279855458706287,
+      2.4497949174148053,
+      3.6809658087626853
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 202,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.6048411578118899,
+      1.2609585702251767,
+      2.4027384800312976,
+      3.570777059914954
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D2_indirect",
+    "seed": 303,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.6132034348538921,
+      1.2869059113784822,
+      2.466006678766203,
+      3.648622764598619
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 101,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.6605737494760929,
+      1.5037188573747828,
+      3.192808035517175,
+      5.167598562848011
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 202,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.6638787802714567,
+      1.5054455944550562,
+      3.216036018151851,
+      5.256123383318362
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  },
+  {
+    "group": "D3_mixed",
+    "seed": 303,
+    "rank": 1,
+    "test_forecast_MSE_by_horizon": [
+      0.6615744153094507,
+      1.497069811221341,
+      3.19047528979931,
+      5.187089458713604
+    ],
+    "PC1": 1.0,
+    "validated_direct_states": [],
+    "validated_upper_chain": [],
+    "causal_structure": "refuse unique physical graph: X-only representation basis and observational equivalence unresolved"
+  }
+]
