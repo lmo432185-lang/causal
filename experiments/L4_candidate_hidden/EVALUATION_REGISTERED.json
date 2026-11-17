@@ -1,0 +1,14 @@
+{
+  "time": 1794894740.5204868,
+  "files": {
+    "evaluate.py": "dc303a49e26170f010ea3ca31932896024fbb8252b08f62fccb49617a5882dc5",
+    "ssm.py": "b8ee0cbeb1046f1b9082d12bfa95f620b423b40b47f53b8ad91b18caea5555a2",
+    "native_mean.py": "80055c8f49ac28856a211dafcaef302e1406314b14235e0056b3e29cb2bf0d28"
+  },
+  "gate": "ALL_X_ONLY_FROZEN.json must exist and every decision/model hash verify before opening any sealed truth",
+  "oracle": "separate observed-YZ model, one initialization per candidate delay1/2, MAXITER40, no real parameters used",
+  "alignment": "validation truth used after global freeze only; no graph-score feedback",
+  "performance_record": "NATIVE_BACKEND_RECORD.json",
+  "supplementary_gate": "ALL_SUPPLEMENTARY_AUDIT_FROZEN.json",
+  "evaluation_only_addition": "same-X true-parameter Kalman bound, no alignment needed, no influence on X-only decisions, supplementary mathematical audit or oracle candidate selection"
+}

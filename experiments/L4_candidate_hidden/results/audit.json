@@ -1,0 +1,17 @@
+{
+  "all_frozen_model_and_decision_hashes": "PASS",
+  "preserved_pre_native_cases": 31,
+  "X_only_worker_truth_access": "no private module imports or truth-file reads",
+  "recorded_completed_starts": 1632,
+  "mirrored_G4_starts": 408,
+  "max_mirrored_loglik_difference": 4.547473508864641e-13,
+  "classification_records": 102000,
+  "hidden_state_records": 244800,
+  "true_E_covariance_relative_errors": {
+    "named_direction_swap": 2.0898315757650005e-16,
+    "parallel_chain_equal": 4.179663151530003e-16
+  },
+  "global_X_freeze_time": 1794894943.0579548,
+  "supplementary_freeze_time": 1794894945.7259367,
+  "status": "PASS"
+}

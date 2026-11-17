@@ -1,0 +1,17 @@
+[
+  {
+    "case": "case100_101",
+    "seed": 101,
+    "X_path": "data/case100_101/X.npy"
+  },
+  {
+    "case": "case100_202",
+    "seed": 202,
+    "X_path": "data/case100_202/X.npy"
+  },
+  {
+    "case": "case100_303",
+    "seed": 303,
+    "X_path": "data/case100_303/X.npy"
+  }
+]

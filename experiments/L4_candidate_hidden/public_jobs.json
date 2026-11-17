@@ -1,0 +1,497 @@
+[
+  {
+    "case": "case000_101",
+    "seed": 101,
+    "X_path": "data/case000_101/X.npy"
+  },
+  {
+    "case": "case000_202",
+    "seed": 202,
+    "X_path": "data/case000_202/X.npy"
+  },
+  {
+    "case": "case000_303",
+    "seed": 303,
+    "X_path": "data/case000_303/X.npy"
+  },
+  {
+    "case": "case001_101",
+    "seed": 101,
+    "X_path": "data/case001_101/X.npy"
+  },
+  {
+    "case": "case001_202",
+    "seed": 202,
+    "X_path": "data/case001_202/X.npy"
+  },
+  {
+    "case": "case001_303",
+    "seed": 303,
+    "X_path": "data/case001_303/X.npy"
+  },
+  {
+    "case": "case002_101",
+    "seed": 101,
+    "X_path": "data/case002_101/X.npy"
+  },
+  {
+    "case": "case002_202",
+    "seed": 202,
+    "X_path": "data/case002_202/X.npy"
+  },
+  {
+    "case": "case002_303",
+    "seed": 303,
+    "X_path": "data/case002_303/X.npy"
+  },
+  {
+    "case": "case003_101",
+    "seed": 101,
+    "X_path": "data/case003_101/X.npy"
+  },
+  {
+    "case": "case003_202",
+    "seed": 202,
+    "X_path": "data/case003_202/X.npy"
+  },
+  {
+    "case": "case003_303",
+    "seed": 303,
+    "X_path": "data/case003_303/X.npy"
+  },
+  {
+    "case": "case004_101",
+    "seed": 101,
+    "X_path": "data/case004_101/X.npy"
+  },
+  {
+    "case": "case004_202",
+    "seed": 202,
+    "X_path": "data/case004_202/X.npy"
+  },
+  {
+    "case": "case004_303",
+    "seed": 303,
+    "X_path": "data/case004_303/X.npy"
+  },
+  {
+    "case": "case005_101",
+    "seed": 101,
+    "X_path": "data/case005_101/X.npy"
+  },
+  {
+    "case": "case005_202",
+    "seed": 202,
+    "X_path": "data/case005_202/X.npy"
+  },
+  {
+    "case": "case005_303",
+    "seed": 303,
+    "X_path": "data/case005_303/X.npy"
+  },
+  {
+    "case": "case006_101",
+    "seed": 101,
+    "X_path": "data/case006_101/X.npy"
+  },
+  {
+    "case": "case006_202",
+    "seed": 202,
+    "X_path": "data/case006_202/X.npy"
+  },
+  {
+    "case": "case006_303",
+    "seed": 303,
+    "X_path": "data/case006_303/X.npy"
+  },
+  {
+    "case": "case007_101",
+    "seed": 101,
+    "X_path": "data/case007_101/X.npy"
+  },
+  {
+    "case": "case007_202",
+    "seed": 202,
+    "X_path": "data/case007_202/X.npy"
+  },
+  {
+    "case": "case007_303",
+    "seed": 303,
+    "X_path": "data/case007_303/X.npy"
+  },
+  {
+    "case": "case008_101",
+    "seed": 101,
+    "X_path": "data/case008_101/X.npy"
+  },
+  {
+    "case": "case008_202",
+    "seed": 202,
+    "X_path": "data/case008_202/X.npy"
+  },
+  {
+    "case": "case008_303",
+    "seed": 303,
+    "X_path": "data/case008_303/X.npy"
+  },
+  {
+    "case": "case009_101",
+    "seed": 101,
+    "X_path": "data/case009_101/X.npy"
+  },
+  {
+    "case": "case009_202",
+    "seed": 202,
+    "X_path": "data/case009_202/X.npy"
+  },
+  {
+    "case": "case009_303",
+    "seed": 303,
+    "X_path": "data/case009_303/X.npy"
+  },
+  {
+    "case": "case010_101",
+    "seed": 101,
+    "X_path": "data/case010_101/X.npy"
+  },
+  {
+    "case": "case010_202",
+    "seed": 202,
+    "X_path": "data/case010_202/X.npy"
+  },
+  {
+    "case": "case010_303",
+    "seed": 303,
+    "X_path": "data/case010_303/X.npy"
+  },
+  {
+    "case": "case011_101",
+    "seed": 101,
+    "X_path": "data/case011_101/X.npy"
+  },
+  {
+    "case": "case011_202",
+    "seed": 202,
+    "X_path": "data/case011_202/X.npy"
+  },
+  {
+    "case": "case011_303",
+    "seed": 303,
+    "X_path": "data/case011_303/X.npy"
+  },
+  {
+    "case": "case012_101",
+    "seed": 101,
+    "X_path": "data/case012_101/X.npy"
+  },
+  {
+    "case": "case012_202",
+    "seed": 202,
+    "X_path": "data/case012_202/X.npy"
+  },
+  {
+    "case": "case012_303",
+    "seed": 303,
+    "X_path": "data/case012_303/X.npy"
+  },
+  {
+    "case": "case013_101",
+    "seed": 101,
+    "X_path": "data/case013_101/X.npy"
+  },
+  {
+    "case": "case013_202",
+    "seed": 202,
+    "X_path": "data/case013_202/X.npy"
+  },
+  {
+    "case": "case013_303",
+    "seed": 303,
+    "X_path": "data/case013_303/X.npy"
+  },
+  {
+    "case": "case014_101",
+    "seed": 101,
+    "X_path": "data/case014_101/X.npy"
+  },
+  {
+    "case": "case014_202",
+    "seed": 202,
+    "X_path": "data/case014_202/X.npy"
+  },
+  {
+    "case": "case014_303",
+    "seed": 303,
+    "X_path": "data/case014_303/X.npy"
+  },
+  {
+    "case": "case015_101",
+    "seed": 101,
+    "X_path": "data/case015_101/X.npy"
+  },
+  {
+    "case": "case015_202",
+    "seed": 202,
+    "X_path": "data/case015_202/X.npy"
+  },
+  {
+    "case": "case015_303",
+    "seed": 303,
+    "X_path": "data/case015_303/X.npy"
+  },
+  {
+    "case": "case016_101",
+    "seed": 101,
+    "X_path": "data/case016_101/X.npy"
+  },
+  {
+    "case": "case016_202",
+    "seed": 202,
+    "X_path": "data/case016_202/X.npy"
+  },
+  {
+    "case": "case016_303",
+    "seed": 303,
+    "X_path": "data/case016_303/X.npy"
+  },
+  {
+    "case": "case017_101",
+    "seed": 101,
+    "X_path": "data/case017_101/X.npy"
+  },
+  {
+    "case": "case017_202",
+    "seed": 202,
+    "X_path": "data/case017_202/X.npy"
+  },
+  {
+    "case": "case017_303",
+    "seed": 303,
+    "X_path": "data/case017_303/X.npy"
+  },
+  {
+    "case": "case018_101",
+    "seed": 101,
+    "X_path": "data/case018_101/X.npy"
+  },
+  {
+    "case": "case018_202",
+    "seed": 202,
+    "X_path": "data/case018_202/X.npy"
+  },
+  {
+    "case": "case018_303",
+    "seed": 303,
+    "X_path": "data/case018_303/X.npy"
+  },
+  {
+    "case": "case019_101",
+    "seed": 101,
+    "X_path": "data/case019_101/X.npy"
+  },
+  {
+    "case": "case019_202",
+    "seed": 202,
+    "X_path": "data/case019_202/X.npy"
+  },
+  {
+    "case": "case019_303",
+    "seed": 303,
+    "X_path": "data/case019_303/X.npy"
+  },
+  {
+    "case": "case020_101",
+    "seed": 101,
+    "X_path": "data/case020_101/X.npy"
+  },
+  {
+    "case": "case020_202",
+    "seed": 202,
+    "X_path": "data/case020_202/X.npy"
+  },
+  {
+    "case": "case020_303",
+    "seed": 303,
+    "X_path": "data/case020_303/X.npy"
+  },
+  {
+    "case": "case021_101",
+    "seed": 101,
+    "X_path": "data/case021_101/X.npy"
+  },
+  {
+    "case": "case021_202",
+    "seed": 202,
+    "X_path": "data/case021_202/X.npy"
+  },
+  {
+    "case": "case021_303",
+    "seed": 303,
+    "X_path": "data/case021_303/X.npy"
+  },
+  {
+    "case": "case022_101",
+    "seed": 101,
+    "X_path": "data/case022_101/X.npy"
+  },
+  {
+    "case": "case022_202",
+    "seed": 202,
+    "X_path": "data/case022_202/X.npy"
+  },
+  {
+    "case": "case022_303",
+    "seed": 303,
+    "X_path": "data/case022_303/X.npy"
+  },
+  {
+    "case": "case023_101",
+    "seed": 101,
+    "X_path": "data/case023_101/X.npy"
+  },
+  {
+    "case": "case023_202",
+    "seed": 202,
+    "X_path": "data/case023_202/X.npy"
+  },
+  {
+    "case": "case023_303",
+    "seed": 303,
+    "X_path": "data/case023_303/X.npy"
+  },
+  {
+    "case": "case024_101",
+    "seed": 101,
+    "X_path": "data/case024_101/X.npy"
+  },
+  {
+    "case": "case024_202",
+    "seed": 202,
+    "X_path": "data/case024_202/X.npy"
+  },
+  {
+    "case": "case024_303",
+    "seed": 303,
+    "X_path": "data/case024_303/X.npy"
+  },
+  {
+    "case": "case025_101",
+    "seed": 101,
+    "X_path": "data/case025_101/X.npy"
+  },
+  {
+    "case": "case025_202",
+    "seed": 202,
+    "X_path": "data/case025_202/X.npy"
+  },
+  {
+    "case": "case025_303",
+    "seed": 303,
+    "X_path": "data/case025_303/X.npy"
+  },
+  {
+    "case": "case026_101",
+    "seed": 101,
+    "X_path": "data/case026_101/X.npy"
+  },
+  {
+    "case": "case026_202",
+    "seed": 202,
+    "X_path": "data/case026_202/X.npy"
+  },
+  {
+    "case": "case026_303",
+    "seed": 303,
+    "X_path": "data/case026_303/X.npy"
+  },
+  {
+    "case": "case027_101",
+    "seed": 101,
+    "X_path": "data/case027_101/X.npy"
+  },
+  {
+    "case": "case027_202",
+    "seed": 202,
+    "X_path": "data/case027_202/X.npy"
+  },
+  {
+    "case": "case027_303",
+    "seed": 303,
+    "X_path": "data/case027_303/X.npy"
+  },
+  {
+    "case": "case028_101",
+    "seed": 101,
+    "X_path": "data/case028_101/X.npy"
+  },
+  {
+    "case": "case028_202",
+    "seed": 202,
+    "X_path": "data/case028_202/X.npy"
+  },
+  {
+    "case": "case028_303",
+    "seed": 303,
+    "X_path": "data/case028_303/X.npy"
+  },
+  {
+    "case": "case029_101",
+    "seed": 101,
+    "X_path": "data/case029_101/X.npy"
+  },
+  {
+    "case": "case029_202",
+    "seed": 202,
+    "X_path": "data/case029_202/X.npy"
+  },
+  {
+    "case": "case029_303",
+    "seed": 303,
+    "X_path": "data/case029_303/X.npy"
+  },
+  {
+    "case": "case030_101",
+    "seed": 101,
+    "X_path": "data/case030_101/X.npy"
+  },
+  {
+    "case": "case030_202",
+    "seed": 202,
+    "X_path": "data/case030_202/X.npy"
+  },
+  {
+    "case": "case030_303",
+    "seed": 303,
+    "X_path": "data/case030_303/X.npy"
+  },
+  {
+    "case": "case031_101",
+    "seed": 101,
+    "X_path": "data/case031_101/X.npy"
+  },
+  {
+    "case": "case031_202",
+    "seed": 202,
+    "X_path": "data/case031_202/X.npy"
+  },
+  {
+    "case": "case031_303",
+    "seed": 303,
+    "X_path": "data/case031_303/X.npy"
+  },
+  {
+    "case": "case032_101",
+    "seed": 101,
+    "X_path": "data/case032_101/X.npy"
+  },
+  {
+    "case": "case032_202",
+    "seed": 202,
+    "X_path": "data/case032_202/X.npy"
+  },
+  {
+    "case": "case032_303",
+    "seed": 303,
+    "X_path": "data/case032_303/X.npy"
+  }
+]

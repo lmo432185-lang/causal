@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "G2",
+    "delay": 1,
+    "oracle": false,
+    "state_error": 1.6542323066914832e-14,
+    "loglik_error": 0.0,
+    "parameter_update_error": 2.3314683517128287e-15
+  },
+  {
+    "kind": "G3",
+    "delay": 2,
+    "oracle": false,
+    "state_error": 9.059419880941277e-14,
+    "loglik_error": 9.094947017729282e-13,
+    "parameter_update_error": 6.161737786669619e-15
+  },
+  {
+    "kind": "G3",
+    "delay": 2,
+    "oracle": true,
+    "state_error": 4.440892098500626e-16,
+    "loglik_error": 0.0,
+    "parameter_update_error": 1.1102230246251565e-16
+  },
+  {
+    "kind": "single",
+    "delay": 1,
+    "oracle": false,
+    "state_error": 5.162537064506978e-15,
+    "loglik_error": 9.094947017729282e-13,
+    "parameter_update_error": 4.996003610813204e-16
+  }
+]

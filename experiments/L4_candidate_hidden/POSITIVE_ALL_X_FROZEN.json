@@ -1,0 +1,18 @@
+{
+  "time": 1794895609.1443331,
+  "files": {
+    "results/case100_101/selected_parameters.json": "ad4914bcdac1a80e3d2286c3967975878e8c93ab1041d5f7dd8e7c5a19bf8227",
+    "results/case100_101/X_only_decisions.json": "332dd2eaac16376689ddff8ca321ebed3c5458c6907db0f139a0d80fac0c1e3d",
+    "results/case100_101/LOCAL_X_FREEZE.json": "3329ad06d56962eed51d99f738efdda5d055fc2666632d40772f407f3f1b1100",
+    "results/case100_101/supplementary_law_audit.json": "c1b1fb41b5e4b923171e0f62ac142834d47b5a819b5621952ebb27809ebb43d1",
+    "results/case100_202/selected_parameters.json": "a53d3e1fbb9523bd13a7816e66132746f6386dd04c4dad4c23ed5fa7e247599c",
+    "results/case100_202/X_only_decisions.json": "94008db29f599aef508d88c72c5683b290bbe9fbdc08cc3bd6395e2f34232d1c",
+    "results/case100_202/LOCAL_X_FREEZE.json": "f6fc709a5a7fe0f0baab8ecee5915c7ea3b5121b20b49484e08ff12e42ee2547",
+    "results/case100_202/supplementary_law_audit.json": "c1b1fb41b5e4b923171e0f62ac142834d47b5a819b5621952ebb27809ebb43d1",
+    "results/case100_303/selected_parameters.json": "e0850c9d95ccb1cc1c0d3c9fec91af4c39e94549ae761e6eaf83ce87cb3eed72",
+    "results/case100_303/X_only_decisions.json": "ccfc54a1459a0ea185657d4be5edd0f2baa211fd84b46892cf55b1ac8035ac0d",
+    "results/case100_303/LOCAL_X_FREEZE.json": "c325d8e1bc95527cd32512976e763b25c2725781f7fb7c1cb1c293bc4f573bd4",
+    "results/case100_303/supplementary_law_audit.json": "c1b1fb41b5e4b923171e0f62ac142834d47b5a819b5621952ebb27809ebb43d1"
+  },
+  "truth_not_opened": true
+}

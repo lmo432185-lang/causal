@@ -1,0 +1,20 @@
+{
+  "time": 1794893938.4462163,
+  "files": {
+    "ssm.py": "b8ee0cbeb1046f1b9082d12bfa95f620b423b40b47f53b8ad91b18caea5555a2",
+    "settings.py": "6b4627fb92fc1e6026b9858aff2539f62bab1e4264b6255681c3a8308fd8e247",
+    "config.py": "5524856d2050a1992046496872e4af41a97d36eff08b1f8d48e378543953f7f2",
+    "generate.py": "04d9f98f5adf3d443b91f9575d33ae4a70f1b48dd751f3771d4684311bf11f33",
+    "fit_jobs.py": "55ed288f8893af078638f0ba71b2553526f50f3e24707379b392c9582834cdfc",
+    "equivalence.py": "e4489dc0316bf3ec28670550c69779c585e096c794914c06c1afb15a42178061",
+    "prepare.py": "8889faeea0d53c425ee34322d3c1fca8de5c837eaf013b415a4d2772e1be8776",
+    "PROTOCOL.json": "90a4c38ece78f8b2e3a3e2423d2e4c35dec9e2aa18dbf9f75a9b53d8c312c6e7",
+    "validate_dev.py": "a9bc04b3b7ffe58aa5c823a9e355255eb1f995968566a4c72af943959802e7ad",
+    "ssm_reference.py": "84cced6f5aa007db98c0a745744577c1e8186563ee35fdccd0ec404f23916ff3",
+    "native_mean.py": "80055c8f49ac28856a211dafcaef302e1406314b14235e0056b3e29cb2bf0d28",
+    "native_mean.cpp": "d645c76f024a76fb8fd7c01193409df46444a47a72f38954ed06fb65582dcb02"
+  },
+  "development_validation": "unrelated random arrays only; no experiment outcomes used",
+  "repair_record": "BUGFIX_RECORD.json",
+  "performance_record": "NATIVE_BACKEND_RECORD.json"
+}

@@ -1,0 +1,9 @@
+{
+  "time": 1794893425.8249533,
+  "files": {
+    "evaluate.py": "ebcb23589a5709383266a8017cc7a1c8b3c61b2f85145755083b90e0fd3dd498"
+  },
+  "gate": "ALL_X_ONLY_FROZEN.json must exist and every decision/model hash verify before opening any sealed truth",
+  "oracle": "separate observed-YZ model, one initialization per candidate delay1/2, MAXITER40, no real parameters used",
+  "alignment": "validation truth used after global freeze only; no graph-score feedback"
+}

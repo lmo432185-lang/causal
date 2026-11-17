@@ -1,0 +1,16 @@
+{
+  "time": 1794893015.8224518,
+  "files": {
+    "ssm.py": "84cced6f5aa007db98c0a745744577c1e8186563ee35fdccd0ec404f23916ff3",
+    "settings.py": "6b4627fb92fc1e6026b9858aff2539f62bab1e4264b6255681c3a8308fd8e247",
+    "config.py": "5524856d2050a1992046496872e4af41a97d36eff08b1f8d48e378543953f7f2",
+    "generate.py": "04d9f98f5adf3d443b91f9575d33ae4a70f1b48dd751f3771d4684311bf11f33",
+    "fit_jobs.py": "06c8b88ddbb3be055c061b8cd7c641aabe9271fdd12dfe43711b3846576c52e7",
+    "equivalence.py": "e4489dc0316bf3ec28670550c69779c585e096c794914c06c1afb15a42178061",
+    "prepare.py": "4bdc1e90f653d63a8a7ee034cd376cf12bcc52c9c00f64c1d46240ccc9b644f7",
+    "PROTOCOL.json": "90a4c38ece78f8b2e3a3e2423d2e4c35dec9e2aa18dbf9f75a9b53d8c312c6e7",
+    "validate_dev.py": "a9bc04b3b7ffe58aa5c823a9e355255eb1f995968566a4c72af943959802e7ad"
+  },
+  "development_validation": "unrelated random arrays only; no experiment outcomes used",
+  "repair_record": "BUGFIX_RECORD.json"
+}

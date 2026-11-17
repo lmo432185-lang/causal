@@ -1,0 +1,15 @@
+{
+  "time": 1794892754.2750823,
+  "files": {
+    "ssm.py": "84cced6f5aa007db98c0a745744577c1e8186563ee35fdccd0ec404f23916ff3",
+    "settings.py": "6b4627fb92fc1e6026b9858aff2539f62bab1e4264b6255681c3a8308fd8e247",
+    "config.py": "5524856d2050a1992046496872e4af41a97d36eff08b1f8d48e378543953f7f2",
+    "generate.py": "04d9f98f5adf3d443b91f9575d33ae4a70f1b48dd751f3771d4684311bf11f33",
+    "fit_jobs.py": "f2df32b56a0bf9918e00c872c2f3f98adf1540111ab792be21d6e8ad9e146811",
+    "equivalence.py": "a3eaee5b095152bc0f38a650efdcf884235c5705d5b7c856e02c17b05b0efd2e",
+    "prepare.py": "4bdc1e90f653d63a8a7ee034cd376cf12bcc52c9c00f64c1d46240ccc9b644f7",
+    "PROTOCOL.json": "90a4c38ece78f8b2e3a3e2423d2e4c35dec9e2aa18dbf9f75a9b53d8c312c6e7",
+    "validate_dev.py": "a9bc04b3b7ffe58aa5c823a9e355255eb1f995968566a4c72af943959802e7ad"
+  },
+  "development_validation": "unrelated random arrays only; no experiment outcomes used"
+}

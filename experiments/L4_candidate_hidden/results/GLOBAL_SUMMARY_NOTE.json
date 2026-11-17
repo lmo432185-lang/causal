@@ -1,0 +1,7 @@
+{
+  "time": 1794896368.052415,
+  "status": "additional evaluation aggregation, not new model selection",
+  "unit": "one frozen validation choice per independent training-validation dataset; 12 L4-A systems",
+  "source": "selected_by_validation stored before truth reveal; no test structure labels used to pick a winner",
+  "single_trajectory_results": "retain all preregistered score results; do not treat shared-fit test trajectories as independent graph discoveries"
+}

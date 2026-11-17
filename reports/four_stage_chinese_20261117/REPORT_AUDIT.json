@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "figures": 13,
+  "caption_blocks": 39,
+  "source_hashes_checked": 23,
+  "source_files_unchanged": true,
+  "curve_denominator_per_event_condition": 2400,
+  "curve_monotonicity": true,
+  "exact_equivalence": true,
+  "L4_systems": 102,
+  "pdf_pages": 15,
+  "chinese_render": "inspected figure1,5,9,10 and rendered PDF page6; no missing glyph warnings"
+}

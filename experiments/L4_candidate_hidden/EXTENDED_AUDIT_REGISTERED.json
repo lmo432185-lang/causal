@@ -1,0 +1,10 @@
+{
+  "time": 1794894223.7364933,
+  "files": {
+    "extended_audit.py": "d4cdba2e61121f2d4bae0f2dbcbdeaa9321ed586ce82c201132d2ead3ad386c0"
+  },
+  "purpose": "additional algebraic law audit, no training or threshold change; preserve primary decision stream",
+  "before_hidden_answers": true,
+  "gate": "must freeze supplementary decisions before oracle/alignment sees truth",
+  "development_numeric_error": 3.0601524607901396e-16
+}

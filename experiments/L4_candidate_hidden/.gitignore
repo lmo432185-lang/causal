@@ -1,0 +1,4 @@
+__pycache__/
+.native_cache/
+data/case*/
+*.log

@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "G2",
+    "delay": 1,
+    "oracle": false,
+    "state_cov_max_error": 4.1167069753100805e-13,
+    "loglik_error": 5.229594535194337e-12
+  },
+  {
+    "kind": "G3",
+    "delay": 2,
+    "oracle": false,
+    "state_cov_max_error": 1.1166623181679824e-12,
+    "loglik_error": 5.9117155615240335e-12
+  },
+  {
+    "kind": "G3",
+    "delay": 2,
+    "oracle": true,
+    "state_cov_max_error": 3.175237850427948e-14,
+    "loglik_error": 1.864464138634503e-11
+  },
+  {
+    "kind": "single",
+    "delay": 1,
+    "oracle": false,
+    "state_cov_max_error": 1.9417800700693988e-13,
+    "loglik_error": 2.1600499167107046e-11
+  }
+]

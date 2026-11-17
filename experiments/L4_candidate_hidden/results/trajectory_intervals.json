@@ -1,0 +1,662 @@
+[
+  {
+    "section": "A",
+    "tag": "base",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "A",
+    "tag": "base",
+    "method": "forced",
+    "correct_coverage": 0.29583333333333334,
+    "conditional_CI95": [
+      0.2816666666666667,
+      0.30916666666666665
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "A",
+    "tag": "base",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "A",
+    "tag": "base",
+    "method": "oracle",
+    "correct_coverage": 0.9904166666666666,
+    "conditional_CI95": [
+      0.98625,
+      0.99375
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "A",
+    "tag": "base",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.05",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.05",
+    "method": "forced",
+    "correct_coverage": 0.2791666666666667,
+    "conditional_CI95": [
+      0.26625,
+      0.29333333333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.05",
+    "method": "naive_score",
+    "correct_coverage": 0.0025,
+    "conditional_CI95": [
+      0.0008333333333333334,
+      0.004583333333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.05",
+    "method": "oracle",
+    "correct_coverage": 1.0,
+    "conditional_CI95": [
+      1.0,
+      1.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.05",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.75",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.75",
+    "method": "forced",
+    "correct_coverage": 0.35,
+    "conditional_CI95": [
+      0.3383333333333333,
+      0.3620833333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.75",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.75",
+    "method": "oracle",
+    "correct_coverage": 0.8858333333333334,
+    "conditional_CI95": [
+      0.8775,
+      0.8945833333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "B",
+    "tag": "obs0.75",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "separated",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "separated",
+    "method": "forced",
+    "correct_coverage": 0.27958333333333335,
+    "conditional_CI95": [
+      0.2658333333333333,
+      0.29333333333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "separated",
+    "method": "naive_score",
+    "correct_coverage": 0.0004166666666666667,
+    "conditional_CI95": [
+      0.0,
+      0.00125
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "separated",
+    "method": "oracle",
+    "correct_coverage": 0.9941666666666666,
+    "conditional_CI95": [
+      0.9912395833333333,
+      0.9970833333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "separated",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "similar",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "similar",
+    "method": "forced",
+    "correct_coverage": 0.2575,
+    "conditional_CI95": [
+      0.24375,
+      0.2725
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "similar",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "similar",
+    "method": "oracle",
+    "correct_coverage": 0.9941666666666666,
+    "conditional_CI95": [
+      0.9908333333333333,
+      0.9970833333333333
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "C",
+    "tag": "similar",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 12,
+    "trajectories": 2400
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.2",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.2",
+    "method": "forced",
+    "correct_coverage": 0.14722222222222223,
+    "conditional_CI95": [
+      0.13333333333333333,
+      0.16
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.2",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.2",
+    "method": "oracle",
+    "correct_coverage": 1.0,
+    "conditional_CI95": [
+      1.0,
+      1.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.2",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.8",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.8",
+    "method": "forced",
+    "correct_coverage": 0.15611111111111112,
+    "conditional_CI95": [
+      0.14331944444444444,
+      0.1688888888888889
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.8",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.8",
+    "method": "oracle",
+    "correct_coverage": 1.0,
+    "conditional_CI95": [
+      1.0,
+      1.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "alpha0.8",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "delay2",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "delay2",
+    "method": "forced",
+    "correct_coverage": 0.17444444444444446,
+    "conditional_CI95": [
+      0.16111111111111112,
+      0.18666666666666668
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "delay2",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "delay2",
+    "method": "oracle",
+    "correct_coverage": 0.9772222222222222,
+    "conditional_CI95": [
+      0.9705555555555555,
+      0.9833333333333333
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "D",
+    "tag": "delay2",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 9,
+    "trajectories": 1800
+  },
+  {
+    "section": "E",
+    "tag": "named_direction_swap",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "named_direction_swap",
+    "method": "forced",
+    "correct_coverage": 0.23083333333333333,
+    "conditional_CI95": [
+      0.21166666666666667,
+      0.25166666666666665
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "named_direction_swap",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "named_direction_swap",
+    "method": "oracle",
+    "correct_coverage": 0.9991666666666666,
+    "conditional_CI95": [
+      0.9975,
+      1.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "named_direction_swap",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "parallel_chain_equal",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "parallel_chain_equal",
+    "method": "forced",
+    "correct_coverage": 0.37666666666666665,
+    "conditional_CI95": [
+      0.35,
+      0.4033333333333333
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "parallel_chain_equal",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "parallel_chain_equal",
+    "method": "oracle",
+    "correct_coverage": 1.0,
+    "conditional_CI95": [
+      1.0,
+      1.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "E",
+    "tag": "parallel_chain_equal",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 6,
+    "trajectories": 1200
+  },
+  {
+    "section": "F_positive",
+    "tag": "alpha2.5_positive",
+    "method": "equivalence_guard",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 3,
+    "trajectories": 600
+  },
+  {
+    "section": "F_positive",
+    "tag": "alpha2.5_positive",
+    "method": "forced",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 3,
+    "trajectories": 600
+  },
+  {
+    "section": "F_positive",
+    "tag": "alpha2.5_positive",
+    "method": "naive_score",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 3,
+    "trajectories": 600
+  },
+  {
+    "section": "F_positive",
+    "tag": "alpha2.5_positive",
+    "method": "oracle",
+    "correct_coverage": 0.7266666666666667,
+    "conditional_CI95": [
+      0.69,
+      0.7633333333333333
+    ],
+    "datasets": 3,
+    "trajectories": 600
+  },
+  {
+    "section": "F_positive",
+    "tag": "alpha2.5_positive",
+    "method": "supplementary_audit",
+    "correct_coverage": 0.0,
+    "conditional_CI95": [
+      0.0,
+      0.0
+    ],
+    "datasets": 3,
+    "trajectories": 600
+  }
+]

@@ -1,0 +1,719 @@
+{
+  "name": "L4 new definition: two named candidate hidden variables, unknown-parameter X-only structural SSM",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "cells": [
+    {
+      "id": "case000",
+      "section": "A",
+      "truth": "G1",
+      "kind": "G1",
+      "tag": "base",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.0,
+        "g1": 0.6,
+        "g2": 0.6,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case001",
+      "section": "A",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "base",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case002",
+      "section": "A",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "base",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case003",
+      "section": "A",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "base",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case004",
+      "section": "B",
+      "truth": "G1",
+      "kind": "G1",
+      "tag": "obs0.05",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.0,
+        "g1": 0.6,
+        "g2": 0.6,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.05
+      }
+    },
+    {
+      "id": "case005",
+      "section": "B",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "obs0.05",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.05
+      }
+    },
+    {
+      "id": "case006",
+      "section": "B",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "obs0.05",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.05
+      }
+    },
+    {
+      "id": "case007",
+      "section": "B",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "obs0.05",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.05
+      }
+    },
+    {
+      "id": "case008",
+      "section": "B",
+      "truth": "G1",
+      "kind": "G1",
+      "tag": "obs0.75",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.0,
+        "g1": 0.6,
+        "g2": 0.6,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.75
+      }
+    },
+    {
+      "id": "case009",
+      "section": "B",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "obs0.75",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.75
+      }
+    },
+    {
+      "id": "case010",
+      "section": "B",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "obs0.75",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.75
+      }
+    },
+    {
+      "id": "case011",
+      "section": "B",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "obs0.75",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.75
+      }
+    },
+    {
+      "id": "case012",
+      "section": "C",
+      "truth": "G1",
+      "kind": "G1",
+      "tag": "separated",
+      "params": {
+        "a": 0.9,
+        "c": 0.3,
+        "b": 0.5,
+        "alpha": 0.0,
+        "g1": 0.6,
+        "g2": 0.6,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case013",
+      "section": "C",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "separated",
+      "params": {
+        "a": 0.9,
+        "c": 0.3,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case014",
+      "section": "C",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "separated",
+      "params": {
+        "a": 0.9,
+        "c": 0.3,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case015",
+      "section": "C",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "separated",
+      "params": {
+        "a": 0.9,
+        "c": 0.3,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case016",
+      "section": "C",
+      "truth": "G1",
+      "kind": "G1",
+      "tag": "similar",
+      "params": {
+        "a": 0.75,
+        "c": 0.73,
+        "b": 0.5,
+        "alpha": 0.0,
+        "g1": 0.6,
+        "g2": 0.6,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case017",
+      "section": "C",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "similar",
+      "params": {
+        "a": 0.75,
+        "c": 0.73,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case018",
+      "section": "C",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "similar",
+      "params": {
+        "a": 0.75,
+        "c": 0.73,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case019",
+      "section": "C",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "similar",
+      "params": {
+        "a": 0.75,
+        "c": 0.73,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case020",
+      "section": "D",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "alpha0.2",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.2,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case021",
+      "section": "D",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "alpha0.2",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.2,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case022",
+      "section": "D",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "alpha0.2",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.2,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case023",
+      "section": "D",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "alpha0.8",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.8,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case024",
+      "section": "D",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "alpha0.8",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.8,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case025",
+      "section": "D",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "alpha0.8",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.8,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case026",
+      "section": "D",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "delay2",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 2,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case027",
+      "section": "D",
+      "truth": "G3",
+      "kind": "G3",
+      "tag": "delay2",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.4,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 2,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case028",
+      "section": "D",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "delay2",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 2,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case029",
+      "section": "E",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "named_direction_swap",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case030",
+      "section": "E",
+      "truth": "G4",
+      "kind": "G4",
+      "tag": "named_direction_swap",
+      "params": {
+        "a": 0.7,
+        "c": 0.8,
+        "b": 0.5,
+        "alpha": 0.5,
+        "g1": 0.8,
+        "g2": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case031",
+      "section": "E",
+      "truth": "G1",
+      "kind": "G1",
+      "tag": "parallel_chain_equal",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.0,
+        "g1": 0.6822422923379525,
+        "g2": 0.482418151324423,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    },
+    {
+      "id": "case032",
+      "section": "E",
+      "truth": "G2",
+      "kind": "G2",
+      "tag": "parallel_chain_equal",
+      "params": {
+        "a": 0.8,
+        "c": 0.7,
+        "b": 0.5,
+        "alpha": 0.2,
+        "g1": 0.0,
+        "g2": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25,
+        "delay": 1,
+        "obs": 0.25
+      }
+    }
+  ],
+  "n": 1000,
+  "length": 1000,
+  "split": [
+    600,
+    200,
+    200
+  ],
+  "stationary_initial": true,
+  "variance_matching": "each physical X normalized by its theoretical stationary std at generation, X variance1; normalization not supplied to fitter; measurement noise independent",
+  "learner": "observations only, no true YZ/graph/parameters; unit latent innovation covariance is a coordinate/scale gauge, not truth values",
+  "fit": "stationary constrained generalized EM, closed-form/box-constrained transition blocks; stationary P0 refreshed; observed-likelihood rollback safeguard; warmup covariance converged1e-12 then fast stable recurrences",
+  "topologies": [
+    "G1 parallel",
+    "G2 Y->Z->X",
+    "G3 mixed",
+    "G4 Z->Y->X"
+  ],
+  "initializations": 4,
+  "max_iterations": 40,
+  "convergence": "per-observation likelihood change<3e-5 after8iterations",
+  "delay_search": "G3 2initializations each d1,d2; G1/G2/single4 each; pure-cascade delay has same stationary X law, fit d1 canonical; G4 exact mirrored four G2 EM trajectories, separately checked",
+  "bounds": {
+    "AR": [
+      0,
+      0.98
+    ],
+    "coupling": [
+      0,
+      3
+    ],
+    "qx_R": [
+      1e-05,
+      5
+    ]
+  },
+  "selection": "per-candidate choose initialization/delay by validation LL-0.5*k*log(nval); no labels; all hyperparameters fixed",
+  "confidence": "per-test trajectory softmax(conditional loglik-0.5*k*log(900)); uncalibrated score, not Bayesian true-graph probability",
+  "rejection": "score>=.95 plus validation compatibility and estimated-law equivalence closure audit; required fitted path coefficient<1e-3 is boundary-ambiguous; separately retain naive-score decision",
+  "equivalence_audit": "known permutation of hidden names; fitted stationary spectral identities mapping parallel/chain/mixed into other allowed candidate topologies; no truth used",
+  "baseline": "single hidden state, same4 initializations",
+  "oracle": "only after global X-only decisions frozen; Y,Z observed; separate structural reference",
+  "alignment": "only after all X-only predictions and thresholds frozen, fit joint linear map on validation trueYZ then evaluate test; alignment never changes graph scores",
+  "statistics": "independent trajectories and3 data seeds; no timepoint IID; report optimizer caps and failures, no calibrating temperature from labels",
+  "not_claimed": [
+    "arbitrary hidden causal discovery",
+    "globally converged MLE for every start",
+    "calibrated graph posterior",
+    "dynamic failure warning"
+  ]
+}

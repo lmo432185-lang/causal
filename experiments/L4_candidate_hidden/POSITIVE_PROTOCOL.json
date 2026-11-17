@@ -1,0 +1,71 @@
+{
+  "time": 1794895394.914024,
+  "scope": "independent positive follow-up, not modification of original99 conditions",
+  "N": 1000,
+  "split": [
+    600,
+    200,
+    200
+  ],
+  "T": 1000,
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "truth": "G3",
+  "change": "alpha2.5 vs baseline.5",
+  "reason": "algebraically distinct from positive-AR parallel/cascade candidates after all target-pole assignments; original test truth not used to tune algorithm",
+  "fit": "unchanged4starts/MAXITER40 andall original scores/thresholds",
+  "confidence_scope": "can distinguish mixed family only conditional on specified candidate restrictions, not named hidden identity in unrestricted world",
+  "proof": [
+    {
+      "target_pole": 0.8,
+      "source_pole": 0.7,
+      "implied_qx": 0.3999999999999987,
+      "implied_output_gain_squared": -0.1528571428571411,
+      "implied_internal_gain_squared": null,
+      "legal_chain_representation": false
+    },
+    {
+      "target_pole": 0.8,
+      "source_pole": 0.5,
+      "implied_qx": 0.3999999999999987,
+      "implied_output_gain_squared": -0.21399999999999753,
+      "implied_internal_gain_squared": null,
+      "legal_chain_representation": false
+    },
+    {
+      "target_pole": 0.7,
+      "source_pole": 0.8,
+      "implied_qx": 0.34999999999999887,
+      "implied_output_gain_squared": -0.11999999999999914,
+      "implied_internal_gain_squared": null,
+      "legal_chain_representation": false
+    },
+    {
+      "target_pole": 0.7,
+      "source_pole": 0.5,
+      "implied_qx": 0.34999999999999887,
+      "implied_output_gain_squared": -0.19199999999999862,
+      "implied_internal_gain_squared": null,
+      "legal_chain_representation": false
+    },
+    {
+      "target_pole": 0.5,
+      "source_pole": 0.8,
+      "implied_qx": 0.24999999999999936,
+      "implied_output_gain_squared": -0.054999999999999355,
+      "implied_internal_gain_squared": null,
+      "legal_chain_representation": false
+    },
+    {
+      "target_pole": 0.5,
+      "source_pole": 0.7,
+      "implied_qx": 0.24999999999999936,
+      "implied_output_gain_squared": -0.06285714285714213,
+      "implied_internal_gain_squared": null,
+      "legal_chain_representation": false
+    }
+  ]
+}

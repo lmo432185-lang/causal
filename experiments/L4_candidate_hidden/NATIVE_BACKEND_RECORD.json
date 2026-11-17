@@ -1,0 +1,175 @@
+{
+  "time": 1794893938.4454699,
+  "purpose": "performance-only compiled finite Kalman/RTS mean recurrences; exact same model, data, EM blocks, iteration budgets and decision rules",
+  "same_function_sources": {
+    "setup": true,
+    "initialize": true,
+    "covariance": true,
+    "mstep": true,
+    "fit": true,
+    "mirror": true
+  },
+  "old_reference_sha": "84cced6f5aa007db98c0a745744577c1e8186563ee35fdccd0ec404f23916ff3",
+  "preexisting_complete_cases": {
+    "case000_101": {
+      "selected_parameters.json": "1e7cfd336a301922e8ddad42375869aa9d034dee182f6c6d6a8c50417dd960a3",
+      "X_only_decisions.json": "9ee77cf13cc98c65fda34134d83c83b9daf5236b0790d44a7ea4dbdfc945b38e",
+      "LOCAL_X_FREEZE.json": "0764faa646a4f312bd5a9d8aafd8154ecda5ca44bbe227b4dba8b1d0b0177755"
+    },
+    "case003_303": {
+      "selected_parameters.json": "262d0060e46bc94778ea9aae59144dfb5a8321c47240b1f585d2357483f0b076",
+      "X_only_decisions.json": "ba0eb4667c1c6a1c9497692b445d6be1022279b15d5c9bad93eb7e4e3689c0a6",
+      "LOCAL_X_FREEZE.json": "d7e54aca69ce54c03b52e0cb584468484d501c2c07b51fe95fb89e6899e8ebeb"
+    },
+    "case010_101": {
+      "selected_parameters.json": "df99215700a1fb7cf72ccf34c48ac4cf98506d9752e95b065271dd1fde3c761d",
+      "X_only_decisions.json": "529aa0809f45982d1a3a20f3b29a27f766d00120718d92340dd6bf0be05f0186",
+      "LOCAL_X_FREEZE.json": "f245b447b1bd5d55c21d7d578e519192e8e94c9d5f8cf5b059633d35d21f46eb"
+    },
+    "case007_303": {
+      "selected_parameters.json": "354bb7f3fd814e5717f3d2cfa754700e501725299ac1c06e0cc49c0f2533fdd9",
+      "X_only_decisions.json": "6cd992020b114edb7a5d2f03e6fd1f1a243f66208bc0f42076e5fd23b5928474",
+      "LOCAL_X_FREEZE.json": "e4066d72cfe0eb616b44eb01b6cd66b1688ff7bfded047fef0f929fa67b5b216"
+    },
+    "case006_202": {
+      "selected_parameters.json": "20227826c021ed3f5931d8b735f83bbf18da8d106b31289ea18de3a10fa3b5f1",
+      "X_only_decisions.json": "742a3010b5e5af7154cafbb698de9960df38ad61a58c3daa7c3cec090e2db7a6",
+      "LOCAL_X_FREEZE.json": "e1a539808181527488c215eefc9e5f237be61863a32b7b4790467767e886cd30"
+    },
+    "case005_202": {
+      "selected_parameters.json": "59f543f5d960da2d3f61964c3f798b52bf5db07aa6aede3347b95e9f9a607800",
+      "X_only_decisions.json": "e1d5df1cc7e4f3b40f9fa89768ea3b90fd10de8b906b3809f76d6cd4a517dce2",
+      "LOCAL_X_FREEZE.json": "b5aea5e4ae80f87bd37c3b3c78233a4b629f39102f3d42e14d566caed8f29215"
+    },
+    "case001_202": {
+      "selected_parameters.json": "c7a5382fcc48f315e663a33204e23d960f75f31a5e527ad26f34625e4a819605",
+      "X_only_decisions.json": "46bb883b1c2b0606fd51c0fcd1e2f8e62d09a75c17af7fc6d41229e6bb0c0745",
+      "LOCAL_X_FREEZE.json": "43ed1dd9ca522545053cd8c46bc512ee20330192158e4901cb464358a539c809"
+    },
+    "case008_202": {
+      "selected_parameters.json": "169f47adabdb411cd3424058b317d6f54f2bbb581ec3c8075cd5023312312370",
+      "X_only_decisions.json": "6a8118e61f476d18f15f952ac8b77906f3aadc9e6694c7f9855109e0d3a1d2fa",
+      "LOCAL_X_FREEZE.json": "fb2caf51ff72cc0739e50927c8a45ecc20584466d79b78dbf69881064c77e82b"
+    },
+    "case003_202": {
+      "selected_parameters.json": "01b82337523834eedf01a4a643866cf1fe54f90afa96b7d466f7da21cd8e0879",
+      "X_only_decisions.json": "6c528cd9c8b329f8af0ef80c29fbe3ca6b6f067e5f96cb8a5d7e837b56017702",
+      "LOCAL_X_FREEZE.json": "706720e4e4b7e50c605fd6dfcef637c6c5d21d5ac38742376eaaffc1af46841a"
+    },
+    "case003_101": {
+      "selected_parameters.json": "01143fdcfbef3b81bf60c2413e038a4cd134968bc36686d212fec8fe3894c22a",
+      "X_only_decisions.json": "af98908fc7b0914b5c8d153ddc2a92434f48cf6f849f95817138485ca013d713",
+      "LOCAL_X_FREEZE.json": "c474ccaf3da4fbce5d55435902eb3a4c977f4ee3cfaf91eb681712a9dbad53e1"
+    },
+    "case005_101": {
+      "selected_parameters.json": "dc08cfc74960c54e417f302922fc379b8a0efcc1b017989691ced6746318bdee",
+      "X_only_decisions.json": "30f4b6cd7e1dec79d389664b92f06f90da4042a0e53fb615e9f7901ef1586796",
+      "LOCAL_X_FREEZE.json": "a5449e062262d73042fa4ae0dfd10cad536e112f3c02f9add78dd8a775691162"
+    },
+    "case008_101": {
+      "selected_parameters.json": "0836eb96ae7fa3df5e343ef6cca3304cf2c24ac1cd7220971e3d8088f0d71f32",
+      "X_only_decisions.json": "5836eef5c8cb71b1106384e7a8b9770c5b6ba6b1f66e84154c87f98673bd68d3",
+      "LOCAL_X_FREEZE.json": "9aed394e0b3c3fcba287fa4f5dabfd3b91cd467112a9522753aa0483d3ce577e"
+    },
+    "case009_202": {
+      "selected_parameters.json": "5e97e904ccbaeae2cdab5221fcd6b437662fb6cc23b6749ed587739857097d04",
+      "X_only_decisions.json": "633983049a742277285b3afae7a2786cf06602222242db74c4f447c9796b9f15",
+      "LOCAL_X_FREEZE.json": "2448a3137f792a9ca4db446470b688cb20c272f3c0273f158d5f88f8f2e52469"
+    },
+    "case007_202": {
+      "selected_parameters.json": "1db384b987eb1bae38d7c6501e5ff866f024f9d5ffccc5c2f397829d67533636",
+      "X_only_decisions.json": "2cba957c7165991dd056689c8164be2cc368b67fd944356ba5a87f37d1e6bc5c",
+      "LOCAL_X_FREEZE.json": "3320edd40f3ab91603d3e2cad61309c9b00c286fb8222660bb04eeef10adff54"
+    },
+    "case005_303": {
+      "selected_parameters.json": "95ed59b7ff35085fea0e5a7274c6ef2ca8785ed357e04a700c40a1b6603badad",
+      "X_only_decisions.json": "d56da1e04206b34d2c5c7776255c020dccf7935480fb6fb4e446e512a0aa659b",
+      "LOCAL_X_FREEZE.json": "1f6d9ed00d70976b7c18d2ae8dd0ce26bc99595deb50d5f7b330da5104afb798"
+    },
+    "case004_202": {
+      "selected_parameters.json": "ad925a3461a516a68a0f301da6340631b209c5b88ceea3537380a7465b78bf7a",
+      "X_only_decisions.json": "04257acf0991b669f2b28a0b500d16b3f07deb76d5cdf082a56afbabf6e6f6f5",
+      "LOCAL_X_FREEZE.json": "4fde9dcf4a9436cecebfe3697837d87113fef05f4fca8275b5d27097abf8e78f"
+    },
+    "case002_303": {
+      "selected_parameters.json": "ba2f3189d2af54559fd6c125baa0f1478176238d4697f6af21c153a45de494b8",
+      "X_only_decisions.json": "199623407cf7152d590493d3479a33866ebb46ecb6ba07018bcd743530db2b24",
+      "LOCAL_X_FREEZE.json": "9a331701e49fdaac1e87e243f6f9a82722dff6abba10236df4a29314900bea98"
+    },
+    "case002_101": {
+      "selected_parameters.json": "54c25a434ef28b9262f5be793dce60b4d0c5a2f819072e288fee837c6ccf2009",
+      "X_only_decisions.json": "832e8556246ea0af644ee2daacdc47a8bf635e9646b46c9c027957d4f38807b3",
+      "LOCAL_X_FREEZE.json": "94325e53e92ace39a54015f2475b08c4b7ef96a69a5ed62830bf6299f08fe1dd"
+    },
+    "case001_303": {
+      "selected_parameters.json": "642626d4d80a3adf4278ad8006ea6148434b58771206836d027ad196d2028a1a",
+      "X_only_decisions.json": "ebf8fd42fb24d4a74e44dec139e768b718ec46231623de572974f302221ed599",
+      "LOCAL_X_FREEZE.json": "c67293b41098582ba94c9a2a9b04713d261eed5bcc6c455ad04d54fef05e20c8"
+    },
+    "case000_202": {
+      "selected_parameters.json": "8dbf902c94643ad911b45551ebc4e7d0448837897522fbc1a3b004b7ee3faa1a",
+      "X_only_decisions.json": "6445f948f05d20a884191d992006f103f3b51d9be8893c4517890dccb3b8cee0",
+      "LOCAL_X_FREEZE.json": "1bf45811c34ddfdd3ed7da66cda12cc24ab4ff377ee624b202e44f7d5939c7ff"
+    },
+    "case006_101": {
+      "selected_parameters.json": "f6a8cca7a2e22866a467d124a87211c7d6b4df3beda97996d2a0d85d9fe2a8f9",
+      "X_only_decisions.json": "08a6a2b14722d833d10fe6c2a2833e5d1ceeacc74d9974f10dc30612286a3131",
+      "LOCAL_X_FREEZE.json": "bd4a672db393aba9a722ed62280f9316b8f099cc1d655e0ee2411944defbe8e6"
+    },
+    "case007_101": {
+      "selected_parameters.json": "98678e1498d1e065dedc735f6d526a2df884f7982b1d9a01e55316c6bdb07ddd",
+      "X_only_decisions.json": "d6687203f79acd047ee9f9a7e2e1b2713ae7550ddd1d07ce7925a1cc94bd6b41",
+      "LOCAL_X_FREEZE.json": "41013491a815659e0cbd5687975abca861bf88a4e50c71891f211ea822709eff"
+    },
+    "case009_303": {
+      "selected_parameters.json": "6c01a9a88425c97a1dd0001477d664edc6a7b566d5a539c89b0ebc222d451a9f",
+      "X_only_decisions.json": "f6d36289a608e72a88e7ae9ccb908985c77f41f3e50ef77a685ccd8c9ac1ebad",
+      "LOCAL_X_FREEZE.json": "794ce07899daeb81c7537b56e9ba518bf7005ee5b2f9ba079472a2e566ce3583"
+    },
+    "case004_101": {
+      "selected_parameters.json": "cfb5d07e2fd2ae9c4623cb621a8de16debc1fad762a656342574a564a7edf268",
+      "X_only_decisions.json": "ea8cd151425fe2d370404d2f2059ba128d5474e51ff4f8dfbf0aadbeee116d38",
+      "LOCAL_X_FREEZE.json": "67838e67c70184c3bf0836d9da7eb521e3e3bcb7e14cab7af174ad1ed121bfec"
+    },
+    "case004_303": {
+      "selected_parameters.json": "2477694fccb3be2dbe678db9f36707aefd0506db98cb16399638669b8ea6d1b3",
+      "X_only_decisions.json": "c156cc22e69a057933018058d60bf161f4a28ceb2fef7ba91d1e1075c6dc24b9",
+      "LOCAL_X_FREEZE.json": "7fc8820b4a57289a89766c6355c9e315aa1235d69a4cab41cf3cc6377e9a1e2d"
+    },
+    "case001_101": {
+      "selected_parameters.json": "cd6945f6e16dcc98519256debc738c8d6edd0b97c5b679280069bb3a50d50ffb",
+      "X_only_decisions.json": "4d30bf9ff81537e6d0c4551018f6e0b4a62e2f51f8cd0fbb65fd38b371a3b4f8",
+      "LOCAL_X_FREEZE.json": "f7641a373da993e1efab6bcb4ce311469ce90473d9a43e64c9ea3c6b49b8ab7a"
+    },
+    "case009_101": {
+      "selected_parameters.json": "f0ed7e87312924dd421b055adf40a43317aafa65c10861e28114baee13b48728",
+      "X_only_decisions.json": "c68769724f112158c0c25737d0dbaff63d724497e7f9d50c22014ba9c802540c",
+      "LOCAL_X_FREEZE.json": "89d4ddb8a02bdb1e35cc439aed0b23d1b40b71537d2aa588e8538b822b0b9a08"
+    },
+    "case006_303": {
+      "selected_parameters.json": "40e7c9eceebe19943e490abca29b555c811eb634efeda845a0dad368713bcf1b",
+      "X_only_decisions.json": "57d856913ad74035afe1551dd6edebb3eb217069119ebb63c46635c1a53f4f2c",
+      "LOCAL_X_FREEZE.json": "cc0f6de5caa44909f0b14b402aa8690b3db8b9f24d5ff96ad377e6150d9fe012"
+    },
+    "case008_303": {
+      "selected_parameters.json": "7bc15e0ea0175a7c4839a068620fbe61e6f1ba5d77c80c28fd5428971c9282d0",
+      "X_only_decisions.json": "0bedbd645b342f4cebaad04ca9ca076d437add88dc4d3ca0f17d920a44750c51",
+      "LOCAL_X_FREEZE.json": "fc4a97cb2eaa6eadebce0e6304ac8efabd3a94b8588f2b69e9ecc1d6df960b48"
+    },
+    "case002_202": {
+      "selected_parameters.json": "e1423812dc9de896908deeffa1fdaa0b0d7576667c14947b051fe19327a26327",
+      "X_only_decisions.json": "99003beb5d6479c4300772b2d82e996d1e915a3ae38ac01934d03b143b8684bc",
+      "LOCAL_X_FREEZE.json": "34488181d2847facfc521d46b683bfacd0796070a61b760055dfa9e4362ccb39"
+    },
+    "case000_303": {
+      "selected_parameters.json": "ba5d84495bcc33783c3fa9f40054850c59fb2e999698930699e098add8deeb17",
+      "X_only_decisions.json": "a26abc9b3b67de7014536be00bd1c5bff390d28975cad031099119c021c9a45c",
+      "LOCAL_X_FREEZE.json": "8c29f28d81fd51cd60a60bd7fb6a4aa75e18cacde1f21fca5f1a5f1d3126c271"
+    }
+  },
+  "validation": "NATIVE_VALIDATION.json",
+  "no_hidden_truth_read": true,
+  "parameter_hyperparameter_changes": false,
+  "compile_flags": "-O3 -fno-fast-math -ffp-contract=off",
+  "fallback": "L4_NATIVE=0 runs original reference path"
+}

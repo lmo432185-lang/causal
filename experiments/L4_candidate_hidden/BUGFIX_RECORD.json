@@ -1,0 +1,16 @@
+{
+  "time": 1794893015.8221347,
+  "old_hashes": {
+    "equivalence.py": "a3eaee5b095152bc0f38a650efdcf884235c5705d5b7c856e02c17b05b0efd2e",
+    "fit_jobs.py": "f2df32b56a0bf9918e00c872c2f3f98adf1540111ab792be21d6e8ad9e146811"
+  },
+  "new_hashes": {
+    "equivalence.py": "e4489dc0316bf3ec28670550c69779c585e096c794914c06c1afb15a42178061",
+    "fit_jobs.py": "06c8b88ddbb3be055c061b8cd7c641aabe9271fdd12dfe43711b3846576c52e7"
+  },
+  "reason": "format-only repair: G4 equivalent alternative now same dictionary schema as other models; add reuse of completed fits after interruption",
+  "scientific_protocol_changed": false,
+  "model_parameters_or_hyperparameters_changed": false,
+  "no_truth_read": true,
+  "experiment_test_decisions_not_yet_completed": true
+}

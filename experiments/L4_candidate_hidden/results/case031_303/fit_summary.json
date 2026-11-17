@@ -1,0 +1,146 @@
+[
+  {
+    "case": "case031_303",
+    "kind": "G1",
+    "init": 0,
+    "delay": 1,
+    "iterations": 24,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168792.05634033043
+  },
+  {
+    "case": "case031_303",
+    "kind": "G1",
+    "init": 1,
+    "delay": 1,
+    "iterations": 17,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168769.32129731457
+  },
+  {
+    "case": "case031_303",
+    "kind": "G1",
+    "init": 2,
+    "delay": 1,
+    "iterations": 25,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168769.51551745235
+  },
+  {
+    "case": "case031_303",
+    "kind": "G1",
+    "init": 3,
+    "delay": 1,
+    "iterations": 24,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168745.0786326341
+  },
+  {
+    "case": "case031_303",
+    "kind": "G2",
+    "init": 0,
+    "delay": 1,
+    "iterations": 24,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168792.31690013458
+  },
+  {
+    "case": "case031_303",
+    "kind": "G2",
+    "init": 1,
+    "delay": 1,
+    "iterations": 19,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168734.1341619451
+  },
+  {
+    "case": "case031_303",
+    "kind": "G2",
+    "init": 2,
+    "delay": 1,
+    "iterations": 27,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168797.41165821746
+  },
+  {
+    "case": "case031_303",
+    "kind": "G2",
+    "init": 3,
+    "delay": 1,
+    "iterations": 28,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168772.70641123274
+  },
+  {
+    "case": "case031_303",
+    "kind": "G3",
+    "init": 0,
+    "delay": 1,
+    "iterations": 16,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168790.30552392043
+  },
+  {
+    "case": "case031_303",
+    "kind": "G3",
+    "init": 1,
+    "delay": 1,
+    "iterations": 19,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168749.93713608044
+  },
+  {
+    "case": "case031_303",
+    "kind": "G3",
+    "init": 2,
+    "delay": 2,
+    "iterations": 18,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168833.63554157695
+  },
+  {
+    "case": "case031_303",
+    "kind": "G3",
+    "init": 3,
+    "delay": 2,
+    "iterations": 14,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168933.98764096224
+  },
+  {
+    "case": "case031_303",
+    "kind": "single",
+    "init": 0,
+    "delay": 1,
+    "iterations": 19,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168747.55941830383
+  },
+  {
+    "case": "case031_303",
+    "kind": "single",
+    "init": 1,
+    "delay": 1,
+    "iterations": 15,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168737.49506735383
+  },
+  {
+    "case": "case031_303",
+    "kind": "single",
+    "init": 2,
+    "delay": 1,
+    "iterations": 16,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168720.0296683048
+  },
+  {
+    "case": "case031_303",
+    "kind": "single",
+    "init": 3,
+    "delay": 1,
+    "iterations": 11,
+    "stop": "likelihood_tolerance",
+    "validation_score": -168744.08551832844
+  }
+]

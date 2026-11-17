@@ -1,0 +1,23 @@
+{
+  "input": "X only, true parameters known only to final reference",
+  "filter_posterior_variance": [
+    [
+      0.5455226525280756,
+      0.03510544910310732
+    ],
+    [
+      0.03510544910310732,
+      0.36351390772815056
+    ]
+  ],
+  "smoother_posterior_variance": [
+    [
+      0.3673055565007752,
+      -0.0997529979513211
+    ],
+    [
+      -0.0997529979513211,
+      0.21186877987869668
+    ]
+  ]
+}

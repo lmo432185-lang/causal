@@ -1,0 +1,35 @@
+{
+  "example_selection": "fixed original first test trajectory, seed101 for L1/L2; C7C1 medium noise tau.5 cohort0 trajectory0; no outcome selection",
+  "sources": {
+    "/workspace/work/L1/results/seed101/test_predictions.npz": "a77ded17012fc7c6f5d0db65cdb15dc53d4de701d93691c482755cfc9a17207d",
+    "/workspace/work/L1/results/seed101/probe_maps.json": "e00f7c538ab331ddb8aa12389e14d032f90c8487cca8cb0e214988e0537a6f25",
+    "/workspace/work/L1/results/summary.csv": "250d912ae37ed54374ab38ee8035e4f47b54489b283df13c49307051c0c22b1d",
+    "/workspace/work/L1/results/latent_redundancy.json": "32df298be178b08d333daa47ad377342258adb50c2a024bf141c565c1ab07ee0",
+    "/workspace/work/L2A/results/seed101/estimates.npz": "901d2c4536a865bae91b5dde1b62ffb7b685b13bad921d52f277573bd9308ffd",
+    "/workspace/work/L2A/results/model_covariances.npz": "3161bbef661b9e3a2f3ce3f9d4a868f948b375a799161f8ba2672085e790d49a",
+    "/workspace/work/L23/results/scan_summary.csv": "6ceee90fef53996bada778064d106aa5c4d3f0c76a1317242d52d59ddff72662",
+    "/workspace/work/L23/results/equivalence_proofs.json": "a5348dae328989247d4301c035fe82c40eada5c383f5b807808630a2899f3704",
+    "/workspace/work/L3D/results/edge_summary.csv": "308271135fd5ce18ded8f389df905cc24ac2c91b11729a3e6874716f0b74c746",
+    "/workspace/work/L3D/results/rotations.json": "5b1da13278c1281a88b7b5605ed96dcbbae7f19f131c9bb448b0f5b739d41f13",
+    "/workspace/work/L4/results/case001_101/G1_initializations.json": "960a893d04bc4f1b98fbece0e25946bb4ac7ff7f8f1de93e803b5da96cd37098",
+    "/workspace/work/L4/results/case001_101/G2_initializations.json": "372b8b2e0d81a493d51a54da4be89383c9449048e5b7709d5e6b564e85444488",
+    "/workspace/work/L4/results/case001_101/G3_initializations.json": "3b4c0c28fb5a5db95ac78d772c2617acd40d5bac1bea4ed1195faf27c1600401",
+    "/workspace/work/L4/results/case001_101/G4_initializations.json": "a628a1d78bf462bb6e45121bf37d8e3082e1ac92f3e3b1ef30ded0c142106ec9",
+    "/workspace/work/L4/results/system_level_confusion_A.csv": "baad693601d43d48cade8643678c5742c51cad88906194a69f3ab899e792dfb3",
+    "/workspace/work/L4/results/system_level_frozen_validation_choices.csv": "1eef2db7f0f92fabb756554c453e6c31fb1fe613e7e09c8de8a687d0a270aed8",
+    "/workspace/work/C7C1/results/test_scores_n1_k1_c0.npz": "c17da59407de9a7301ae64ab497fb47b6fa7056498ea5a30b8a8351c77508370",
+    "/workspace/work/C7C1/results/trajectory_metrics.csv.gz": "b379ceb2a065be5ae27a57200682789b117cf23014ba73f2d9c21fef0f7a0e74",
+    "/workspace/work/C7C1/results/normal_audit.csv": "ec68adf71542f0b97e928b10f92fb5d9dbdb64a0382c0cb92e00d9d2da96018b",
+    "/workspace/work/C7C1/results/summary_main.json": "b8879a1604abf8dac45766a50d0a54515b34fb095f64541183f76dc0eacb236f",
+    "/workspace/work/L1/results/seed101/training_curve.json": "44bad5dcc888eaeb5774697dc398cdb3d0d33970402c4b0aa5893fb24d5ce5ce",
+    "/workspace/work/L1/results/seed202/training_curve.json": "9ffe6563ae087a835f31895511f08c2a76c6e2663420f44daffd578c4e97f509",
+    "/workspace/work/L1/results/seed303/training_curve.json": "13606a8f12bfa7d9e9a6cc7542d5f4075caff0aaca1c2058c973bc92b7fa66f0"
+  },
+  "commits": {
+    "L1": "a033238a17ccab47c417ea2f03e6da4f5bf0f9e6",
+    "L2A": "d7ae4b8d1087e7d2be7ad1df7a92d54e50d46d35",
+    "L23": "318d06ec382ada91d24ce659802257fbf0e0231b",
+    "L3D": "10e9c2c7f60220ba8156360d8e1aeacb1f4368c2",
+    "C7C1": "852dd43500a98d6808956d712d40f1fc071e3d53"
+  }
+}
