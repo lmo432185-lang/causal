@@ -1,0 +1,12 @@
+{
+  "pretest_hashes": "PASS",
+  "dense_Gaussian_vs_Kalman_loglik_max_error": 8.526512829121202e-14,
+  "future_perturbation_prefix_loglik_error": 0.0,
+  "paired_X_and_states_equal": "PASS",
+  "predeclared_information_law_patterns": "PASS",
+  "rows": 201600,
+  "invalid_prior_trials_retained": 10800,
+  "weak_prior_still_ambiguous": true,
+  "status": "PASS",
+  "original_L3B_X_covariance_max_difference": 0.0
+}

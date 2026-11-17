@@ -1,0 +1,8 @@
+{
+  "pool": 3,
+  "truth": 0,
+  "info": "C2_Z",
+  "seed": 101,
+  "noise": 0.25,
+  "max_observation_difference": 0.0
+}

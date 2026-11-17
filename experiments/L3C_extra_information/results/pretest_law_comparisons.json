@@ -1,0 +1,203 @@
+{
+  "rows": [
+    {
+      "pair": "direct_vs_noisy_indirect",
+      "info": "C0_X",
+      "covariance_relative_difference": 2.8095661018583394e-16,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "direct_vs_noisy_indirect",
+      "info": "C1_XZ",
+      "covariance_relative_difference": 0.13251079478865033,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": false,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "direct_vs_noisy_indirect",
+      "info": "C2_Y",
+      "covariance_relative_difference": 2.8095661018583394e-16,
+      "controlled_mean_max_difference": 2.5758231568972367,
+      "observationally_equivalent": false,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "direct_vs_noisy_indirect",
+      "info": "C2_Z",
+      "covariance_relative_difference": 2.8095661018583394e-16,
+      "controlled_mean_max_difference": 1.3332734435016955,
+      "observationally_equivalent": false,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "direct_vs_noisy_indirect",
+      "info": "C2_X_negative",
+      "covariance_relative_difference": 2.8095661018583394e-16,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "direct_vs_noisy_indirect",
+      "info": "C3_constraints_X",
+      "covariance_relative_difference": 2.8095661018583394e-16,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        false,
+        true
+      ]
+    },
+    {
+      "pair": "positive_mixed_cancellation",
+      "info": "C0_X",
+      "covariance_relative_difference": 1.1861904698385843e-16,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "positive_mixed_cancellation",
+      "info": "C1_XZ",
+      "covariance_relative_difference": 2.014682477432512,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": false,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "positive_mixed_cancellation",
+      "info": "C2_Y",
+      "covariance_relative_difference": 1.1861904698385843e-16,
+      "controlled_mean_max_difference": 8.881784197001252e-16,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "positive_mixed_cancellation",
+      "info": "C2_Z",
+      "covariance_relative_difference": 1.1861904698385843e-16,
+      "controlled_mean_max_difference": 2.406187723420667,
+      "observationally_equivalent": false,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "positive_mixed_cancellation",
+      "info": "C2_X_negative",
+      "covariance_relative_difference": 1.1861904698385843e-16,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "positive_mixed_cancellation",
+      "info": "C3_constraints_X",
+      "covariance_relative_difference": 1.1861904698385843e-16,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        false,
+        true
+      ]
+    },
+    {
+      "pair": "source_middle_clock_swap",
+      "info": "C0_X",
+      "covariance_relative_difference": 8.724874049019351e-17,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "source_middle_clock_swap",
+      "info": "C1_XZ",
+      "covariance_relative_difference": 8.724874049019351e-17,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "source_middle_clock_swap",
+      "info": "C2_Y",
+      "covariance_relative_difference": 8.724874049019351e-17,
+      "controlled_mean_max_difference": 8.881784197001252e-16,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "source_middle_clock_swap",
+      "info": "C2_Z",
+      "covariance_relative_difference": 8.724874049019351e-17,
+      "controlled_mean_max_difference": 2.546610908577776,
+      "observationally_equivalent": false,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "source_middle_clock_swap",
+      "info": "C2_X_negative",
+      "covariance_relative_difference": 8.724874049019351e-17,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        true
+      ]
+    },
+    {
+      "pair": "source_middle_clock_swap",
+      "info": "C3_constraints_X",
+      "covariance_relative_difference": 8.724874049019351e-17,
+      "controlled_mean_max_difference": 0.0,
+      "observationally_equivalent": true,
+      "prior_allowed": [
+        true,
+        false
+      ]
+    }
+  ],
+  "pair1_Z_marginal_covariance_max_difference": 2.220446049250313e-16
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "pool": 0,
+    "noise": 0.05,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 0.28555555555555556,
+    "CI95": [
+      0.26611111111111113,
+      0.3038888888888889
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.05,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.2827777777777778,
+    "CI95": [
+      0.2633333333333333,
+      0.3022222222222222
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.05,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 0.0033333333333333335,
+    "CI95": [
+      0.0011111111111111111,
+      0.006111111111111111
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.25,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 0.2927777777777778,
+    "CI95": [
+      0.2738888888888889,
+      0.3111111111111111
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.25,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.29,
+    "CI95": [
+      0.27166666666666667,
+      0.31
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.25,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 0.0033333333333333335,
+    "CI95": [
+      0.0011111111111111111,
+      0.006111111111111111
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.75,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 0.3138888888888889,
+    "CI95": [
+      0.29388888888888887,
+      0.3338888888888889
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.75,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.30833333333333335,
+    "CI95": [
+      0.28944444444444445,
+      0.32668055555555553
+    ]
+  },
+  {
+    "pool": 0,
+    "noise": 0.75,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 0.006666666666666667,
+    "CI95": [
+      0.0033333333333333335,
+      0.010555555555555556
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.05,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.05,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.05,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 0.9983333333333333,
+    "CI95": [
+      0.9958333333333333,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.25,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.25,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.25,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 0.9983333333333333,
+    "CI95": [
+      0.9958125,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.75,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.75,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.9991666666666666,
+    "CI95": [
+      0.9975,
+      1.0
+    ]
+  },
+  {
+    "pool": 1,
+    "noise": 0.75,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 0.9983333333333333,
+    "CI95": [
+      0.9958333333333333,
+      1.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.05,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.05,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.05,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.25,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.25,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.25,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.75,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.75,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 2,
+    "noise": 0.75,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.05,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.05,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.05,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.25,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.25,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.25,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.75,
+    "info": "C1_XZ",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.75,
+    "info": "C2_Y",
+    "minus": "C0_X",
+    "coverage_difference": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 3,
+    "noise": 0.75,
+    "info": "C2_Z",
+    "minus": "C0_X",
+    "coverage_difference": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ]
+  }
+]

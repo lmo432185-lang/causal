@@ -1,0 +1,219 @@
+{
+  "name": "L3-C additional information and finite-candidate identifiability",
+  "scope": "only L3-C, not L3-D learned classifier or L4 warning",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "n_test_per_truth_seed_noise": 200,
+  "T": 500,
+  "prefixes": [
+    100,
+    500
+  ],
+  "measurement_noise_std": [
+    0.05,
+    0.25,
+    0.75
+  ],
+  "process": "three-state linear Gaussian, all candidates contain a physical Z channel; direct means no Z->X target path",
+  "stationary_initial": true,
+  "primary": [
+    [
+      "G1_direct",
+      {
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta1": 0.8,
+        "beta": 0.0,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25
+      }
+    ],
+    [
+      "G2_indirect",
+      {
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta1": 0.0,
+        "beta": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25
+      }
+    ],
+    [
+      "G3_mixed",
+      {
+        "a": 0.8,
+        "c": 0.7,
+        "alpha": 0.5,
+        "beta1": 0.4,
+        "beta": 0.8,
+        "qy": 0.25,
+        "qz": 0.25,
+        "qx": 0.25
+      }
+    ]
+  ],
+  "equivalent_pairs": [
+    {
+      "name": "direct_vs_noisy_indirect",
+      "models": [
+        [
+          "direct",
+          {
+            "a": 0.8,
+            "c": 0.4,
+            "alpha": 0.58309518948453,
+            "beta1": 0.8,
+            "beta": 0.0,
+            "qy": 0.5,
+            "qz": 0.25,
+            "qx": 0.25
+          }
+        ],
+        [
+          "indirect",
+          {
+            "a": 0.8,
+            "c": 0.4,
+            "alpha": 0.8246211251235321,
+            "beta1": 0.0,
+            "beta": 0.8,
+            "qy": 0.25,
+            "qz": 0.25,
+            "qx": 0.25
+          }
+        ]
+      ],
+      "prior_allowed": [
+        false,
+        true
+      ],
+      "prior": "independent calibration qY=.25 and Z->X coefficient beta=.8; fixed before labels",
+      "weak_prior": "qY=.25 alone also admits a gain-rescaled direct alternative"
+    },
+    {
+      "name": "positive_mixed_cancellation",
+      "models": [
+        [
+          "mixed",
+          {
+            "a": 0.3,
+            "c": 0.8,
+            "alpha": 0.5,
+            "beta1": 0.5,
+            "beta": 0.5,
+            "qy": 0.25,
+            "qz": 0.0,
+            "qx": 0.25
+          }
+        ],
+        [
+          "direct",
+          {
+            "a": 0.8,
+            "c": 0.8,
+            "alpha": 0.5,
+            "beta1": 0.5,
+            "beta": 0.0,
+            "qy": 0.25,
+            "qz": 0.0,
+            "qx": 0.25
+          }
+        ]
+      ],
+      "prior_allowed": [
+        false,
+        true
+      ],
+      "prior": "minimal transfer realization: no exact source pole cancellation; an external structural assumption"
+    },
+    {
+      "name": "source_middle_clock_swap",
+      "models": [
+        [
+          "indirect_clock_A",
+          {
+            "a": 0.8,
+            "c": 0.4,
+            "alpha": 0.5,
+            "beta1": 0.0,
+            "beta": 0.8,
+            "qy": 0.25,
+            "qz": 0.0,
+            "qx": 0.25
+          }
+        ],
+        [
+          "indirect_clock_B",
+          {
+            "a": 0.4,
+            "c": 0.8,
+            "alpha": 0.5,
+            "beta1": 0.0,
+            "beta": 0.8,
+            "qy": 0.25,
+            "qz": 0.0,
+            "qx": 0.25
+          }
+        ]
+      ],
+      "prior_allowed": [
+        true,
+        false
+      ],
+      "prior": "independent role calibration source persistence a >= .7"
+    }
+  ],
+  "information": [
+    "C0_X",
+    "C1_XZ",
+    "C2_Y",
+    "C2_Z",
+    "C2_X_negative",
+    "C3_constraints_X"
+  ],
+  "input": {
+    "amplitude": 0.5,
+    "start": 50,
+    "stop": 450,
+    "half_period": 16,
+    "schedule": "fixed alternating square wave, known target, unit additive gain to selected state equation",
+    "prediction": "S[t+1]=A S[t]+e_target*u[t]+epsilon[t]"
+  },
+  "comparison": "exact known-candidate Gaussian likelihood reference; no parameter learning or hidden-state answers supplied per trajectory",
+  "candidate_prior": "equal among admissible candidates; physical constraints predeclared; invalid-prior tests retain actual excluded truths",
+  "declaration": "maximum finite-candidate posterior >= .95, otherwise refuse; posterior conditional on full candidate specification, not universal calibrated causal confidence",
+  "C3_primary": "shared true bounds all three candidates satisfy; no pruning and no extra benefit manufactured",
+  "C3_weak": "matched direct scaled to qY=.25 beta1=.8 sqrt2 remains equal to indirect under X; calibrated qY alone cannot break ambiguity",
+  "paired": "same process/measurement innovations across input/noise information conditions within each pool/truth/seed; C0 and C1 share X observations",
+  "main_questions": [
+    "do added joint covariances differ?",
+    "do targeted controlled means differ?",
+    "does prior remove true or false candidates?",
+    "what remains indistinguishable?"
+  ],
+  "metrics": [
+    "correct declaration",
+    "wrong declaration",
+    "refusal",
+    "forced accuracy diagnostic",
+    "posterior",
+    "prior validity",
+    "law difference",
+    "controlled response difference"
+  ],
+  "statistics": "trajectory sampling within seed; compare paired trajectories, do not treat timepoints or prefixes as independent",
+  "not_claimed": [
+    "unknown-parameter causal discovery",
+    "automatic universal nonidentifiability detection",
+    "real physical calibration",
+    "early warning"
+  ]
+}

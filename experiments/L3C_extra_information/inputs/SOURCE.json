@@ -1,0 +1,7 @@
+{
+  "source_repo": "https://github.com/lmo432185-lang/causal",
+  "commit": "318d06ec382ada91d24ce659802257fbf0e0231b",
+  "path": "experiments/L2B_L3_xonly_conditions/results/equivalence_proofs.json",
+  "sha256": "a5348dae328989247d4301c035fe82c40eada5c383f5b807808630a2899f3704",
+  "note": "Archived for provenance. C1 direct alternatives gain an auxiliary Z side branch; their X laws preserved. Pair1 Z-marginal matched by calibrated alphaD=alphaI/sqrt2."
+}
