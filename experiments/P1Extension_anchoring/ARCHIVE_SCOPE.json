@@ -1,0 +1,8 @@
+{
+  "raw_data_cloud_path": "/workspace/work/P1Extension/data",
+  "full_frozen_probabilities_cloud_path": "/workspace/work/P1Extension/results",
+  "raw_data_and_complete_probability_arrays_omitted_from_Git": true,
+  "included": "all model parameters and initializations, equivalence audits, per-trajectory metrics, examples, source, theory, protocol and repair history",
+  "replay": "deterministic replay.py with seed manifest; complete probability SHA256 checked",
+  "previous_experiment_unchanged": true
+}

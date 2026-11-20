@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "unrelated_toy_parameters_only": true,
+  "covariance_analytic_derivative_max_errors": {
+    "E0": 5.310767381416781e-10,
+    "E1": 5.310767381416781e-10,
+    "E2": 5.310767381416781e-10,
+    "E3": 6.834888210960344e-10,
+    "E4Y": 4.981020040872863e-09,
+    "E4Z": 1.700405150018014e-09,
+    "E4YZ": 4.9543480429292686e-09
+  },
+  "causal_prefix_error": 0.0,
+  "X_only_delay_covariance_difference": 5.551115123125783e-17,
+  "native_backend": true
+}

@@ -1,0 +1,686 @@
+[
+  {
+    "tag": "baseline",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 0,
+    "case": "case000_passive_101",
+    "seed": 101,
+    "policy": "passive",
+    "data_seed": 1620364278
+  },
+  {
+    "tag": "baseline",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 0,
+    "case": "case000_active_101",
+    "seed": 101,
+    "policy": "active",
+    "data_seed": 1620364278
+  },
+  {
+    "tag": "baseline",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 0,
+    "case": "case000_passive_202",
+    "seed": 202,
+    "policy": "passive",
+    "data_seed": 591497226
+  },
+  {
+    "tag": "baseline",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 0,
+    "case": "case000_active_202",
+    "seed": 202,
+    "policy": "active",
+    "data_seed": 591497226
+  },
+  {
+    "tag": "baseline",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 0,
+    "case": "case000_passive_303",
+    "seed": 303,
+    "policy": "passive",
+    "data_seed": 4064137518
+  },
+  {
+    "tag": "baseline",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 0,
+    "case": "case000_active_303",
+    "seed": 303,
+    "policy": "active",
+    "data_seed": 4064137518
+  },
+  {
+    "tag": "rich",
+    "params": {
+      "a": 0.95,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.8,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0025000000000000005,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 1,
+    "case": "case001_passive_101",
+    "seed": 101,
+    "policy": "passive",
+    "data_seed": 1629638204
+  },
+  {
+    "tag": "rich",
+    "params": {
+      "a": 0.95,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.8,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0025000000000000005,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 1,
+    "case": "case001_active_101",
+    "seed": 101,
+    "policy": "active",
+    "data_seed": 1629638204
+  },
+  {
+    "tag": "rich",
+    "params": {
+      "a": 0.95,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.8,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0025000000000000005,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 1,
+    "case": "case001_passive_202",
+    "seed": 202,
+    "policy": "passive",
+    "data_seed": 1299424549
+  },
+  {
+    "tag": "rich",
+    "params": {
+      "a": 0.95,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.8,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0025000000000000005,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 1,
+    "case": "case001_active_202",
+    "seed": 202,
+    "policy": "active",
+    "data_seed": 1299424549
+  },
+  {
+    "tag": "rich",
+    "params": {
+      "a": 0.95,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.8,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0025000000000000005,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 1,
+    "case": "case001_passive_303",
+    "seed": 303,
+    "policy": "passive",
+    "data_seed": 409936706
+  },
+  {
+    "tag": "rich",
+    "params": {
+      "a": 0.95,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.8,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0025000000000000005,
+      "delay": 1
+    },
+    "valid_order": true,
+    "index": 1,
+    "case": "case001_active_303",
+    "seed": 303,
+    "policy": "active",
+    "data_seed": 409936706
+  },
+  {
+    "tag": "delay2",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 2
+    },
+    "valid_order": true,
+    "index": 2,
+    "case": "case002_passive_101",
+    "seed": 101,
+    "policy": "passive",
+    "data_seed": 3937504996
+  },
+  {
+    "tag": "delay2",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 2
+    },
+    "valid_order": true,
+    "index": 2,
+    "case": "case002_active_101",
+    "seed": 101,
+    "policy": "active",
+    "data_seed": 3937504996
+  },
+  {
+    "tag": "delay2",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 2
+    },
+    "valid_order": true,
+    "index": 2,
+    "case": "case002_passive_202",
+    "seed": 202,
+    "policy": "passive",
+    "data_seed": 1431587349
+  },
+  {
+    "tag": "delay2",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 2
+    },
+    "valid_order": true,
+    "index": 2,
+    "case": "case002_active_202",
+    "seed": 202,
+    "policy": "active",
+    "data_seed": 1431587349
+  },
+  {
+    "tag": "delay2",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 2
+    },
+    "valid_order": true,
+    "index": 2,
+    "case": "case002_passive_303",
+    "seed": 303,
+    "policy": "passive",
+    "data_seed": 3930014949
+  },
+  {
+    "tag": "delay2",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 2
+    },
+    "valid_order": true,
+    "index": 2,
+    "case": "case002_active_303",
+    "seed": 303,
+    "policy": "active",
+    "data_seed": 3930014949
+  },
+  {
+    "tag": "delay3",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 3,
+    "case": "case003_passive_101",
+    "seed": 101,
+    "policy": "passive",
+    "data_seed": 2659474700
+  },
+  {
+    "tag": "delay3",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 3,
+    "case": "case003_active_101",
+    "seed": 101,
+    "policy": "active",
+    "data_seed": 2659474700
+  },
+  {
+    "tag": "delay3",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 3,
+    "case": "case003_passive_202",
+    "seed": 202,
+    "policy": "passive",
+    "data_seed": 1939831706
+  },
+  {
+    "tag": "delay3",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 3,
+    "case": "case003_active_202",
+    "seed": 202,
+    "policy": "active",
+    "data_seed": 1939831706
+  },
+  {
+    "tag": "delay3",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 3,
+    "case": "case003_passive_303",
+    "seed": 303,
+    "policy": "passive",
+    "data_seed": 2833126451
+  },
+  {
+    "tag": "delay3",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 3,
+    "case": "case003_active_303",
+    "seed": 303,
+    "policy": "active",
+    "data_seed": 2833126451
+  },
+  {
+    "tag": "weak",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.2,
+      "v": 0.1,
+      "qx": 0.25,
+      "R": 0.5625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 4,
+    "case": "case004_passive_101",
+    "seed": 101,
+    "policy": "passive",
+    "data_seed": 2957823586
+  },
+  {
+    "tag": "weak",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.2,
+      "v": 0.1,
+      "qx": 0.25,
+      "R": 0.5625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 4,
+    "case": "case004_active_101",
+    "seed": 101,
+    "policy": "active",
+    "data_seed": 2957823586
+  },
+  {
+    "tag": "weak",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.2,
+      "v": 0.1,
+      "qx": 0.25,
+      "R": 0.5625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 4,
+    "case": "case004_passive_202",
+    "seed": 202,
+    "policy": "passive",
+    "data_seed": 2106115027
+  },
+  {
+    "tag": "weak",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.2,
+      "v": 0.1,
+      "qx": 0.25,
+      "R": 0.5625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 4,
+    "case": "case004_active_202",
+    "seed": 202,
+    "policy": "active",
+    "data_seed": 2106115027
+  },
+  {
+    "tag": "weak",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.2,
+      "v": 0.1,
+      "qx": 0.25,
+      "R": 0.5625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 4,
+    "case": "case004_passive_303",
+    "seed": 303,
+    "policy": "passive",
+    "data_seed": 2521964938
+  },
+  {
+    "tag": "weak",
+    "params": {
+      "a": 0.8,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.2,
+      "v": 0.1,
+      "qx": 0.25,
+      "R": 0.5625,
+      "delay": 3
+    },
+    "valid_order": true,
+    "index": 4,
+    "case": "case004_active_303",
+    "seed": 303,
+    "policy": "active",
+    "data_seed": 2521964938
+  },
+  {
+    "tag": "wrong_order_control",
+    "params": {
+      "a": 0.55,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": false,
+    "index": 5,
+    "case": "case005_passive_101",
+    "seed": 101,
+    "policy": "passive",
+    "data_seed": 609455691
+  },
+  {
+    "tag": "wrong_order_control",
+    "params": {
+      "a": 0.55,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": false,
+    "index": 5,
+    "case": "case005_active_101",
+    "seed": 101,
+    "policy": "active",
+    "data_seed": 609455691
+  },
+  {
+    "tag": "wrong_order_control",
+    "params": {
+      "a": 0.55,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": false,
+    "index": 5,
+    "case": "case005_passive_202",
+    "seed": 202,
+    "policy": "passive",
+    "data_seed": 3080464553
+  },
+  {
+    "tag": "wrong_order_control",
+    "params": {
+      "a": 0.55,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": false,
+    "index": 5,
+    "case": "case005_active_202",
+    "seed": 202,
+    "policy": "active",
+    "data_seed": 3080464553
+  },
+  {
+    "tag": "wrong_order_control",
+    "params": {
+      "a": 0.55,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": false,
+    "index": 5,
+    "case": "case005_passive_303",
+    "seed": 303,
+    "policy": "passive",
+    "data_seed": 2792049755
+  },
+  {
+    "tag": "wrong_order_control",
+    "params": {
+      "a": 0.55,
+      "b": 0.7,
+      "c": 0.5,
+      "u": 0.5,
+      "v": 0.4,
+      "qx": 0.25,
+      "R": 0.0625,
+      "delay": 1
+    },
+    "valid_order": false,
+    "index": 5,
+    "case": "case005_active_303",
+    "seed": 303,
+    "policy": "active",
+    "data_seed": 2792049755
+  }
+]

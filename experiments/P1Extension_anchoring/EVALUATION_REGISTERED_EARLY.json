@@ -1,0 +1,10 @@
+{
+  "time": 1795179766.266389,
+  "files": {
+    "evaluate.py": "9ec11fb1a66584d728851477ecd39d010ec1d5dca7042a7537fab40187279169",
+    "prob_metrics.py": "97ec12dfa9175fa756b7ccc31c5d9214bad3265eb6894fe561190979ea702cac",
+    "PROTOCOL.json": "b9c10392c878983c993f38d43c02333601192c7130f3a3233ed68edaad5b8b4c"
+  },
+  "full_test_states_not_opened": true,
+  "thresholds_already_fixed_before_generation": true
+}

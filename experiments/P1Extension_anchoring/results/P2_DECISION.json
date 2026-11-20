@@ -1,0 +1,75 @@
+{
+  "time": 1795180113.62895,
+  "scope": "candidate-specific recommendation only, no P2 experiment run",
+  "groups": [
+    {
+      "method": "E0",
+      "required_cases": 6,
+      "probability_passes": 0,
+      "identification_passes": 0,
+      "combined_passes": 0,
+      "meets_primary_candidate_gate": false,
+      "conditional_only": true
+    },
+    {
+      "method": "E1",
+      "required_cases": 6,
+      "probability_passes": 3,
+      "identification_passes": 0,
+      "combined_passes": 0,
+      "meets_primary_candidate_gate": false,
+      "conditional_only": true
+    },
+    {
+      "method": "E2",
+      "required_cases": 6,
+      "probability_passes": 5,
+      "identification_passes": 0,
+      "combined_passes": 0,
+      "meets_primary_candidate_gate": false,
+      "conditional_only": true
+    },
+    {
+      "method": "E3",
+      "required_cases": 6,
+      "probability_passes": 0,
+      "identification_passes": 0,
+      "combined_passes": 0,
+      "meets_primary_candidate_gate": false,
+      "conditional_only": true
+    },
+    {
+      "method": "E4Y",
+      "required_cases": 6,
+      "probability_passes": 4,
+      "identification_passes": 0,
+      "combined_passes": 0,
+      "meets_primary_candidate_gate": false,
+      "conditional_only": true
+    },
+    {
+      "method": "E4Z",
+      "required_cases": 6,
+      "probability_passes": 0,
+      "identification_passes": 0,
+      "combined_passes": 0,
+      "meets_primary_candidate_gate": false,
+      "conditional_only": true
+    },
+    {
+      "method": "E4YZ",
+      "required_cases": 6,
+      "probability_passes": 6,
+      "identification_passes": 6,
+      "combined_passes": 6,
+      "meets_primary_candidate_gate": true,
+      "conditional_only": true
+    }
+  ],
+  "limitations": [
+    "known positive chain assumed, not discovered",
+    "same delay on both links assumed",
+    "finite equivalence-family and local-rank checks are not unrestricted global proof",
+    "E4 uses sparse train/validation hidden measurements; not pure unsupervised X-only"
+  ]
+}

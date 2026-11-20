@@ -1,0 +1,15 @@
+{
+  "time": 1795179971.2700438,
+  "case": "case002_active_303",
+  "test_auxiliary_states_seen": false,
+  "files": {
+    "E0_models.json": "42e391c2d327f79cb8748dc82a939c28c35a18bfec7898a3dc18a237bb0452f9",
+    "E1_models.json": "37327af12702c87bb81f732128eff3f43b8d9913407b2855ec06498038512774",
+    "E2_models.json": "efbe47d6dd752d9bedca8333b76ccfecfbfa16523525bd3aad299470ec6cd3af",
+    "E3_models.json": "045d313a34651a1389b004d4137bcb1cea56efb31b54b872d13c5f097382ea70",
+    "E4Y_models.json": "392d7ffdccb740e9c3f1201546252f181ee5094129a6c41fbcb78df3b15344d8",
+    "E4Z_models.json": "ce0ece4beae165063a42c92533d0e2e0f27f6cfadc81fb1f87a6dd33f16ec8ed",
+    "E4YZ_models.json": "d02c5a4185f406c31047c7d47ef1a6aa1f5ea6833898d7ecfd308f98f2cc840a",
+    "permitted_predictions.npz": "53d688e5f8f7750398c71ee6c609273dd563599636af238702cfed24f6a2eeb9"
+  }
+}

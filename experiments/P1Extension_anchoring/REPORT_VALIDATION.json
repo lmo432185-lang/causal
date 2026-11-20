@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "figures": 9,
+  "explanation_blocks": 27,
+  "pdf_pages": 16,
+  "registered_models_and_evaluation_unchanged": true,
+  "model_files_preserved_after_fix": 144,
+  "frozen_probability_replays": [
+    "baseline passive",
+    "rich active",
+    "delay3 passive"
+  ],
+  "archive_replay_verified": true,
+  "old_P0P1_files_unchanged": 310,
+  "raw_output_omissions_disclosed": true,
+  "known_chain_and_common_delay_scope_explicit": true,
+  "E4_sparse_training_and_validation_only": true,
+  "no_warning_experiment": true
+}

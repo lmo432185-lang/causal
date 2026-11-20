@@ -1,0 +1,20 @@
+{
+  "time": 1795179920.8833559,
+  "files": {
+    "settings.py": "aa662ddf50b5ea4eca4b1c42453302fc3ec423fc31e0bb185e84706342a3706d",
+    "model.py": "adc3f8ec8536c2b295106da00c266308cb0929b058aa35927879549f00613b47",
+    "private_generator.py": "9dfb8c5f5e5365218d0f865c089da94ec9b60425cdb23f7581c456b0c77dc1e5",
+    "fit_worker.py": "019298f687a8c6e5a9439b7c0cba785419fbf1c1442ed842f81b715eaa000e25",
+    "theory_audit.py": "a4e2e9b94066596d8afba986779262b3540eb4913a441f16bba542c08e2f9d76",
+    "validate_dev.py": "98c306dd1096ef959a310775981897877a20e78b92e255e72e61a93389ad176d",
+    "native_mean.py": "80055c8f49ac28856a211dafcaef302e1406314b14235e0056b3e29cb2bf0d28",
+    "native_mean.cpp": "d645c76f024a76fb8fd7c01193409df46444a47a72f38954ed06fb65582dcb02",
+    "register.py": "ad400176ace7c31e2ae4502083df64a569527efc3265180495bdd383d708fab0",
+    "PROTOCOL.json": "b9c10392c878983c993f38d43c02333601192c7130f3a3233ed68edaad5b8b4c",
+    "PRETRAIN_THEORY_AUDIT.json": "ea28277d3ad4613d961264268145884259570b6e0a23800d3914dcf29927b8cb"
+  },
+  "complete_test_truth_not_opened": true,
+  "registration_after_documented_layout_fix": true,
+  "unaffected_models_reused": true,
+  "python": "3.12.14"
+}

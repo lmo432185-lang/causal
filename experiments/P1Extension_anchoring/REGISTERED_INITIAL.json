@@ -1,0 +1,18 @@
+{
+  "time": 1795179563.381973,
+  "files": {
+    "settings.py": "aa662ddf50b5ea4eca4b1c42453302fc3ec423fc31e0bb185e84706342a3706d",
+    "model.py": "d83c95d853d15a816969c431180b197376f21a153ea10e9ba4ab4528ff3e9580",
+    "private_generator.py": "cde95ec635b072f865aa27a7b4fc655e6b6e95fbdac44b4a2589e178eb38e8e4",
+    "fit_worker.py": "f4ef67d15b5f1c41d66a499def110b1b9b977e2d17d6abc023a41503fa499bcb",
+    "theory_audit.py": "8406be12ff4ce4a7cb7f8f68fa5fa9b7f8bf5799fc8c30387287602e3fbd6a93",
+    "validate_dev.py": "7590a6797d00fd938400faa78ce1ed0b665fda4862c2ee2da020c488d76c1f52",
+    "native_mean.py": "80055c8f49ac28856a211dafcaef302e1406314b14235e0056b3e29cb2bf0d28",
+    "native_mean.cpp": "d645c76f024a76fb8fd7c01193409df46444a47a72f38954ed06fb65582dcb02",
+    "register.py": "fc2306cb9c4434ebecef3b9eddb8e45695044ca3e4711dc7493fb88ce0125fba",
+    "PROTOCOL.json": "b9c10392c878983c993f38d43c02333601192c7130f3a3233ed68edaad5b8b4c",
+    "PRETRAIN_THEORY_AUDIT.json": "96e53df19192031d400d39b2547cab2a26f3d2e898682b32fb00fbf0b3df4f51"
+  },
+  "data_not_generated": true,
+  "python": "3.12.14"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "case": "case000_passive_101",
+    "seed": 101,
+    "policy": "passive"
+  },
+  {
+    "case": "case000_active_101",
+    "seed": 101,
+    "policy": "active"
+  },
+  {
+    "case": "case000_passive_202",
+    "seed": 202,
+    "policy": "passive"
+  },
+  {
+    "case": "case000_active_202",
+    "seed": 202,
+    "policy": "active"
+  },
+  {
+    "case": "case000_passive_303",
+    "seed": 303,
+    "policy": "passive"
+  },
+  {
+    "case": "case000_active_303",
+    "seed": 303,
+    "policy": "active"
+  },
+  {
+    "case": "case001_passive_101",
+    "seed": 101,
+    "policy": "passive"
+  },
+  {
+    "case": "case001_active_101",
+    "seed": 101,
+    "policy": "active"
+  },
+  {
+    "case": "case001_passive_202",
+    "seed": 202,
+    "policy": "passive"
+  },
+  {
+    "case": "case001_active_202",
+    "seed": 202,
+    "policy": "active"
+  },
+  {
+    "case": "case001_passive_303",
+    "seed": 303,
+    "policy": "passive"
+  },
+  {
+    "case": "case001_active_303",
+    "seed": 303,
+    "policy": "active"
+  },
+  {
+    "case": "case002_passive_101",
+    "seed": 101,
+    "policy": "passive"
+  },
+  {
+    "case": "case002_active_101",
+    "seed": 101,
+    "policy": "active"
+  },
+  {
+    "case": "case002_passive_202",
+    "seed": 202,
+    "policy": "passive"
+  },
+  {
+    "case": "case002_active_202",
+    "seed": 202,
+    "policy": "active"
+  },
+  {
+    "case": "case002_passive_303",
+    "seed": 303,
+    "policy": "passive"
+  },
+  {
+    "case": "case002_active_303",
+    "seed": 303,
+    "policy": "active"
+  },
+  {
+    "case": "case003_passive_101",
+    "seed": 101,
+    "policy": "passive"
+  },
+  {
+    "case": "case003_active_101",
+    "seed": 101,
+    "policy": "active"
+  },
+  {
+    "case": "case003_passive_202",
+    "seed": 202,
+    "policy": "passive"
+  },
+  {
+    "case": "case003_active_202",
+    "seed": 202,
+    "policy": "active"
+  },
+  {
+    "case": "case003_passive_303",
+    "seed": 303,
+    "policy": "passive"
+  },
+  {
+    "case": "case003_active_303",
+    "seed": 303,
+    "policy": "active"
+  },
+  {
+    "case": "case004_passive_101",
+    "seed": 101,
+    "policy": "passive"
+  },
+  {
+    "case": "case004_active_101",
+    "seed": 101,
+    "policy": "active"
+  },
+  {
+    "case": "case004_passive_202",
+    "seed": 202,
+    "policy": "passive"
+  },
+  {
+    "case": "case004_active_202",
+    "seed": 202,
+    "policy": "active"
+  },
+  {
+    "case": "case004_passive_303",
+    "seed": 303,
+    "policy": "passive"
+  },
+  {
+    "case": "case004_active_303",
+    "seed": 303,
+    "policy": "active"
+  },
+  {
+    "case": "case005_passive_101",
+    "seed": 101,
+    "policy": "passive"
+  },
+  {
+    "case": "case005_active_101",
+    "seed": 101,
+    "policy": "active"
+  },
+  {
+    "case": "case005_passive_202",
+    "seed": 202,
+    "policy": "passive"
+  },
+  {
+    "case": "case005_active_202",
+    "seed": 202,
+    "policy": "active"
+  },
+  {
+    "case": "case005_passive_303",
+    "seed": 303,
+    "policy": "passive"
+  },
+  {
+    "case": "case005_active_303",
+    "seed": 303,
+    "policy": "active"
+  }
+]

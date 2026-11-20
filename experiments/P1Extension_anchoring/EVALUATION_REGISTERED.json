@@ -1,0 +1,14 @@
+{
+  "time": 1795180049.0886376,
+  "files": {
+    "analyze.py": "c505ae065eead9fc50faf5d151fb0edec6c2054a36c1ee6e7296b9771db1fe30",
+    "evaluate.py": "285f25081c35920dee1c2a1a4a14788d0101119a8679f7801171547cc054d345",
+    "prob_metrics.py": "97ec12dfa9175fa756b7ccc31c5d9214bad3265eb6894fe561190979ea702cac",
+    "PROTOCOL.json": "b9c10392c878983c993f38d43c02333601192c7130f3a3233ed68edaad5b8b4c"
+  },
+  "full_test_states_not_opened": true,
+  "state_thresholds_fixed_before_generation": true,
+  "validation_delay_compatibility": "paired differences across200 validation trajectories; three pairwise comparisons, two-sided family alpha.05, critical t(1-.05/6,199); descriptive given model-selection reuse, not calibrated graph posterior",
+  "additional_delay_rule": "require all compatible validation alternatives and exact known equivalents to agree; this strengthens rather than relaxes physical gate",
+  "primary_gate": "baseline/rich passive6 systems; stricter known finite-family, validation-delay and physical-scale flags; no relaxation of original state thresholds"
+}

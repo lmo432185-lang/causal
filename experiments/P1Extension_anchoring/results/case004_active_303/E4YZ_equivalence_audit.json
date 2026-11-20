@@ -1,0 +1,30 @@
+{
+  "retained_known_equivalents": 1,
+  "retained_pole_orders": 1,
+  "retained_delays": [
+    3
+  ],
+  "boundary_or_repeated_poles": false,
+  "local_rank": 9,
+  "local_parameters": 9,
+  "known_family_unique": true,
+  "candidates": [
+    {
+      "theta": [
+        0.8002295130416256,
+        0.687604518728278,
+        0.49673245161504254,
+        0.2427471399175605,
+        0.10543368128634918,
+        0.2443121591075991,
+        0.5697205123873543,
+        1.171776148897553,
+        1.0189288346110894,
+        1.0
+      ],
+      "delay": 3,
+      "error": 5.5649929971007306e-14
+    }
+  ],
+  "not_global_identifiability_proof": true
+}

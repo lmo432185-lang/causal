@@ -1,0 +1,5 @@
+__pycache__/
+.native_cache/
+data/case*/
+results/case*/permitted_predictions.npz
+*.log

@@ -1,0 +1,8 @@
+Frozen-model replay, without refitting:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python replay.py --case case000_passive_101 --out /tmp/new_p1ext_replay
+
+The output directory must not exist. The generated probability file is checked against the recorded SHA-256. Raw simulation arrays and full probability files are omitted from Git; all seeds, generation rules, fitted parameters and checksums are included. Exact bitwise replay assumes the recorded package versions and compatible numerical architecture. g++ is optional; native_mean.cpp has an equivalent Python fallback in model.py.
+
+Fresh fitting must take place in a new directory. Preserve the published experiment and historical repair records. Copy source files and fonts, create empty data/results directories, run validate_dev.py and theory_audit.py, freeze a new registration record using PROTOCOL.json and source SHA256, then run private_generator.py and fit_worker.py. Freeze evaluate.py, prob_metrics.py, analyze.py and PROTOCOL.json in EVALUATION_REGISTERED.json before evaluating; then run evaluate.py, analyze.py, diagnostics.py, plot.py and build_report.py. The supplied historical registration records describe the completed run, not a new reproduction's timestamps.
+
+E0-E2 use X only (plus the explicit order/c anchor where permitted); E3 may read its registered input, and E4 may read sparse TRAIN/VALIDATION measurements. No method may read full test states. Do not add a test-label rotation, alignment, temperature correction or threshold selection.

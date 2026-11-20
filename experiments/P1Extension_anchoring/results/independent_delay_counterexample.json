@@ -1,0 +1,21 @@
+{
+  "time": 1795181019.3954802,
+  "scope": "supplementary mathematical counterexample, not new empirical training",
+  "edge_delay_pairs": [
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "known_input_transfer_max_difference": 0.0,
+  "autonomous_X_spectrum": "independent of both pure delays",
+  "interpretation": "known input alone need not identify individual edge delays when common-delay assumption is removed"
+}

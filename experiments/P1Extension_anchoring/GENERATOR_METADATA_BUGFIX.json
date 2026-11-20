@@ -1,0 +1,9 @@
+{
+  "time": 1795179602.0547318,
+  "error": "undefined local p while writing E2 calibration metadata; complete simulation manifest was not produced; learner aborted before fitting",
+  "change": "use cc['params']['c'] for external calibration metadata",
+  "no_simulation_or_model_parameters_changed": true,
+  "no_test_state_evaluation": true,
+  "initial_registration_preserved": true,
+  "partial_arrays_replayed_with_identical_deterministic_seeds": true
+}

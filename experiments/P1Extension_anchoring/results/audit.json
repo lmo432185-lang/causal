@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "audit_time": 1795180528.4803886,
+  "registered_model_and_evaluation_hashes": true,
+  "available_frozen_outputs_verified": 324,
+  "omitted_generated_prediction_files": [],
+  "omissions_reconstructible_by": "replay.py; never ignored hash mismatches",
+  "cases": 36,
+  "paired_input_contexts": 18,
+  "new_trajectory_records": 36000,
+  "test_trajectory_records": 7200,
+  "independent_test_pairs": 3600,
+  "unique_complete_parameter_optimizations": 2106,
+  "copied_zero_input_E3_fits": 162,
+  "successful_optimizations": 2039,
+  "unsuccessful_optimizations_retained": 67,
+  "preserved_unaffected_model_files": 144,
+  "unaffected_covariance_derivative_max_difference": 0.0,
+  "test_full_state_file_not_read_by_learner": true,
+  "sparse_train_validation_only": true,
+  "causal_prefix_error": 0.0,
+  "P2_scope": "candidate conditional only, no warning experiment"
+}

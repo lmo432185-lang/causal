@@ -1,0 +1,7 @@
+{
+  "case": "case001_active_101",
+  "full_probability_output_bitwise_matches": true,
+  "actual_sha256": "0b8c8b71098c5d282517e3d0ccec7ab55cee89079de91b4907b9737157209c3b",
+  "expected_sha256": "0b8c8b71098c5d282517e3d0ccec7ab55cee89079de91b4907b9737157209c3b",
+  "refitted": false
+}
