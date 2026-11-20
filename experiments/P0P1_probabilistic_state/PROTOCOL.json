@@ -1,0 +1,95 @@
+{
+  "title": "P0 P1 单变量可观测性与隐藏状态联合概率估计",
+  "date": "2026-11-20",
+  "scope": "only stationary state recovery and calibration; no changed edge, no warning experiment, no P2-P4",
+  "system": "Y[t+1]=aY[t]+eY; Z[t+1]=bZ[t]+alpha*Y[t+1-d]+eZ; x[t+1]=c*x[t]+beta*Z[t+1-d]+eX; observed X[t]=x[t]+measurement_noise",
+  "delay_definition": "same delay d=1,2,3 per causal edge; earliest Y-to-X influence 2d time steps",
+  "noise": "independent Gaussian; generator innovation variances .25 each; observation std .05,.25,.75; physical latent noise amplitudes withheld from learners",
+  "design": "one-factor-at-a-time 11 cells plus two preregistered interaction endpoints, not full243 factorial",
+  "baseline": {
+    "a": 0.8,
+    "b": 0.7,
+    "c": 0.5,
+    "alpha": 0.5,
+    "beta": 0.8,
+    "observation_std": 0.25,
+    "delay": 1
+  },
+  "levels": {
+    "a": [
+      0.5,
+      0.8,
+      0.95
+    ],
+    "alpha": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "beta": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "observation_std": [
+      0.05,
+      0.25,
+      0.75
+    ],
+    "delay": [
+      1,
+      2,
+      3
+    ]
+  },
+  "interactions": {
+    "rich": "a.95 alpha.8 beta.8 obs.05 d1",
+    "poor": "a.5 alpha.2 beta.2 obs.75 d3"
+  },
+  "independent_seeds": [
+    101,
+    202,
+    303
+  ],
+  "per_cell_seed": {
+    "trajectories": 1000,
+    "length": 500,
+    "training": 600,
+    "validation": 200,
+    "test": 200,
+    "stationary_initialization": true,
+    "evaluation_times": "50 through498 for states/forecasts, exclude startup and final boundary"
+  },
+  "A": "unknown physical structure: X-only Gaussian AR order selected from1,5,20,40 on validation; predictive history state, refuse named physical Y/Z claims",
+  "B": "assumed positive Y->Z->x chain; all dynamic coefficients, x process noise and measurement noise unknown; unit latent innovation covariance is coordinate gauge, not physical noise knowledge; fit Gaussian block40 composite likelihood with analytic gradients 4 L-BFGS-B starts max180 steps; select start by exact validation sequence likelihood",
+  "C": "Oracle knows true equations and parameters, still only observes same X; prior/current-X/filter/smoother separately labelled; smoother uses future",
+  "timing_ambiguity": "pure stationary Gaussian cascade delay does not alter X distribution; fit canonical delay1, output equally observationally compatible delay1/2/3 filters without true-delay selection; do not assign prior-free posterior over physical timing",
+  "legacy": "preserve original L1 data/checkpoints unchanged; frozen encoder plus new X-only probability head using learned SSM posterior pseudo-targets and conditional covariance; no legacy true-state readouts loaded",
+  "scale": "primary hidden targets evaluated in canonical innovation units Y/sqrt(qY), Z/sqrt(qZ) using answers only after freeze; physical amplitudes not claimed identifiable",
+  "probability_metrics": [
+    "marginal50/80/90/95 coverage",
+    "joint2D50/80/90/95 ellipsoid coverage",
+    "marginal PIT and descriptive KS distance",
+    "joint negative log density",
+    "marginal CRPS",
+    "interval width",
+    "MSE/NMSE/correlation",
+    "one-step observed X predictive NLL/coverage",
+    "posterior covariance and oracle innovation floor"
+  ],
+  "independence": "train/validation/test separated by independent trajectories; evaluation truth never used for alignment, calibration, thresholds or model selection; no posthoc truth-based linear alignment as primary",
+  "parameter_uncertainty": "baseline/rich/poor only:12 trajectory bootstrap refits from selected estimate, max120 iterations; moment-matched Gaussian, conditional on delay1; not a Bayesian posterior, not complete timing uncertainty",
+  "conditional_probability_gate": {
+    "require": "each of three seeds in both baseline and rich conditions",
+    "marginal90_tolerance": 0.03,
+    "joint90_tolerance": 0.03,
+    "marginalPIT_KS_max": 0.05,
+    "MSE_ratio_to_true_filter_max": 1.2,
+    "jointNLL_excess_to_true_filter_max": 0.2,
+    "hidden_dimension_requirement": "joint2D covariance maintained; no duplicated deterministic coordinates"
+  },
+  "physical_P2_gate": "conditional metrics must pass AND physical state identity and delay must be identifiable within compatible X-only models; no green light merely for good coverage",
+  "statistics": "per-trajectory metrics plus three independent-fit seed summaries; hierarchical paired bootstrap seeds then trajectories2000 replicates; intervals descriptive with only3 independent fits; no IID timepoint inference",
+  "theory": "finite-horizon dimensionless observability singular values separate from stochastic posterior uncertainty; complete deterministic rank is not stochastic recovery; exact X-law delay equivalence and scale invariance controls",
+  "literature": "attachment references guide motivation only; no claim of reproducing their methods or novelty priority"
+}

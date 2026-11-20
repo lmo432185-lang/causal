@@ -1,0 +1,9 @@
+{
+  "full_raw_data_cloud_path": "/workspace/work/P0P1/data",
+  "full_frozen_probability_outputs_cloud_path": "/workspace/work/P0P1/results",
+  "raw_arrays_omitted_from_Git": true,
+  "full_prediction_arrays_omitted_from_Git": true,
+  "reason": "deterministically regenerable simulation and probability arrays; preserve manageable repository size",
+  "included": "all39 frozen parameter sets, initializations, bootstrap models, output SHA256, original L1 checkpoints, trajectory metrics, examples, plots, protocol, code and reports",
+  "replay": "replay.py regenerates complete X/latent answers/probability outputs without refitting; bitwise checks saved for baseline,rich,delay3"
+}

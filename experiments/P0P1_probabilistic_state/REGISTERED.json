@@ -1,0 +1,38 @@
+{
+  "time": 1795162983.076508,
+  "files": {
+    "settings.py": "ceb6887bc3dad9d762d60f5e2952ac69e3f39cac8aea77555b3ecf5ad06f1531",
+    "model.py": "346db6ab33a7a021a19568cc5169a3df79db2bfe0cd1f8b952bb17bf7112d4d3",
+    "encoder.py": "a452929f9a540843fc3f542071002226d370f583a7dcd83063333a9c72b9e115",
+    "fit_worker.py": "a54490682874943e699ddaf0b453dc2d46a638b11a7be13d52cb26ca9da5d34c",
+    "private_generator.py": "5b1cfad7e2f91336d246346f04fd6c69732edc73556b7c1e528826bb4d2411d1",
+    "validate_dev.py": "e4ce81ca4b7b63f4e7d9b6f03ba0962300905f82705a6674011e02b30e101be8",
+    "native_mean.py": "80055c8f49ac28856a211dafcaef302e1406314b14235e0056b3e29cb2bf0d28",
+    "native_mean.cpp": "d645c76f024a76fb8fd7c01193409df46444a47a72f38954ed06fb65582dcb02",
+    "register.py": "7a3ca13e2a4385d7ff4adc29da4e6bc5f728fb25a33b0f6d58769d9238f15adf",
+    "PROTOCOL.json": "873272a0af412f22da5101a7b8ed3133cb4d292e9a552b3c061392ce1cac1f70",
+    "legacy/seed101.pt": "7c2fb1c72463d2e79ffcf644ee4dd7261522f0c1647e97587b3e2ea5434cf7eb",
+    "legacy/seed202.pt": "f6deb01c611e2af638cec23b3c60cc7b3ee0cfa15258baa0d83d4e41931adb36",
+    "legacy/seed303.pt": "4bfd3432e0dc848d8957061c88393bf3461518be770b5153878277320f63c60d"
+  },
+  "development_check": {
+    "status": "PASS",
+    "FFT_vs_Lyapunov_covariance_max_error": 1.6653345369377348e-16,
+    "analytic_gradient_error": 4.840249997345776e-09,
+    "causal_prefix_error": 0.0,
+    "native_filter_error": 4.440892098500626e-16,
+    "native_smoother_error": 8.881784197001252e-16,
+    "equivalent_delays_LL_error": 7.105427357601002e-15,
+    "native_backend": true,
+    "scope": "unrelated deterministic toy parameters only"
+  },
+  "package_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.1",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "torch": "2.5.1+cpu"
+  },
+  "python": "3.12.14",
+  "no_experiment_data_generated": true
+}

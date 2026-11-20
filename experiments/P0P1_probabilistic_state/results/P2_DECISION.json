@@ -1,0 +1,10 @@
+{
+  "conditional_required_cases": 6,
+  "conditional_passed": 0,
+  "conditional_gate": false,
+  "physical_identity_gate": false,
+  "delay_gate": false,
+  "decision": "DO NOT enter physical Y-Z chain P2; first establish anchoring/identifiability or explicitly change target to predictive function",
+  "bootstrap_primary_passed": 0,
+  "no_new_thresholds": true
+}

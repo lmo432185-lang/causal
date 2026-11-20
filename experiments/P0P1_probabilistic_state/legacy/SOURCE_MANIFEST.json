@@ -1,0 +1,56 @@
+{
+  "original_experiment_commit": "a033238a17ccab47c417ea2f03e6da4f5bf0f9e6",
+  "original_files": {
+    "/workspace/work/L1/results/seed101/frozen.pt": {
+      "sha256": "7c2fb1c72463d2e79ffcf644ee4dd7261522f0c1647e97587b3e2ea5434cf7eb",
+      "bytes": 10164
+    },
+    "/workspace/work/L1/results/seed101/X_only.npz": {
+      "sha256": "15d66fe47a30fcf3df3a96fe725dfb72de48db2380c6b5f4a7788dab81e07352",
+      "bytes": 1858934
+    },
+    "/workspace/work/L1/results/seed101/sealed_truth.npz": {
+      "sha256": "4944862e9cb7ac87cf5c981974c8be03d574aed5eb41e0e71e49083bed53a131",
+      "bytes": 3708109
+    },
+    "/workspace/work/L1/results/seed101/FREEZE.json": {
+      "sha256": "dda94ba18c1520252477a40d0fd53178d03adcf9816dd7fdab0390b1bd43c33c",
+      "bytes": 307
+    },
+    "/workspace/work/L1/results/seed202/frozen.pt": {
+      "sha256": "f6deb01c611e2af638cec23b3c60cc7b3ee0cfa15258baa0d83d4e41931adb36",
+      "bytes": 10164
+    },
+    "/workspace/work/L1/results/seed202/X_only.npz": {
+      "sha256": "111d4ded8daa0807edd8a13c41c2527fbe49a6e1b39d6b45acebd63692239724",
+      "bytes": 1859005
+    },
+    "/workspace/work/L1/results/seed202/sealed_truth.npz": {
+      "sha256": "f16f91f15d65335dd3eddea88991551712d93c6e5b244a1b22ff42f8c4af0b23",
+      "bytes": 3708407
+    },
+    "/workspace/work/L1/results/seed202/FREEZE.json": {
+      "sha256": "2c331947c8cc69b83252e68a7860b7774328e0227fe446f4c447bb4fa9525215",
+      "bytes": 308
+    },
+    "/workspace/work/L1/results/seed303/frozen.pt": {
+      "sha256": "4bfd3432e0dc848d8957061c88393bf3461518be770b5153878277320f63c60d",
+      "bytes": 10164
+    },
+    "/workspace/work/L1/results/seed303/X_only.npz": {
+      "sha256": "1d72532c32362cf6e2c08160f909bb91cf80f04c8a6b9a3a9b6e268ce4a7a819",
+      "bytes": 1858636
+    },
+    "/workspace/work/L1/results/seed303/sealed_truth.npz": {
+      "sha256": "ad52e0a1dc8dfdb630e619c75dcc6956a382150ce50cd17e031fef1a138a38e0",
+      "bytes": 3708206
+    },
+    "/workspace/work/L1/results/seed303/FREEZE.json": {
+      "sha256": "fd1981f1cbac3ad1f3d635b66c9eeeee223f0aa8e055ddcac26899e73ab88b11",
+      "bytes": 308
+    }
+  },
+  "checkpoint_only_loaded_for_new_Xonly_prediction": true,
+  "legacy_true_state_probes_not_loaded": true,
+  "original_X_and_truth_unchanged": true
+}

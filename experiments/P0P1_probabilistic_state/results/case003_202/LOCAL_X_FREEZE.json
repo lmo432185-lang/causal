@@ -1,0 +1,12 @@
+{
+  "time": 1795163011.0356758,
+  "case": "case003_202",
+  "no_truth_loaded": true,
+  "files": {
+    "parameters.json": "64eaaa9a86331ee5e99033737692c123bf7193ca36c2447aed86beab070d9139",
+    "AR_models.json": "24a7303012dafdc973dd30a207ca8c8ab629dd2dc36913998fb8c76c192ecbc4",
+    "L1_Xonly_head.json": "9f29bd562a35293bc717342acae08dd96dc78c5220c7427d9ddf22e5ef693d2f",
+    "bootstrap.json": "96b60dd65bfce476b9b3c9a7974c2b6908fbae505e191b1cddeb39e3c5a82bc1",
+    "X_only_predictions.npz": "d5f9aa25e36b5f4a48040aa46f3c9d45aa0eff32b1516be57fa1ffdffc68e88b"
+  }
+}

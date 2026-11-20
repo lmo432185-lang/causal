@@ -1,0 +1,9 @@
+{
+  "time": 1795163141.7447958,
+  "files": {
+    "evaluate.py": "b0b45e3febb7d7a8af6b14b55182c33abb5d62636da24fbf70a2985d2800458c",
+    "PROTOCOL.json": "873272a0af412f22da5101a7b8ed3133cb4d292e9a552b3c061392ce1cac1f70"
+  },
+  "thresholds": "already frozen in PROTOCOL.json before data generation",
+  "private_test_truth_not_opened": true
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "present registered files, archived weights and metrics; generated-output omissions disclosed",
+  "registered_hashes_verified": true,
+  "available_frozen_output_files_verified": 234,
+  "omitted_generated_prediction_files": [],
+  "omitted_files_reconstructible_by": "replay.py with sealed generation manifest; not ignored hash mismatches",
+  "datasets": 39,
+  "new_trajectories": 39000,
+  "test_trajectories": 7800,
+  "main_initializations": 156,
+  "successful_main_initializations": 150,
+  "bootstrap_fits": 108,
+  "successful_bootstrap_fits": 105,
+  "probability_record_count": 294000,
+  "max_compatible_delay_LL_difference": 2.2737367544323206e-13,
+  "truth_free_worker_static_checks": true,
+  "freeze_before_evaluation": true,
+  "evaluation_code_unchanged": true,
+  "causal_prefix_test": 0.0,
+  "P2_gate": "not passed",
+  "audit_time": 1795164040.5711179
+}

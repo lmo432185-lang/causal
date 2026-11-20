@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "FFT_vs_Lyapunov_covariance_max_error": 1.6653345369377348e-16,
+  "analytic_gradient_error": 4.840249997345776e-09,
+  "causal_prefix_error": 0.0,
+  "native_filter_error": 4.440892098500626e-16,
+  "native_smoother_error": 8.881784197001252e-16,
+  "equivalent_delays_LL_error": 7.105427357601002e-15,
+  "native_backend": true,
+  "scope": "unrelated deterministic toy parameters only"
+}

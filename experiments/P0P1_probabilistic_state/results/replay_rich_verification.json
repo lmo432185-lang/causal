@@ -1,0 +1,7 @@
+{
+  "case": "case011_101",
+  "prediction_file_bitwise_matches_freeze": true,
+  "actual_sha256": "d87fb60e4f7db81297513055e03c6c96658d0a7d2df6a92dc8c901051bbb48be",
+  "expected_sha256": "d87fb60e4f7db81297513055e03c6c96658d0a7d2df6a92dc8c901051bbb48be",
+  "refitted": false
+}

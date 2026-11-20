@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "figures": 10,
+  "figure_explanation_blocks": 30,
+  "pdf_pages": 16,
+  "registered_sources_unchanged": true,
+  "complete_prediction_replay_bitwise_checks": [
+    "baseline",
+    "information_rich",
+    "delay3"
+  ],
+  "archive_replay": "baseline bitwise PASS",
+  "raw_prediction_omissions_disclosed": true,
+  "full_raw_data_remain_in_cloud": true,
+  "physical_P2_gate_passed": false
+}
