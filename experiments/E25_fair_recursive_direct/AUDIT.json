@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "freeze_hashes_verified": 347,
+  "chronology_verified": true,
+  "datasets_regenerated": 110,
+  "whole_data_split_equality": true,
+  "prefix_cases_checked": 110,
+  "test_models_replayed": 33,
+  "test_batch_rows": 363000,
+  "max_prefix_error": 0.0,
+  "max_raw_filter_error": 2.6645352591003757e-14,
+  "max_NLL_or_example_replay_error": 4.440892098500626e-16,
+  "refitted": false
+}

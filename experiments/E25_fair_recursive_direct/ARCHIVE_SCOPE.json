@@ -1,0 +1,11 @@
+{
+  "raw_X": "Deterministically restore with restore_inputs.py; raw archives remain in cloud workspace",
+  "rows_per_test_batch": 363000,
+  "unique_test_trajectories": 22000,
+  "trained_models": 330,
+  "examples": "Only seed1011 and n400, first trajectory per condition and batch; all trajectory metrics saved",
+  "source_prior_branch": "experiment/recursive-e1-e2-prototype-20261123",
+  "source_prior_commit": "5a408ccf2f15806e8d23368c2ffae0b8a974f101",
+  "main_before": "1a95f3cca31498045caff694a5aa58c6bfd01f86",
+  "scope": "E2.5 only; no E3, physical causal identification or early warning"
+}

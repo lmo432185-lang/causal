@@ -1,0 +1,16 @@
+{
+  "time": 1795425597.6365461,
+  "stage": "before simulation generation and fitting",
+  "files": {
+    "settings.py": "1da3b4d8124f4dc7c14aab2a68bc6a7db0234f983d24334174c8f1e3571ccfdd",
+    "core.py": "240756414c66d1d964e2547bb2af8c62e2d3d20c9c8e3111ea612437acae5c6e",
+    "model.py": "0cd39317fbba78015135434648765bd3ca3a200680eb23c7682ec23ab027b1a4",
+    "fit.py": "61f5f2f8c33b60ded2bd84594d28457fb74dd3bfdeb74b8f5f218da6a5c41337",
+    "confirm.py": "315574ce8fac16ac828c482251dc9a7914722cd224c8c26e37a6df639b050082",
+    "evaluate.py": "a1ca1c827ab271e2b3db7d70171dc3fa441240a3a9e96fb08029bde99d5626b8",
+    "generator.py": "e6e0bbffd5acee7eaece526e20a3105942d3d271782bb935357279db3e6ac68a",
+    "development.py": "184841bd5c2b0fae35867ca9c1afacbb07285b992e175d6dedb3580a304eddcb",
+    "PROTOCOL.md": "a4501dc1b68b7d7553d856c0087721d8ed16c4d390bc400e67fabfc9d2361c3b",
+    "SYSTEMS.json": "3c8ba7ff64a6efc54fb49f09b21e22b020557dc90b38b03690f517408139cfba"
+  }
+}

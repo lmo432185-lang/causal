@@ -1,0 +1,42 @@
+{
+  "time": 1795425587.6630838,
+  "unrelated_noise_only": true,
+  "training_trajectories": 60,
+  "max_prefix_error": 0,
+  "passed": true,
+  "total_cpu": 0.395417881,
+  "timing": {
+    "recursive": {
+      "cpu": 0.16548219799999997,
+      "wall": 0.16566954299923964,
+      "encoder_fits": 2,
+      "candidate_head_fits": 6,
+      "nominal_filter_coefficients": 42,
+      "head_parameters": 95
+    },
+    "direct_full": {
+      "cpu": 0.05179055900000007,
+      "wall": 0.05180655300137005,
+      "encoder_fits": 1,
+      "candidate_head_fits": 1,
+      "nominal_filter_coefficients": 82,
+      "head_parameters": 95
+    },
+    "direct_fixed": {
+      "cpu": 0.025981973000000047,
+      "wall": 0.025983647999964887,
+      "encoder_fits": 1,
+      "candidate_head_fits": 1,
+      "nominal_filter_coefficients": 44,
+      "head_parameters": 95
+    },
+    "direct_random": {
+      "cpu": 0.026826503,
+      "wall": 0.026828133999515558,
+      "encoder_fits": 1,
+      "candidate_head_fits": 1,
+      "nominal_filter_coefficients": 44,
+      "head_parameters": 95
+    }
+  }
+}

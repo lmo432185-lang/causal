@@ -1,0 +1,8 @@
+{
+  "time": 1795426300.3321128,
+  "rows": 363000,
+  "files": {
+    "results/test_B_metrics.csv.gz": "b56259f2680446ead9231836a6b7c1026fc61e2f0ce8cc4a995204a9cb257fc7"
+  },
+  "no_model_or_rule_update": true
+}

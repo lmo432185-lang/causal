@@ -1,0 +1,442 @@
+[
+  {
+    "case": "S0_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S0_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S0_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S0_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S0_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S0_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S0_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S0_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S0_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S0_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S1_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S1_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S1_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S1_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S1_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S1_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S1_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S1_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S1_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S1_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S2_weak_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S2_weak_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S2_weak_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S2_weak_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S2_weak_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S2_weak_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S2_weak_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S2_weak_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S2_weak_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S2_weak_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S2_medium_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S2_medium_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S2_medium_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S2_medium_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S2_medium_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S2_medium_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S2_medium_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S2_medium_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S2_medium_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S2_medium_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S2_strong_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S2_strong_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S2_strong_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S2_strong_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S2_strong_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S2_strong_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S2_strong_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S2_strong_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S2_strong_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S2_strong_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S3_weak_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S3_weak_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S3_weak_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S3_weak_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S3_weak_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S3_weak_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S3_weak_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S3_weak_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S3_weak_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S3_weak_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S3_medium_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S3_medium_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S3_medium_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S3_medium_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S3_medium_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S3_medium_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S3_medium_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S3_medium_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S3_medium_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S3_medium_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S3_strong_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S3_strong_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S3_strong_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S3_strong_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S3_strong_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S3_strong_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S3_strong_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S3_strong_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S3_strong_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S3_strong_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S4_weak_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S4_weak_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S4_weak_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S4_weak_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S4_weak_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S4_weak_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S4_weak_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S4_weak_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S4_weak_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S4_weak_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S4_medium_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S4_medium_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S4_medium_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S4_medium_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S4_medium_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S4_medium_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S4_medium_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S4_medium_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S4_medium_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S4_medium_1020",
+    "seed": 1020
+  },
+  {
+    "case": "S4_strong_1011",
+    "seed": 1011
+  },
+  {
+    "case": "S4_strong_1012",
+    "seed": 1012
+  },
+  {
+    "case": "S4_strong_1013",
+    "seed": 1013
+  },
+  {
+    "case": "S4_strong_1014",
+    "seed": 1014
+  },
+  {
+    "case": "S4_strong_1015",
+    "seed": 1015
+  },
+  {
+    "case": "S4_strong_1016",
+    "seed": 1016
+  },
+  {
+    "case": "S4_strong_1017",
+    "seed": 1017
+  },
+  {
+    "case": "S4_strong_1018",
+    "seed": 1018
+  },
+  {
+    "case": "S4_strong_1019",
+    "seed": 1019
+  },
+  {
+    "case": "S4_strong_1020",
+    "seed": 1020
+  }
+]
