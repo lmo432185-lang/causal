@@ -1,0 +1,17 @@
+{
+  "time": 1795423074.6232443,
+  "files": {
+    "settings.py": "d3e9be4f2417101e8d96fac3a89f121ab66a11f333587e54572f9241945ba8f1",
+    "core.py": "240756414c66d1d964e2547bb2af8c62e2d3d20c9c8e3111ea612437acae5c6e",
+    "private_generator.py": "484670ffea19028d7ee3a193c914358127e80f7502eb1fb9c487779782362204",
+    "fit.py": "c0edcdbc2e19d03e149441a1b54eec826b4fd0747d7ca50304e09c0a62defd09",
+    "confirm.py": "e1483dc80a092b53ff60b59b0beb666102b371098df67b61e0dd02df07fd1558",
+    "validate_dev.py": "94338c86fe6ba01bee3c83a1826f45f941ae56edfd70f7cfca5e2d0a4e2de167",
+    "PROTOCOL.json": "a694af99d207aa2c29ab95c62c45ead446f12a12b998ea74ef9bec36a17e1d25",
+    "register.py": "7a42ce97e1c995631dd52660f2442c86f420181c8d1a2017dc55d33c66a9e56c",
+    "io_model.py": "28c3ac63dd8a57843d7e1c7bdfcabd5a8338b754531dc72a314f555760b79d52"
+  },
+  "before_experiment_generation": false,
+  "original_registration_time": 1795422905.1199949,
+  "after_deserialization_fix_before_confirmation": true
+}

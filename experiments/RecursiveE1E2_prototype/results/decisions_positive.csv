@@ -1,0 +1,7 @@
+case,partial_corr,conditional_residual_fraction,rank_B,rank_initial,initial_state_supported,Q1,Q2,Q3,accept_new_coordinate
+case05_101,0.10405601792474052,0.9999873579368292,1,1,True,False,False,False,False
+case05_202,0.00541151895801153,1.0000007776555473,1,1,True,False,False,False,False
+case05_303,0.0058754865372786,0.9999995430159414,1,1,True,False,False,False,False
+case06_101,0.9993667227088807,0.5035565826861683,2,2,True,True,True,True,True
+case06_202,0.9994157031098674,0.5059046283956572,2,2,True,True,True,True,True
+case06_303,0.9989910756022085,0.49616117181536334,2,2,True,True,True,True,True

@@ -1,0 +1,12 @@
+{
+  "freeze_hashes_checked": 95,
+  "original_registration_preserved": true,
+  "cases_replayed": 21,
+  "full_test_metric_rows": 25200,
+  "max_metric_replay_error": 1.7763568394002505e-15,
+  "max_example_mean_replay_error": 0.0,
+  "max_future_perturbation_prefix_error": 0.0,
+  "max_raw_filter_reexpression_error": 1.1324274851176597e-14,
+  "refitted": false,
+  "passed": true
+}

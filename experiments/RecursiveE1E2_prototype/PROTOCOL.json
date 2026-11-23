@@ -1,0 +1,67 @@
+{
+  "title": "E1 E2 从W1递进发现候选动态信息与独立原始X路径验证的小规模原型",
+  "date": "2026-11-23",
+  "scope": "one progressive expansion step, no Bayesian sequential hidden-state update E3, no causal-graph discovery, no warnings",
+  "data": {
+    "generating_systems": [
+      "X-only AR null",
+      "one hidden source",
+      "two-state cascade",
+      "two independent hidden sources",
+      "common hidden driver"
+    ],
+    "not_given_to_learner": "structure, state count, state values or true parameters",
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "per_case_trajectories": 800,
+    "length": 500,
+    "split": {
+      "initial": 200,
+      "recursive": 200,
+      "direct": 200,
+      "selection": 50,
+      "confirmation": 50,
+      "test": 100
+    },
+    "separate_shared_X_probe": 50
+  },
+  "method": {
+    "initial": "linear canonical predictive directions of20-step X history conditional on current X, future block10",
+    "candidate": "learn predictive directions of W1 history20 to futureW1 block10, conditioned on currentW1 only; no rawX in candidate discovery",
+    "candidate_selection": "one of6 candidates chosen by selection-X probability score",
+    "independent_path": "direct40-step rawX predictive directions trained on disjoint200 trajectories; ranks0..6 selected by one-standard-error using trajectory-level validation score; no W1 in discovery",
+    "matching": "candidate matching allowed on50 selection trajectories, no truth; confirm/test independently",
+    "latent_state_meaning": "predictive coordinates, not identified physical causes or physical hidden-state counts"
+  },
+  "probability": "frozen multivariate Gaussian future-X regressions; full10x10 residual covariance; jointNLL dividedby10, CRPS, marginal/joint coverage, MSE",
+  "controls": [
+    "currentX",
+    "initialW1",
+    "singleW1 with full40-history",
+    "recursive added coordinate",
+    "independentX witness",
+    "direct2 coordinates capacity-matched on400 initial+recursive trajectories",
+    "direct automatic rank on400 trajectories",
+    "full40X-history Gaussian on400 trajectories",
+    "fullW1-history Gaussian",
+    "duplicate2W1",
+    "independent random feature"
+  ],
+  "acceptance": {
+    "initial_support": "auto initialrank>=1 and confirmation gain>=.005 nats/step",
+    "Q1": "W1-future probability improves; gain>=.005; conditional residual variance aftercurrentX/W1>=5%",
+    "Q2": "independent rawX rank>=2, partial correlation>=.5, independent witness improves X jointNLL by>=.005",
+    "Q3": "recursive model improves X jointNLL vs both initialW1 and full-history singleW1 by>=.005",
+    "multiplicity": "five confirmatory comparisons per15 cases, Holm family75 one-sided paired trajectory t-tests, familyalpha.05",
+    "decision": "all initial/Q1/Q2/Q3 criteria required; all choices frozen before opening test X"
+  },
+  "statistics": "report all cases; 3 independent fits per generating condition; pair same test trajectories; hierarchical seed then trajectory bootstrap2000; no IID timepoint inference",
+  "information_boundary": "functions ofW1 history cannot create information absent from fullXhistory; report comparisons to fullW1history and fullXhistory, do not claim superiority from bottleneck improvement",
+  "causality": "features at t use observations<=t; future blocks are training targets and evaluation only; no smoothing/retroactive updates",
+  "truth": "full true states not read until all test-X probability forecasts frozen; no truth alignment or hidden-state supervision",
+  "state_count": "candidate max6 is search capacity, not numberoftrue hidden variables; direct rank selection 0..6; first accepted candidate is only a progressive prototype seed",
+  "physical_claims": "no physical state/edge/strength identity; optional final raw state correlations descriptive only"
+}

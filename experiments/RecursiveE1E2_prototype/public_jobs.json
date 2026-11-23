@@ -1,0 +1,62 @@
+[
+  {
+    "case": "case00_101",
+    "seed": 101
+  },
+  {
+    "case": "case00_202",
+    "seed": 202
+  },
+  {
+    "case": "case00_303",
+    "seed": 303
+  },
+  {
+    "case": "case01_101",
+    "seed": 101
+  },
+  {
+    "case": "case01_202",
+    "seed": 202
+  },
+  {
+    "case": "case01_303",
+    "seed": 303
+  },
+  {
+    "case": "case02_101",
+    "seed": 101
+  },
+  {
+    "case": "case02_202",
+    "seed": 202
+  },
+  {
+    "case": "case02_303",
+    "seed": 303
+  },
+  {
+    "case": "case03_101",
+    "seed": 101
+  },
+  {
+    "case": "case03_202",
+    "seed": 202
+  },
+  {
+    "case": "case03_303",
+    "seed": 303
+  },
+  {
+    "case": "case04_101",
+    "seed": 101
+  },
+  {
+    "case": "case04_202",
+    "seed": 202
+  },
+  {
+    "case": "case04_303",
+    "seed": 303
+  }
+]

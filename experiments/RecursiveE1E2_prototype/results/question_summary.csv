@@ -1,0 +1,8 @@
+cohort,system_index,initial_state_supported,Q1,Q2,Q3,accept_new_coordinate
+positive_control,5,3,0,0,0,0
+positive_control,6,3,3,3,3,3
+primary,0,0,3,0,0,0
+primary,1,0,0,0,0,0
+primary,2,0,3,0,0,0
+primary,3,3,2,0,0,0
+primary,4,0,0,0,0,0

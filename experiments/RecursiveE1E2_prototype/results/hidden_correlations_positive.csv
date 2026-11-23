@@ -1,0 +1,19 @@
+case,feature,true_hidden,corr,scope
+case05_101,W1,W,-0.5152425451847488,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case05_101,Wy,W,0.0015080772830711384,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case05_202,W1,W,-0.5266399997964454,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case05_202,Wy,W,-0.0015966289782741083,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case05_303,W1,W,-0.5490059294353635,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case05_303,Wy,W,-0.00021210069220580275,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_101,W1,Y,-0.622435788107133,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_101,Wy,Y,0.6052099989696208,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_101,W1,Z,-0.5953761667078894,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_101,Wy,Z,-0.5775918668086585,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_202,W1,Y,-0.6282155922590413,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_202,Wy,Y,0.6004817640412098,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_202,W1,Z,-0.5748373224918659,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_202,Wy,Z,-0.5638796338123665,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_303,W1,Y,-0.6200264160360781,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_303,Wy,Y,0.5954907286810719,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_303,W1,Z,-0.5999768233689596,post-freeze descriptive correlation; no true-state matching or alignment fitted
+case06_303,Wy,Z,-0.589446855741082,post-freeze descriptive correlation; no true-state matching or alignment fitted

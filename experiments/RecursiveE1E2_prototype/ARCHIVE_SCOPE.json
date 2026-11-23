@@ -1,0 +1,7 @@
+{
+  "raw_data": "Regenerate from deterministic generators; raw arrays retained in cloud workspace, not committed",
+  "test_examples": "First test trajectory per case only; all100 per-trajectory metrics archived",
+  "previous_branch": "experiment/p1-extension-anchoring-20261120",
+  "previous_commit": "c9d1a0d60b08e84f77d54df7103135714bb2e74f",
+  "main_unchanged": "1a95f3cca31498045caff694a5aa58c6bfd01f86"
+}

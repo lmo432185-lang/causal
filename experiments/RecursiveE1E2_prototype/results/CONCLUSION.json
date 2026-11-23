@@ -1,0 +1,15 @@
+{
+  "primary_cases": 15,
+  "primary_new_coordinates_accepted": 0,
+  "strong_one_state_controls": 3,
+  "strong_one_state_false_additions": 0,
+  "strong_two_state_controls": 3,
+  "strong_two_state_additions": 3,
+  "strong_two_state_NLL_initial": 2.3492522954190647,
+  "strong_two_state_NLL_recursive": 2.336784488366578,
+  "strong_two_state_CRPS_relative_reduction": 0.028794545446382602,
+  "strong_two_state_MSE_relative_reduction": 0.05669609507805551,
+  "main_scope": "multi-step predictive-coordinate expansion from a restricted W1, not physical cause discovery or superiority over direct automatic dimensionality",
+  "one_step_warning": "one-step NLL is almost unchanged; gains mainly joint10-step/multi-horizon",
+  "E3_run": false
+}

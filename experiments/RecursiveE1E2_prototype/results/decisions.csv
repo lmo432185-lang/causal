@@ -1,0 +1,16 @@
+case,partial_corr,conditional_residual_fraction,rank_B,rank_initial,initial_state_supported,Q1,Q2,Q3,accept_new_coordinate
+case00_101,0.0,0.9999993066888795,0,0,False,True,False,False,False
+case00_202,0.0,1.0000051254683497,0,0,False,True,False,False,False
+case00_303,0.0,1.0000505490319298,0,0,False,True,False,False,False
+case01_101,0.0,0.9990542781840527,0,0,False,False,False,False,False
+case01_202,0.0,0.9997731786265872,0,0,False,False,False,False,False
+case01_303,0.0,0.9998956515021525,0,0,False,False,False,False,False
+case02_101,0.0,1.0006561937528444,0,0,False,True,False,False,False
+case02_202,0.0,0.9999705381665106,0,0,False,True,False,False,False
+case02_303,0.0,0.9999647695547363,0,0,False,True,False,False,False
+case03_101,0.2662019861463117,0.74314213814068,1,1,True,True,False,False,False
+case03_202,0.03524866674047699,0.9902375766575039,1,1,True,False,False,False,False
+case03_303,0.20113190974920925,0.786946855831716,1,1,True,True,False,False,False
+case04_101,0.03177901011144467,0.977466898634826,1,1,False,False,False,False,False
+case04_202,0.0,0.9852263710628807,0,0,False,False,False,False,False
+case04_303,0.0,0.9811285831425942,0,0,False,False,False,False,False

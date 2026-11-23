@@ -1,0 +1,18 @@
+{
+  "time": 1795423466.4226925,
+  "files": {
+    "results/case05_101/model.json": "f4acca8c3b885318b5bac5b2ea2d3324acb9ad9727fd503c5d368d8ebfb1dee0",
+    "results/case05_101/LOCAL_MODEL_FREEZE.json": "f024e910113fc767db8c4856226f52a510875aa68577ede7db1f0e3fab97a56e",
+    "results/case05_202/model.json": "c4d04661a8f5c7eb57b3dc38f8541d7166fefacfd1da535446e3b1cab39e9a24",
+    "results/case05_202/LOCAL_MODEL_FREEZE.json": "900dc6fd85aebcd32ee8acf811d299076ea5d1eed1de0bf96ef06b39112f7b61",
+    "results/case05_303/model.json": "b9b85f924b6bb7fd33b6a4c2bc4c727311cc35912a9d7de0f03ced55eb4107b6",
+    "results/case05_303/LOCAL_MODEL_FREEZE.json": "c40fc5f2a50a34537fa7be4c872883a6e88e66b33e0ff11f0a0e2640c68fe265",
+    "results/case06_101/model.json": "096c3d5eced2ef57248abea9aba8a012a55f7f516aa5b5f4470c8a340fe05468",
+    "results/case06_101/LOCAL_MODEL_FREEZE.json": "2f52f499bb9385f9e0d43dc3b8e1828114e23f107b80dd0392d474de530ac64f",
+    "results/case06_202/model.json": "8a988da47e5f6d2f3a36ab3755f0604d119cb77c4d4de7735fa46267b4e5dbb6",
+    "results/case06_202/LOCAL_MODEL_FREEZE.json": "147e43c32e70ccd085a2ca13c62979ce93727dc89fe6b32b9e499f29bc5fec42",
+    "results/case06_303/model.json": "9c2c304448d3c48335f09bce226cdfde1792d645a1954f2b957f783bc656e1e2",
+    "results/case06_303/LOCAL_MODEL_FREEZE.json": "efbd8694e972b7dfbd75db479ca0a25942ad8b6cc327800ea2444a43895cda78"
+  },
+  "model_count": 6
+}

@@ -1,0 +1,23 @@
+{
+  "time": 1795423454.9777575,
+  "scope": "independent analytic-strength followup, not replacement of original15 negative results",
+  "reason": "exact post-primary analysis shows maximal second-direction gain in original systems<=.000363 nats/step, below unchanged.005 threshold; add detectable positive and one-state negative-expansion controls",
+  "systems": "one source AR.97, or two independent sources AR.97 and-.97, source noise variance.25, observation equation Xnext=sum sources+noise variance4, no X memory",
+  "true_states_not_given_to_learner": true,
+  "splits": "same800=200initial+200recursive+200direct+50selection+50confirm+100test",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "population_rank_gains": {
+    "one_state_first": 0.0230352395,
+    "one_state_second": 0.0,
+    "two_state_first": 0.0468995097,
+    "two_state_second": 0.0124655516
+  },
+  "algorithm_and_thresholds": "identical frozen core.py/fit.py/settings.py; no new physical labels or alignment; at most one added coordinate",
+  "statistics": "separate Holm family30 for this followup6 cases, not pooled into primary75",
+  "test_data": "fresh independent seed family, no test peeking",
+  "not_claimed": "general validation of recursive causal recovery; deliberately strong detectability control"
+}

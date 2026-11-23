@@ -1,0 +1,26 @@
+[
+  {
+    "case": "case05_101",
+    "seed": 101
+  },
+  {
+    "case": "case05_202",
+    "seed": 202
+  },
+  {
+    "case": "case05_303",
+    "seed": 303
+  },
+  {
+    "case": "case06_101",
+    "seed": 101
+  },
+  {
+    "case": "case06_202",
+    "seed": 202
+  },
+  {
+    "case": "case06_303",
+    "seed": 303
+  }
+]

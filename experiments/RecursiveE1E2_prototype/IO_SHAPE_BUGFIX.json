@@ -1,0 +1,9 @@
+{
+  "time": 1795423074.6230466,
+  "error": "JSON empty list lost shape0x1 for rank0 independent witness; confirmation stopped on first null case",
+  "fix": "restore B_axis to(rank_B,1) at deserialization only",
+  "models_unchanged": true,
+  "thresholds_unchanged": true,
+  "no_test_or_hidden_data_opened": true,
+  "all_model_hashes_preserved": true
+}

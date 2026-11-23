@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.log
+data/case*/
+data/probe*.npy

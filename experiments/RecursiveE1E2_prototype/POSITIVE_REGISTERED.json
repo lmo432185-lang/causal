@@ -1,0 +1,15 @@
+{
+  "time": 1795423454.9778695,
+  "files": {
+    "positive_generator.py": "fe884197e4ce19ed12f1371ff146d135fd809226199d463eb4d8f1db09de7a68",
+    "positive_fit.py": "2a48209a95064713e6ee2e0ace682369048731130dbf88c10d10feb816c0c2f8",
+    "positive_confirm.py": "e21a15e539f34372e536fb5c4394dc861575b3999e1650e4fee2764e37a89aeb",
+    "positive_evaluate.py": "69fb7ddc61d56573a25a39c69bab20b2dcec814711ffd932c240f3c7d244c8ce",
+    "POSITIVE_PROTOCOL.json": "734ca0d41259e4dcf817c99f2523540451d9aa1aa7f314d8e58c2d364bd7ce32",
+    "core.py": "240756414c66d1d964e2547bb2af8c62e2d3d20c9c8e3111ea612437acae5c6e",
+    "fit.py": "c0edcdbc2e19d03e149441a1b54eec826b4fd0747d7ca50304e09c0a62defd09",
+    "settings.py": "d3e9be4f2417101e8d96fac3a89f121ab66a11f333587e54572f9241945ba8f1",
+    "io_model.py": "28c3ac63dd8a57843d7e1c7bdfcabd5a8338b754531dc72a314f555760b79d52"
+  },
+  "followup_test_not_generated": true
+}
