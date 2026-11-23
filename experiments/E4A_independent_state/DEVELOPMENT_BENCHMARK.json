@@ -1,0 +1,28 @@
+{
+  "unrelated_development_only": true,
+  "full_5000_bundle_seconds": 13.607419490814209,
+  "cpu": 13.594198978,
+  "per_model_iterations": {
+    "direct": {
+      "obs_ar": 0,
+      "factor1": 80,
+      "memory2": 80,
+      "memory3": 80,
+      "factor2": 80
+    },
+    "recursive": {
+      "obs_ar": 0,
+      "factor1": 80,
+      "memory2": 80,
+      "memory3": 80,
+      "factor2": 80
+    },
+    "witness": {
+      "obs_ar": 0,
+      "factor1": 80,
+      "memory2": 80,
+      "memory3": 80,
+      "factor2": 80
+    }
+  }
+}
