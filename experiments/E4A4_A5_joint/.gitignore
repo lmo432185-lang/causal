@@ -1,0 +1,4 @@
+*.so
+*.log
+__pycache__/
+checkpoints/

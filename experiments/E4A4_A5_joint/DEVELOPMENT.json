@@ -1,0 +1,28 @@
+{
+  "time": 1795452427.956507,
+  "all_passed": true,
+  "unrelated_data": true,
+  "checks": [
+    {
+      "d": 1,
+      "filter_error": 2.220446049250313e-16,
+      "density_error": 4.440892098500626e-16
+    },
+    {
+      "d": 2,
+      "filter_error": 1.7763568394002505e-15,
+      "density_error": 4.440892098500626e-16
+    },
+    {
+      "d": 3,
+      "filter_error": 1.7763568394002505e-15,
+      "density_error": 2.220446049250313e-16
+    },
+    {
+      "d": 4,
+      "filter_error": 1.7763568394002505e-15,
+      "density_error": 4.440892098500626e-16
+    }
+  ],
+  "seconds": 0.2088301181793213
+}

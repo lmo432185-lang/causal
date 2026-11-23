@@ -1,0 +1,310 @@
+[
+  {
+    "id": "A0",
+    "family": "A",
+    "poles": [
+      0.9
+    ],
+    "variance": [
+      1
+    ],
+    "R": 0.5
+  },
+  {
+    "id": "A1",
+    "family": "A",
+    "poles": [
+      0.99
+    ],
+    "variance": [
+      1
+    ],
+    "R": 0.5
+  },
+  {
+    "id": "A2",
+    "family": "A",
+    "poles": [
+      0.9
+    ],
+    "variance": [
+      1
+    ],
+    "R": 2
+  },
+  {
+    "id": "A3",
+    "family": "A",
+    "poles": [
+      0.9
+    ],
+    "variance": [
+      0.25
+    ],
+    "R": 0.5
+  },
+  {
+    "id": "B0",
+    "family": "B",
+    "poles": [
+      0.9,
+      0.4
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "B1",
+    "family": "B",
+    "poles": [
+      0.9,
+      -0.8
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "B2",
+    "family": "B",
+    "poles": [
+      0.9,
+      0.4
+    ],
+    "variance": [
+      1,
+      0.25
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "B3",
+    "family": "B",
+    "poles": [
+      0.9,
+      0.4
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "R": 2,
+    "rho": 0.0
+  },
+  {
+    "id": "C0",
+    "family": "C",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "rho": 0.98,
+    "R": 0.5
+  },
+  {
+    "id": "C1",
+    "family": "C",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "rho": 0.999,
+    "R": 0.5
+  },
+  {
+    "id": "C2",
+    "family": "C",
+    "poles": [
+      0.9,
+      0.8
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "rho": 0.98,
+    "R": 0.5
+  },
+  {
+    "id": "C3",
+    "family": "C",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "rho": 0.98,
+    "R": 2
+  },
+  {
+    "id": "D0",
+    "family": "D",
+    "radius": 0.97,
+    "frequency_pi": 0.15,
+    "variance": [
+      1
+    ],
+    "R": 0.5
+  },
+  {
+    "id": "D1",
+    "family": "D",
+    "radius": 0.995,
+    "frequency_pi": 0.15,
+    "variance": [
+      1
+    ],
+    "R": 0.5
+  },
+  {
+    "id": "D2",
+    "family": "D",
+    "radius": 0.97,
+    "frequency_pi": 0.04,
+    "variance": [
+      1
+    ],
+    "R": 0.5
+  },
+  {
+    "id": "D3",
+    "family": "D",
+    "radius": 0.97,
+    "frequency_pi": 0.15,
+    "variance": [
+      1
+    ],
+    "R": 2
+  },
+  {
+    "id": "E0",
+    "family": "E",
+    "poles": [
+      0.9,
+      0.4
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "E1",
+    "family": "E",
+    "poles": [
+      0.9,
+      -0.8
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "E2",
+    "family": "E",
+    "poles": [
+      0.9,
+      0.4
+    ],
+    "variance": [
+      1,
+      0.25
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "E3",
+    "family": "E",
+    "poles": [
+      0.9,
+      0.4
+    ],
+    "variance": [
+      1,
+      1
+    ],
+    "R": 2,
+    "rho": 0.0
+  },
+  {
+    "id": "CL",
+    "family": "Cgrid",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1.0,
+      1.0
+    ],
+    "R": 0.5,
+    "rho": 0.0
+  },
+  {
+    "id": "CM",
+    "family": "Cgrid",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1.0,
+      1.0
+    ],
+    "R": 0.5,
+    "rho": 0.5
+  },
+  {
+    "id": "CH",
+    "family": "Cgrid",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1.0,
+      1.0
+    ],
+    "R": 0.5,
+    "rho": 0.9
+  },
+  {
+    "id": "CE",
+    "family": "Cgrid",
+    "poles": [
+      0.9,
+      0.85
+    ],
+    "variance": [
+      1.0,
+      1.0
+    ],
+    "R": 0.5,
+    "rho": 0.99
+  }
+]
