@@ -1,0 +1,225 @@
+{
+  "physical_identity": "not_uniquely_established_from_scalar_X",
+  "scope": "working Gaussian family preference only; no physical factor-count posterior",
+  "certificates": [
+    {
+      "route": "direct",
+      "working_interpretation": "two_independent_AR1_contributions",
+      "equivalent_interpretation": "one_scalar_ARMA21_contribution",
+      "same_X_law": true,
+      "unique_physical_factor_count": "refuse",
+      "alias_parameters": {
+        "F": {
+          "array": [
+            [
+              1.0282350392323023,
+              1.0
+            ],
+            [
+              -0.13946951495428772,
+              0.0
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "Q": {
+          "array": [
+            [
+              0.6109874656022966,
+              -0.4179049429003655
+            ],
+            [
+              -0.4179049429003655,
+              0.28583981036075334
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "C": {
+          "array": [
+            1.0,
+            0.0
+          ],
+          "shape": [
+            2
+          ]
+        },
+        "a": 0.0,
+        "R": 0.2185033470765461,
+        "P": {
+          "array": [
+            [
+              0.7831467334052051,
+              -0.46531654057587707
+            ],
+            [
+              -0.465316540575877,
+              0.30107338138766315
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "scale": 2.0030449714098424,
+        "kind": "arma21_alias",
+        "factor_count": 1,
+        "state_dimension": 2
+      },
+      "posterior_odds_note": "identical likelihood keeps prior odds for mapped parameter priors; no parameter integration claimed"
+    },
+    {
+      "route": "recursive",
+      "working_interpretation": "two_independent_AR1_contributions",
+      "equivalent_interpretation": "one_scalar_ARMA21_contribution",
+      "same_X_law": true,
+      "unique_physical_factor_count": "refuse",
+      "alias_parameters": {
+        "F": {
+          "array": [
+            [
+              1.0463781091235798,
+              1.0
+            ],
+            [
+              -0.13385116261969637,
+              0.0
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "Q": {
+          "array": [
+            [
+              0.7975140225401776,
+              -0.6110311560508594
+            ],
+            [
+              -0.6110311560508594,
+              0.4681536162532371
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "C": {
+          "array": [
+            1.0,
+            0.0
+          ],
+          "shape": [
+            2
+          ]
+        },
+        "a": 0.0,
+        "R": 0.049642768281220516,
+        "P": {
+          "array": [
+            [
+              0.9464543287617637,
+              -0.6558096492571129
+            ],
+            [
+              -0.6558096492571129,
+              0.4851104185810659
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "scale": 2.0030449714098424,
+        "kind": "arma21_alias",
+        "factor_count": 1,
+        "state_dimension": 2
+      },
+      "posterior_odds_note": "identical likelihood keeps prior odds for mapped parameter priors; no parameter integration claimed"
+    },
+    {
+      "route": "witness",
+      "working_interpretation": "two_independent_AR1_contributions",
+      "equivalent_interpretation": "one_scalar_ARMA21_contribution",
+      "same_X_law": true,
+      "unique_physical_factor_count": "refuse",
+      "alias_parameters": {
+        "F": {
+          "array": [
+            [
+              0.7885371035744436,
+              1.0
+            ],
+            [
+              0.03485953252883266,
+              0.0
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "Q": {
+          "array": [
+            [
+              0.13098359141949256,
+              -0.0034070942919433734
+            ],
+            [
+              -0.0034070942919433734,
+              8.862401304157254e-05
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "C": {
+          "array": [
+            1.0,
+            0.0
+          ],
+          "shape": [
+            2
+          ]
+        },
+        "a": 0.0,
+        "R": 0.6204612874600801,
+        "P": {
+          "array": [
+            [
+              0.37793845825756056,
+              0.0072338601901335686
+            ],
+            [
+              0.0072338601901335686,
+              0.0005478899173883671
+            ]
+          ],
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "scale": 2.0047966244568998,
+        "kind": "arma21_alias",
+        "factor_count": 1,
+        "state_dimension": 2
+      },
+      "posterior_odds_note": "identical likelihood keeps prior odds for mapped parameter priors; no parameter integration claimed"
+    }
+  ]
+}

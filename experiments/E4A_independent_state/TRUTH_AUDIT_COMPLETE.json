@@ -1,0 +1,6 @@
+{
+  "time": 1795450750.2154512,
+  "after_prediction_tests": true,
+  "oracle_family_diagnostic_only": true,
+  "readout_not_physical_posterior": true
+}

@@ -1,0 +1,9 @@
+{
+  "B_conditions_at_least_16_of_20": 0,
+  "A_D_max_confirmed_false_novel_per_condition": 0,
+  "predictive_mode_reference_go": false,
+  "recursion_practical_win_both_tests": false,
+  "physical_factor_identity_go": false,
+  "physical_identity_reason": "two independent AR1 factors and one ARMA21 factor have exactly the same X law",
+  "E4_B_C_started": false
+}

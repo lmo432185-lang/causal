@@ -1,0 +1,27 @@
+{
+  "time": 1795450756.0036402,
+  "all_passed": true,
+  "frozen_file_counts": {
+    "PROTOCOL_REGISTERED": 4,
+    "CODE_REGISTERED": 14,
+    "ANALYSIS_REGISTERED": 2,
+    "POSTCHECK_REGISTERED": 3,
+    "MODELS_FROZEN": 800,
+    "DECISIONS_FROZEN": 2,
+    "TEST_A_FROZEN": 22,
+    "TEST_B_FROZEN": 22
+  },
+  "freeze_times": {
+    "PROTOCOL_REGISTERED": 1795437467.3811905,
+    "CODE_REGISTERED": 1795447353.183111,
+    "ANALYSIS_REGISTERED": 1795448306.3407502,
+    "POSTCHECK_REGISTERED": 1795448275.0127919,
+    "MODELS_FROZEN": 1795450255.5236704,
+    "DECISIONS_FROZEN": 1795450286.1995716,
+    "TEST_A_FROZEN": 1795450483.6782582,
+    "TEST_B_FROZEN": 1795450680.1768248
+  },
+  "replayed_predictions": 80,
+  "final_test_rows_per_batch": 80000,
+  "interpretation": "equivalence does not identify physical factor count"
+}

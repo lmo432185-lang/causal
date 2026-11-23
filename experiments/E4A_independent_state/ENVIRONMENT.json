@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "architecture": "x86_64",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cpu_quota": "200000 100000",
+  "memory_limit_bytes": 8589934592,
+  "blas_threads": 1,
+  "worker_processes": 3
+}

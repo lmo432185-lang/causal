@@ -1,6 +1,6 @@
 # E4-A运行与复核
 
-Python 3.11，Linux／g++。依赖见requirements.txt。每个进程设置OPENBLAS_NUM_THREADS=1、OMP_NUM_THREADS=1以避免过量并行。native.py在首次导入时编译native.cpp，不需要上传二进制。建议至少2CPU和1GB内存。
+本次实际Python 3.12.14，Linux／g++。依赖见requirements.txt。每个进程设置OPENBLAS_NUM_THREADS=1、OMP_NUM_THREADS=1以避免过量并行。native.py在首次导入时编译native.cpp，不需要上传二进制。建议至少2CPU和1GB内存。
 
 ## 保留现有档案，只复核
 
@@ -10,6 +10,9 @@ Python 3.11，Linux／g++。依赖见requirements.txt。每个进程设置OPENBL
 export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
 python audit.py
 python analysis.py
+python interpret.py
+python rotation_audit.py
+python state_probability_extra.py
 python figures.py
 python report.py
 ```
@@ -27,6 +30,9 @@ python evaluate.py
 python state_evaluate.py
 python audit.py
 python analysis.py
+python interpret.py
+python rotation_audit.py
+python state_probability_extra.py
 python figures.py
 python report.py
 ```

@@ -1,0 +1,14 @@
+{
+  "time": 1795451012.7989657,
+  "scope": "E4-A1/A2/A3",
+  "raw_data": "Full data deterministically regenerable, input hashes saved; 40 fixed example X/posterior files included",
+  "excluded": [
+    "fit_checkpoints",
+    "native shared library",
+    "Python caches",
+    "runtime logs"
+  ],
+  "previous_E3_commit": "da8dbc1ad788891e1addb8b67eeb52cf33578e4c",
+  "main_base": "1a95f3cca31498045caff694a5aa58c6bfd01f86",
+  "source": "/workspace/work/E4A_probabilistic"
+}

@@ -23,14 +23,14 @@ def main():
  for row,metric in enumerate(['working_factor_count','Markov_dimension']):
   for i,g in enumerate(['M3','M4']):
    z=summ.query('batch=="A" and length==5000 and group==@g').set_index('condition').reindex(conditions);axes[row].plot(x,z[metric],'-o',label=NAMES[g],color=COLORS[2+i])
-  axes[row].set_ylabel('工作族因素数' if row==0 else 'Markov存储维数');axes[row].legend();axes[row].grid(alpha=.2)
+  axes[row].set_ylabel('工作族因素数' if row==0 else '马尔可夫存储维数');axes[row].legend();axes[row].grid(alpha=.2)
  axes[0].set_title('图1：工作模型的因素数与记忆维数必须分开解释');axes[1].set_xticks(x,conditions);axes[1].set_xlabel('真实系统条件（仅评价时开放）');save('01_counts')
  fig,axes=plt.subplots(1,2,figsize=(12,4));names=['recursive_gain','history_gain'];lab=['递进相对完整直接','递进相对原始历史AR']
  for i,n in enumerate(names):
   ax=axes[i]
   for j,b in enumerate(['A','B']):
    z=c.query('length==5000 and condition=="ALL" and contrast==@n and batch==@b').iloc[0];ax.errorbar(z.gain,j,xerr=[[z.gain-z.lo],[z.hi-z.gain]],fmt='o',capsize=5,color=COLORS[2+j])
-  ax.axvline(0,color='gray');ax.axvline(.005,color='red',ls='--',label='实用门槛0.005');ax.set_yticks([0,1],['测试A','测试B']);ax.set_title(lab[i]);ax.set_xlabel('NLL改善（nats／步），正值更好');ax.legend()
+  ax.axvline(0,color='gray');ax.set_yticks([0,1],['测试A','测试B']);ax.set_title(lab[i]);ax.set_xlabel('NLL改善（nats／步），正值更好');ax.text(.98,.5,'实用门槛＋0.005\n超出此局部放大范围',transform=ax.transAxes,ha='right',va='center',color='firebrick');ax.ticklabel_format(axis='x',style='sci',scilimits=(0,0))
  fig.suptitle('图2：两批独立测试的预测增量及95%置信区间');save('02_main_gain')
  fig,ax=plt.subplots(figsize=(12,4))
  for i,L in enumerate(LENGTHS):
@@ -51,7 +51,7 @@ def main():
  ax.axvline(.05,color='red',ls='--',label='跨路线极点误差门槛');ax.set_xlabel('跨独立训练池最大极点差');ax.set_ylabel('控制当前X和原解释后的预测增量相关');ax.set_title('图8：不同训练数据中的功能复现，不等于物理独立性');ax.legend(ncol=3);save('08_matching')
  state['family']=state.condition.str[0];read['family']=read.condition.str[0];fig,axes=plt.subplots(1,2,figsize=(12,4))
  for col,metric in enumerate(['corr','cover90']):
-  z=state.query('batch=="A" and available==True').pivot_table(index='family',columns='line',values=metric).reindex(index=list('ABCDE'),columns=['direct','recursive','witness','oracle']);im=axes[col].imshow(z,vmin=0,vmax=1,cmap='YlGnBu');axes[col].set_xticks(range(4),['直接R','递进R','独立D','已知参数上界']);axes[col].set_yticks(range(5),list('ABCDE'));axes[col].set_title('后验均值与真值相关' if col==0 else '边际90%状态区间覆盖率')
+  z=state.query('batch=="A" and available==True').pivot_table(index='family',columns='line',values=metric).reindex(index=list('ABCDE'),columns=['direct','recursive','witness','oracle']);im=axes[col].imshow(z,vmin=0,vmax=1,cmap='YlGnBu');axes[col].set_xticks(range(4),['直接R','递进R','独立D','已知参数\n上界']);axes[col].set_yticks(range(5),list('ABCDE'));axes[col].set_title('后验均值与真值相关' if col==0 else '边际90%状态区间覆盖率')
   for (r,k),v in np.ndenumerate(z.to_numpy()):axes[col].text(k,r,f'{v:.3f}',ha='center',va='center',color='white' if v>.65 else 'black')
   fig.colorbar(im,ax=axes[col],shrink=.8)
  fig.suptitle('图9：真实族条件下的状态诊断；C的独立创新假设可能失配');save('09_state_quality')
@@ -59,7 +59,7 @@ def main():
  for i,line in enumerate(['Xonly','direct','recursive','witness']):
   vals=read[read.line==line].groupby('family').R2.mean().reindex(cats);ax.bar(pos+(i-1.5)*.19,vals,.19,label={'Xonly':'只有当前X','direct':'直接状态＋X','recursive':'递进状态＋X','witness':'独立见证状态＋X'}[line])
  ax.set_xticks(pos,cats);ax.set_ylabel('独立真值审计轨迹的线性读出R²');ax.set_title('图10：可恢复信息子空间评价，不要求潜在坐标等于物理变量');ax.legend(ncol=2);save('10_readout')
- i=next(i for i,m in enumerate(SYSTEMS) if m['id']=='E1');xx,yy=generate(i,4011,1,NTEST,truth=True);F,Q,C,R=matrices(SYSTEMS[i]);m=dict(F=F,Q=Q,C=C,R=R,P=solve_discrete_lyapunov(F,Q),a=0.,scale=1.,kind='factor2');a=arma_alias(m);c0=component(xx[:1],m);c1=component(xx[:1],a);fig,axes=plt.subplots(2,1,figsize=(12,6));axes[0].plot(t,xx[0,t],label='两种结构共享的同一X');axes[0].set_xlabel('时间步');axes[0].set_ylabel('观测X');axes[0].legend();origin=10;h=np.arange(1,21);axes[1].plot(h,c0['mean'][0,origin],'-o',label='两个独立AR1因素');axes[1].plot(h,c1['mean'][0,origin],'--x',label='一个ARMA(2,1)因素');axes[1].set_xlabel('从同一起点预测的步数');axes[1].set_ylabel('预测均值');axes[1].legend();axes[0].set_title('图11：观测等价对的X与预测完全重合，不能唯一判断物理因素数');save('11_equivalence')
+ i=next(i for i,m in enumerate(SYSTEMS) if m['id']=='E1');xx,yy=generate(i,4011,1,NTEST,truth=True);F,Q,C,R=matrices(SYSTEMS[i]);m=dict(F=F,Q=Q,C=C,R=R,P=solve_discrete_lyapunov(F,Q),a=0.,scale=1.,kind='factor2');a=arma_alias(m);c0=component(xx[:1],m);c1=component(xx[:1],a);fig,axes=plt.subplots(2,1,figsize=(12,6));axes[0].plot(t,xx[0,t],label='两种结构共享的同一X');axes[0].set_xlabel('时间步');axes[0].set_ylabel('观测X');axes[0].legend();origin=10;h=np.arange(1,21);axes[1].plot(h,c0['mean'][0,origin],'-o',label='两个独立AR1因素');axes[1].plot(h,c1['mean'][0,origin],'--x',label='一个ARMA(2,1)因素');axes[1].set_xlabel('从时间步1200发出预测的未来步数');axes[1].set_ylabel('预测均值');axes[1].legend();axes[0].set_title('图11：观测等价对的X与预测完全重合，不能唯一判断物理因素数');save('11_equivalence')
  i=next(i for i,m in enumerate(SYSTEMS) if m['id']=='C0');xx,yy=generate(i,4011,1,NTEST,truth=True);F,Q,C,R=matrices(SYSTEMS[i]);P=solve_discrete_lyapunov(F,Q);p0=native.run(xx[:1],dict(F=F,Q=Q,C=C,R=R,P=P,a=0.));P1=np.diag(P@C);Q1=P1-F@P1@F.T;p1=native.run(xx[:1],dict(F=F,Q=Q1,C=C,R=R,P=P1,a=0.));fig,axes=plt.subplots(2,1,figsize=(12,6),sharex=True)
  for k,ax in enumerate(axes):
   ax.plot(t,yy[0,t,k],color='black',label='实际相关状态');
@@ -70,6 +70,6 @@ def main():
  fig,ax=plt.subplots(figsize=(12,4))
  for L,color in [(1000,COLORS[1]),(5000,COLORS[3])]:
   z=c.query('batch=="A" and length==@L and condition!="ALL" and contrast=="recursive_gain"').set_index('condition').reindex(conditions);ax.errorbar(x+(-.1 if L==1000 else .1),z.gain,yerr=[z.gain-z.lo,z.hi-z.gain],fmt='o',capsize=2,label=f'长度{L}',color=color)
- ax.axhline(0,color='gray');ax.axhline(.005,color='red',ls='--');ax.set_xticks(x,conditions);ax.set_ylabel('递进相对完整直接的NLL改善／步');ax.set_title('图13：递进架构的跨条件收益与数据长度（两长度为嵌套前缀）');ax.legend();save('13_length')
+ ax.axhline(0,color='gray');ax.text(.98,.95,'实用门槛＋0.005超出局部纵轴范围',transform=ax.transAxes,ha='right',va='top',color='firebrick');ax.set_xticks(x,conditions);ax.set_ylabel('递进相对完整直接的NLL改善／步');ax.set_title('图13：递进架构的跨条件收益与数据长度（两长度为嵌套前缀）');ax.legend();save('13_length')
  print('13 Chinese figures complete')
 if __name__=='__main__':main()
