@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unrelated_development_noise": true,
+  "analytic_smoother_mean_error": 1.6653345369377348e-16,
+  "analytic_smoother_cov_error": 1.1102230246251565e-16,
+  "posterior_path_sample_cov_error": 0.00432170978349089,
+  "forecast_prefix_error": 0.0,
+  "seconds": 0.05749988555908203
+}

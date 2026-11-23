@@ -1,0 +1,90 @@
+{
+  "20": {
+    "direct": {
+      "initial_rank": 0,
+      "allowed": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "recursive": {
+      "initial_rank": 2,
+      "allowed": [
+        2
+      ]
+    }
+  },
+  "50": {
+    "direct": {
+      "initial_rank": 0,
+      "allowed": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "recursive": {
+      "initial_rank": 2,
+      "allowed": [
+        2,
+        3
+      ]
+    }
+  },
+  "100": {
+    "direct": {
+      "initial_rank": 0,
+      "allowed": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "recursive": {
+      "initial_rank": 2,
+      "allowed": [
+        2,
+        3
+      ]
+    }
+  },
+  "200": {
+    "direct": {
+      "initial_rank": 0,
+      "allowed": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "recursive": {
+      "initial_rank": 2,
+      "allowed": [
+        2,
+        3
+      ]
+    }
+  },
+  "400": {
+    "direct": {
+      "initial_rank": 0,
+      "allowed": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "recursive": {
+      "initial_rank": 2,
+      "allowed": [
+        2
+      ]
+    }
+  }
+}

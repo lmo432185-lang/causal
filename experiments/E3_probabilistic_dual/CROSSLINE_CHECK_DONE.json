@@ -1,0 +1,12 @@
+{
+  "time": 1795429870.0408268,
+  "rows": 340,
+  "fresh_calibration_and_test_stages": [
+    4,
+    5
+  ],
+  "exploratory_after_main": true,
+  "not_primary_success_criterion": true,
+  "no_hidden_truth": true,
+  "physical_state_identity_claimed": false
+}

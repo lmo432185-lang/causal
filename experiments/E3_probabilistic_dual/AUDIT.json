@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "hashes_checked": 2100,
+  "input_cases_regenerated": 340,
+  "prefix_and_replay_case_batches": 34,
+  "max_prefix_error": 0.0,
+  "max_score_replay_error": 5.684341886080802e-14,
+  "max_weight_normalization_error": 2.6201263381153694e-14,
+  "max_issued_density_error": 8.881784197001252e-15,
+  "rotation_equivalence_error": 8.526512829121202e-14,
+  "equivalent_explanation_weight_error": 2.7533531010703882e-14,
+  "equivalent_structure_probabilities": [
+    0.5,
+    0.5
+  ],
+  "unique_physical_structure_rejected": true,
+  "duplicate_predictive_components_can_merge_without_density_change": true,
+  "nonmonotone_EM_fits_due_to_floors_and_stability_projection": 1062,
+  "EM_global_optimum_claimed": false,
+  "refitted": false
+}

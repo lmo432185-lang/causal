@@ -1,0 +1,10 @@
+{
+  "time": 1795429432.5492206,
+  "separate_followup_after_initial_positive_testA": true,
+  "new_data_not_generated": true,
+  "files": {
+    "replicate.py": "e309b5940cdf5f02b6401cf0e1f861ef8383f9eb0664ec84428e1e3d2141fa6e",
+    "REPLICATION_PROTOCOL.md": "5c7ec2199f15b14d79cf264116adeeb751e0e5e875267ce0f269f626c3494666"
+  },
+  "original_code_registration_sha256": "a318152970883a249f24a2d88df626c7943120f89bc21418fdd2615a49f88273"
+}

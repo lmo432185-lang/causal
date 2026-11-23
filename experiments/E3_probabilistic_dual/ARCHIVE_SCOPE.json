@@ -1,0 +1,26 @@
+{
+  "original_training_seed_count": 20,
+  "primary_additional_seed_count": 10,
+  "original_conditions": 17,
+  "original_learning_curve_sizes": [
+    20,
+    50,
+    100,
+    200,
+    400
+  ],
+  "primary_n": 100,
+  "original_model_bundles": 1700,
+  "supplementary_bundles": 340,
+  "original_rows_per_test_batch": 476000,
+  "replica_rows_per_budget_batch": 47600,
+  "true_readout_rows": 76800,
+  "operational_proxy_rows": 108800,
+  "raw_arrays": "Deterministic producer regenerates stage-specific X; no raw arrays committed",
+  "examples": "Only seed3011 n100 first test trajectory per condition and batch; includes full model-state covariance and weights",
+  "replica_memory": "peak_RSS_kib0 means not collected; cpu plus continued_EM_cpu for EM25",
+  "prior_branch": "experiment/e25-fair-recursive-direct-20261123",
+  "prior_commit": "9724294b175fed04703eeea35ee0d95988c2625a",
+  "main_before": "1a95f3cca31498045caff694a5aa58c6bfd01f86",
+  "scope": "Finite probability prototype; not unlimited structure discovery or physical causal identification; no E4"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "unrelated_noise_only": true,
+  "groups_checked": 7,
+  "max_future_prefix_error": 0,
+  "max_issued_onestep_vs_next_innovation_density_error": 8.881784197001252e-16,
+  "seconds": 0.5629384517669678
+}

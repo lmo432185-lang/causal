@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "registered_and_replica_freeze_hashes_checked": 715,
+  "replica_test_inputs_regenerated": 680,
+  "max_replica_metric_replay_error": 5.684341886080802e-14,
+  "refitted": false
+}

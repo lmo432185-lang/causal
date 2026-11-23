@@ -1,0 +1,63 @@
+{
+  "primary20_fixed_EM5_forecast_synergy_passed": true,
+  "new10_fixed_EM5_forecast_synergy_replicated": true,
+  "new10_EM25_all_synergy_criteria_passed": false,
+  "physical_state_identity_recovered": false,
+  "calibrated_true_physical_state_posterior_demonstrated": false,
+  "unbounded_online_structure_discovery_implemented": false,
+  "finite_candidate_probability_prototype_completed": true,
+  "full_reliable_hidden_discovery_goal_met": false,
+  "fresh_crossline_coherent_cases": 26,
+  "fresh_crossline_total": 340,
+  "readout_by_group": {
+    "A": {
+      "readout_gain": -0.5025263679261937,
+      "readout_R2": 0.03325397377235551,
+      "marginal_cover90": 0.9921833767361111
+    },
+    "B": {
+      "readout_gain": 0.053429996422691396,
+      "readout_R2": 0.3878157015296646,
+      "marginal_cover90": 0.9759140082465279
+    },
+    "C": {
+      "readout_gain": -0.2784581672519038,
+      "readout_R2": 0.07120718485562369,
+      "marginal_cover90": 0.9900091688368056
+    },
+    "D": {
+      "readout_gain": 0.24096620340855485,
+      "readout_R2": 0.5296641983550108,
+      "marginal_cover90": 0.9641555989583334
+    },
+    "E": {
+      "readout_gain": 0.16958405968640453,
+      "readout_R2": 0.246934874501749,
+      "marginal_cover90": 0.9123627387152777
+    },
+    "F": {
+      "readout_gain": 0.28494324665004056,
+      "readout_R2": 0.48006121820823283,
+      "marginal_cover90": 0.9281322157118055
+    }
+  },
+  "single_hidden_proxy": {
+    "B": {
+      "expected_K": 1.862928683740309,
+      "confident_overextended_fraction": 0.2284375
+    },
+    "D": {
+      "expected_K": 2.365392173498125,
+      "confident_overextended_fraction": 0.30051041666666667
+    },
+    "E": {
+      "expected_K": 0.45,
+      "confident_overextended_fraction": 0.2
+    },
+    "F": {
+      "expected_K": 2.0,
+      "confident_overextended_fraction": 1.0
+    }
+  },
+  "note": "Forecast gains and model-conditional probabilities are valid measured outcomes; they do not establish unique physical variables. EM-budget sensitivity, state-count proxy errors and broad truth-readout intervals limit interpretation."
+}

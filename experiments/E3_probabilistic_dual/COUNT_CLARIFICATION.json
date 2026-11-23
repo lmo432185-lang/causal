@@ -1,0 +1,6 @@
+{
+  "stage": "before confirmation or test; original protocol retained",
+  "issue": "The written list contains eight contrasts but the prose says seven; 17 times eight is136 rather than119",
+  "resolution": "Keep every listed contrast including G-D; use stricter Holm8 overall and Holm136 condition-wise",
+  "result_dependent": false
+}
