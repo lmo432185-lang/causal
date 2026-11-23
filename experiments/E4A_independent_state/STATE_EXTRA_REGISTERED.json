@@ -1,0 +1,8 @@
+{
+  "time": 1795448883.4264362,
+  "before_confirmation_and_tests": true,
+  "reason": "Include protocol Gaussian CRPS and full joint state density in addition to initial marginal score audit; no model or decision changes",
+  "files": {
+    "state_probability_extra.py": "8b712b8e8580a820ebd1c6ac64c882e6f38096ab27a467b92eda1a5ad3040854"
+  }
+}
