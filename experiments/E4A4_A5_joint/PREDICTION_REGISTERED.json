@@ -1,0 +1,17 @@
+{
+  "time": 1795486164.4125478,
+  "before_fresh_confirmation_and_tests": true,
+  "files": {
+    "confirm.py": "fd03216048f5d1f4e775d26a0c4c651091f7f136f1e2b66409d0cfdccfef3723",
+    "evaluate.py": "e63837c4f8f8aff0ffd528054b4850a5e07965201707f11efefc4f461fba636b",
+    "calibration_setup.py": "aa6c1e13deffd49cca962762fd91a452b8bb794e0ec059011696b3522cc3ffb3",
+    "probability.py": "f66a43c9a8a363f71a9066a8d7331b98cfa3c9b012b76d69d0ab69a3ccb77b26",
+    "probability_development.py": "954c66df8644bcbae9ea642c5ac0efe6aeb136cd57b7fb3acfdd86491ac63eea",
+    "extra_plans.py": "36d2b1aa117a9b8443ddf42efb0d600e6b9b5c2ef3f961d693a40d5ab2dcd740",
+    "preflight.py": "3cecefdac1bc0fbeb188ae07a71c63bf8050198ef83f6d15bb6058ad662e60d6",
+    "PRETEST_METRIC_AMENDMENT.md": "af9484fa90742e7dfcd0b085ed9ac57504f52a10c2a6639cc9e1a333ae828e75",
+    "BAYES_PROTOCOL.md": "88c13e949beba6a4267f5c80dfb4734a72b99dc6cd8446dbcda22ceee037eddd",
+    "SHORT_PROTOCOL.md": "6f5d8ed9c6b2de999b420219e89d2e99896546d9141297b7794520c98a0d8354",
+    "SCHEMA_ERRATUM.md": "2d6ed07d3e3b8e903485dd30037e66dc70c0cf2a3d542919211e76de24494d25"
+  }
+}

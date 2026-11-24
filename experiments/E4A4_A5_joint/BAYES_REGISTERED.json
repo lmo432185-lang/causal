@@ -1,0 +1,12 @@
+{
+  "time": 1795486164.4181218,
+  "before_fresh_confirmation_and_tests": true,
+  "files": {
+    "bayes.py": "a4090aed8106a71669b302c31f72d0b276fd9b78c5c86940677108ff773c96cd",
+    "bayes_fit.py": "240761e29f3e583262422706fd203453b2016332c62e49cf2a8a6777088b4d4a",
+    "bayes_likelihood.cpp": "1b7e2db11caf37135a8e4ef9a051380e4471bef519f3ce8c9099161e450792d5",
+    "bayes_development.py": "f9e230f1cc91a79b301f9ca9e2e4da4fc3628dfcb2617e7555e44014bcd8408a",
+    "mcmc_development.py": "f9111a95d077e6f7787fbeae0908f00e7e1ec62d87a294854f5bffefbbf16e6a",
+    "BAYES_PROTOCOL.md": "88c13e949beba6a4267f5c80dfb4734a72b99dc6cd8446dbcda22ceee037eddd"
+  }
+}

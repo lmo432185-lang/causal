@@ -1,0 +1,20 @@
+{
+  "practical_threshold": 0.005,
+  "confirmation_passed": 0,
+  "confirmation_total": 1440,
+  "novel_mode_reference_go": false,
+  "dual_vs_best_single_both_batches": false,
+  "dual_vs_full_reference_both_batches": false,
+  "physical_identity_go": false,
+  "E4_B_C_started": false,
+  "mcmc_converged": 0,
+  "mcmc_total": 80,
+  "integration_stable": 16,
+  "integration_total": 16,
+  "limitations": [
+    "finite EM and bootstrap budget",
+    "continuous posterior MCMC and quadrature diagnostics retained",
+    "exact observational and coordinate nonidentifiability",
+    "two operational incidents recorded"
+  ]
+}

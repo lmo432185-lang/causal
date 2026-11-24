@@ -1,0 +1,10 @@
+{
+  "time": 1795486834.7935107,
+  "files": {
+    "results/confirmation.csv": "6da9691da806799ec61877b2f07fbffc1f799152cb8632561b4db2cd2050fbab",
+    "results/confirmation_support.csv": "3f5437bbcba9083b22f426ca0556bbc46f9e66fbe89a0110d3760b911ddc41bd"
+  },
+  "candidate_manifest_sha256": "9802b8f807a3b9ed276ade98915a9a18b5e27ab167827dbed33e2663cc05ddcf",
+  "test_not_opened": true,
+  "no_candidate_retuning": true
+}

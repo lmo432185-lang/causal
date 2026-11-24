@@ -1,0 +1,11 @@
+{
+  "time": 1795485404.5983963,
+  "secondary_only": true,
+  "before_training_data_and_model_fitting": true,
+  "files": {
+    "settings.py": "53b9d0186c50f2425c9b862221dd11c6bfd784a7f9601a608cc4da613e369d37",
+    "SYSTEMS.json": "335d0aab3baa5edd4f0db40314c49159247cd14519597b0e020a0227e69f21db",
+    "producer.py": "808ba8c56d0db767b874d0da985a0dcb10bbf95fe240fbba24be33af63c68d99",
+    "PROTOCOL.md": "6f5d8ed9c6b2de999b420219e89d2e99896546d9141297b7794520c98a0d8354"
+  }
+}

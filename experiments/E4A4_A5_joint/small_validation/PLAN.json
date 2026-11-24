@@ -1,0 +1,23 @@
+{
+  "time": 1795501542.5807426,
+  "conditions": [
+    "A0",
+    "B1",
+    "C0",
+    "D0",
+    "E1",
+    "CE"
+  ],
+  "seeds": [
+    4011,
+    4012,
+    4013
+  ],
+  "trajectories_per_case": 5,
+  "existing_test_length": 5000,
+  "model_training_length": 1000,
+  "only_reuse_frozen_models": true,
+  "prospective_choice_not_based_on_gains": true,
+  "exploratory": true,
+  "source": "e2e7e32e057799d2c2a3bea2f09c452b78010537d14f3101303d6596f0d6985c"
+}

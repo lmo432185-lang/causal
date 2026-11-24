@@ -1,0 +1,15 @@
+{
+  "time": 1795502279.4265096,
+  "all_registered_file_hashes_match_logical_originals": true,
+  "registered_file_checks": 1191,
+  "compact_original_files": 10,
+  "byte_identical_restore_verified": true,
+  "figures": 15,
+  "PDF_pages": 17,
+  "PDF_Chinese_characters": 8298,
+  "small_continuation_models": 18,
+  "small_continuation_trajectories": 90,
+  "short_full_B_cancelled": true,
+  "old_branch_commit": "38cda63b1ee470cdc53efa5abd86b2208028d921",
+  "all_checks_passed": true
+}

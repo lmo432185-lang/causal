@@ -1,0 +1,8 @@
+{
+  "time": 1795484260.4506624,
+  "unrelated_synthetic_data": true,
+  "all_passed": true,
+  "mixture_joint90_empirical": 0.9015833333333333,
+  "null_likelihood_max_error": 1.7763568394002505e-15,
+  "normal_interval_error": 4.1693655195018664e-08
+}

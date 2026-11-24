@@ -1,0 +1,9 @@
+{
+  "time": 1795501617.1099226,
+  "descriptive_posttest": true,
+  "model_source": "frozen R_none/D_none single-memory parents",
+  "prior": "equal, online test likelihood once",
+  "truth_used_for_fitting": false,
+  "physical_UV": "not applicable",
+  "primary_results_modified": false
+}

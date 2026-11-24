@@ -1,0 +1,8 @@
+{
+  "time": 1795501514.1731353,
+  "secondary_training_length": 1000,
+  "test_length": 5000,
+  "not_independent_replication": true,
+  "user_budget_amendment": true,
+  "full_B_cancelled": true
+}

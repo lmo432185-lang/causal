@@ -1,0 +1,9 @@
+{
+  "time": 1795501592.8048131,
+  "bootstrap": 10000,
+  "no_refitting": true,
+  "primary_tests_per_batch": 6,
+  "condition_tests_per_batch": 144,
+  "C_primary": 16,
+  "C_bayes_secondary": 12
+}

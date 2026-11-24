@@ -1,0 +1,10 @@
+{
+  "time": 1795486164.418469,
+  "all_models_and_statistics_registered_before_test": true,
+  "primary_length": 5000,
+  "secondary_train_prefix": 1000,
+  "primary_comparisons": 6,
+  "secondary_comparisons": 4,
+  "mechanism_comparisons": 3,
+  "capacity_comparisons": 4
+}

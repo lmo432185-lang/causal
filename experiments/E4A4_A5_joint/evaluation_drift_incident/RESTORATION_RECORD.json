@@ -1,0 +1,13 @@
+{
+  "time": 1795500082.9484806,
+  "original_registration_records_unchanged": true,
+  "checks": {
+    "E4A4_joint/CODE_REGISTERED": [],
+    "E4A4_joint/PREDICTION_REGISTERED": [],
+    "E4A4_joint/POSTTEST_REGISTERED": [],
+    "E4A4_joint/BAYES_REGISTERED": [],
+    "short/CODE_REGISTERED": [],
+    "short/PREDICTION_REGISTERED": []
+  },
+  "model_parameters_and_test_outputs_unchanged": true
+}

@@ -1,0 +1,10 @@
+{
+  "time": 1795481866.7614212,
+  "original_fit_count": 480,
+  "original_artifacts": "lost with ephemeral /tmp volume during environment recreation",
+  "formal_confirmation_or_tests_opened": false,
+  "recovery": "rerun identical frozen code/data/seeds; outputs now durable workspace directory",
+  "old_baseline_models_restored_from_commit": "38cda63b1ee470cdc53efa5abd86b2208028d921",
+  "restored_count": 400,
+  "original_freeze_record_preserved": true
+}

@@ -1,0 +1,19 @@
+{
+  "time": 1795501477.7278237,
+  "true_states_only_after_tests": true,
+  "supervised_calibration": false,
+  "state_times": [
+    250,
+    750,
+    1250,
+    1750,
+    2250,
+    2750,
+    3250,
+    3750,
+    4250,
+    4750
+  ],
+  "physical_UV_for_C_only": true,
+  "J1_physical_identity": "not_applicable_unmatched_coordinates"
+}

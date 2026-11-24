@@ -1,0 +1,8 @@
+{
+  "time": 1795501449.5336363,
+  "user_requested_small_prototype": true,
+  "complete_short_test_A_preserved": true,
+  "full_short_test_B_cancelled": true,
+  "partial_B_not_used": true,
+  "next": "fixed small cases, 3 seeds, 5 paired trajectories; no refitting"
+}

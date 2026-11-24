@@ -1,0 +1,6 @@
+{
+  "font": "NotoSansCJKsc-Regular.otf",
+  "sha256": "80a360c6d4a0136d711cb03ba5cc471a0002845f715202fb20de3dc4a92d30a6",
+  "source": "https://raw.githubusercontent.com/lmo432185-lang/causal/experiment/e4a-independent-state-20261123/experiments/E4A_independent_state/fonts/NotoSansCJKsc-Regular.otf",
+  "note": "Chinese glyphs are embedded in REPORT.pdf and rasterized in PNGs. Restore this font for regenerating plots or offline HTML; license included."
+}

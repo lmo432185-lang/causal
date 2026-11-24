@@ -1,0 +1,19 @@
+{
+  "time": 1795485688.021148,
+  "before_short_model_training": true,
+  "files": {
+    "settings.py": "53b9d0186c50f2425c9b862221dd11c6bfd784a7f9601a608cc4da613e369d37",
+    "SYSTEMS.json": "335d0aab3baa5edd4f0db40314c49159247cd14519597b0e020a0227e69f21db",
+    "producer.py": "808ba8c56d0db767b874d0da985a0dcb10bbf95fe240fbba24be33af63c68d99",
+    "model.py": "060bebce0f9331d28cb9fc05f49b68d7a5169f1161ae903e3d5ef070a5d077d2",
+    "native.cpp": "2d66ca013062c6a2ee24efee671e0d59d408882376460a35ce946ebb7bfc54ac",
+    "native.py": "b513d43e7ea2039f0c788672f0fbe3d2a1215e6042739bcd192370ec9877d63c",
+    "predict.py": "c7822dfd079be0706e7755bd11c80fc235459c48868f60b5f607b990062b4877",
+    "learn.py": "e9a6f6f7e0aead5224ac89c76e8eb2e4dedf92c604cf676511de9415d3aba728",
+    "extension.py": "9104c2cb088139f9321bd09e3f6afbe5408d65da3e4974539268e04c23247017",
+    "inference.py": "ea12e744c1f94e8150a935febabf05d8d4d2bb56df1a4fa300f7dcacb5b474eb",
+    "workflow.py": "348b11f2c055f87def46330943e09557ce081c2751f0a778ce03c3e423fb0071",
+    "run_fit.py": "9d6b40d693a69c281bd8e29c355d008f3c34664c52d3380f2d76a56244a22777",
+    "PROTOCOL.md": "6f5d8ed9c6b2de999b420219e89d2e99896546d9141297b7794520c98a0d8354"
+  }
+}
